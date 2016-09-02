@@ -6,6 +6,8 @@ lsi: true
 highlighter: rouge
 markdown: kramdown
 exclude: ['docs', 'scripts', 'CNAME', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'LICENSE.md']
+sass:
+  style: compressed
 
 url: http://conferences.sigcomm.org
 baseurl: /sigcomm/2017
@@ -90,3 +92,8 @@ menu:
       url: /calls/cf-workshops.html
     - name: Call for Tutorials
       url: /calls/cf-tutorials.html
+
+colors:
+  highlight: 0060a9
+  highlight-darker: 526796
+  hfont: fdb927
