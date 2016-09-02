@@ -1,0 +1,92 @@
+safe: false
+source: .
+destination: ./_site
+plugins_dir: ./_plugins
+lsi: true
+highlighter: rouge
+markdown: kramdown
+exclude: ['docs', 'scripts', 'CNAME', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'LICENSE.md']
+
+url: http://conferences.sigcomm.org
+baseurl: /sigcomm/2017
+
+# Configuration for site
+title: ACM SIGCOMM 2017
+logo_info: ACM SIGCOMM 2017, Los Angeles, CA
+
+google_analytics_id: UA-83529610-1
+
+# Configuration for navbar.html
+menu:
+- name: Home
+  url: /
+- name: Supporters
+  url: /supporters.html
+- name: Conference
+  submenu:
+    # - name: Awards
+    #   url: /awards.html
+    # - name: Program
+    #   url: /program.html
+    - name: Program Committee
+      url: /tpc.html
+    # - name: Posters
+    #   url: /posters.html
+    # - name: Demos
+    #   url: /demos.html
+    # - name: ACM SRC
+    #   url: /acm-src.html
+    # - name: Industrial Demos
+    #   url: /industrial-demos.html
+    # - name: Posters/Demos from Main Track
+    #   url: /posters-and-demos-main-track.html
+    # - name: Topic Preview
+    #   url: /topic-preview.html
+    # - name: Mentoring
+    #   url: /mentoring.html
+    # - name: Social Events
+    #   url: /social-events.html
+- name: Workshops
+  submenu:
+    - name: TBD
+      url: /tbd.html
+- name: Tutorials
+  submenu:
+    - name: TBD
+      url: /tbd2.html
+- name: Registration
+  url: /registration.html
+- name: Venue
+  submenu:
+    - name: Local Information
+      url: /venue.html
+    # - name: Visa Information
+    #   url: /visa.html
+    # - name: Accomodation
+    #   url: /hotels.html
+    # - name: Room Share
+    #   url: /room-share.html
+    # - name: Travel Grants
+    #   url: /travel-grants.html
+    # - name: N2Women Fellowship
+    #   url: /n2women-fellowship.html
+    # - name: N2Women Travel Grant
+    #   url: /n2women-travel-grant.html
+- name: Organizing Committee
+  url: /org-committee.html
+- name: Anti-Harassment Policy
+  url: /policies.html
+- name: Calls
+  submenu:
+    - name: Call for Papers
+      url: /calls/cfp.html
+    - name: Paper Submission
+      url: /calls/submission.html
+    - name: Call for Posters & Demos
+      url: /calls/cf-posters.html
+    - name: Call for Industrial Demos
+      url: /calls/cf-industrial-demos.html
+    - name: Call for Workshops
+      url: /calls/cf-workshops.html
+    - name: Call for Tutorials
+      url: /calls/cf-tutorials.html
