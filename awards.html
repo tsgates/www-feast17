@@ -1,0 +1,34 @@
+---
+layout: default
+title: Awards
+group: Conference
+---
+
+<h1>Awards</h1>
+
+<h2>Best Paper Award Winners</h2>
+
+<div id="sigcomm-awards" class="sigcomm-program">
+  <ul class="program" data-role="listview" data-filter="false" data-inset="true" data-theme="d" data-dividertheme="a">
+    {% for paper in site.data.papers.awards.best %}
+      {% include tprog-paper.html %}
+    {% endfor %}
+  </ul>
+</div>
+
+<h2>Test of Time Award Winners</h2>
+
+<ul class="program" data-role="listview" data-filter="false" data-inset="true" data-theme="d" data-dividertheme="a">
+
+    {% for paper in site.data.papers.awards.time %}
+      {% include tprog-paper.html %}
+    {% endfor %}
+
+</ul>
+
+<h2>SIGCOMM Dissertation Award</h2>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
+  <li data-role="list-divider">TBD</li>
+    <li data-icon="false"><p>TBD</p></li>
+</ul>

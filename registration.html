@@ -1,0 +1,96 @@
+---
+layout: default
+title: Registration Information
+
+registrations:
+  early:
+    - type: Conference
+      price: [600, 750, 300]
+    - type: Workshop
+      price: [250, 400, 150]
+    - type: Tutorial (Full-day)
+      price: [250, 400, 150]
+    - type: Tutorial (Half-day)
+      price: [150, 250, 100]
+    - type: Tutorial (2 half-days on the same day)
+      price: [250, 400, 150]
+  late:
+    - type: Conference
+      price: [700, 900, 500]
+    - type: Workshop
+      price: [300, 450, 200]
+    - type: Tutorial (Full-day)
+      price: [300, 450, 200]
+    - type: Tutorial (Half-day)
+      price: [200, 300, 150]
+    - type: Tutorial (2 half-days on the same day)
+      price: [300, 450, 200]
+---
+
+<h1>Registration Information</h1>
+
+<!-- <p>&nbsp;</p> -->
+
+<!-- <div align="center">The SIGCOMM 2017 <a href="https://www.regonline.com/acmsigcomm2016" rel="external">registration site</a> is now live!</div> -->
+
+<!-- <p>&nbsp;</p> -->
+
+<p>
+  Here is some preliminary information about registration prices and categories. All fees are in US Dollars.
+  <!-- For registration, please <a href="https://www.regonline.com/acmsigcomm2017" rel="external">click here</a>. If you have any questions, please contact the SIGCOMM Registration Chair.  -->
+</p>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="registration">
+  <li data-role="list-divider">Early Registration (Before July 14th, 11:59pm CDT)</li>
+
+  <li data-icon="false">
+    <div class="ui-grid-a">
+      <div class="ui-block-a"><p><b>Event</b></p></div>
+      <div class="ui-block-b"><p><b>Member</b></p></div>
+      <div class="ui-block-b"><p><b>Non-Member</b></p></div>
+      <div class="ui-block-b"><p><b>Student</b></p></div>
+    </div>
+  </li>
+  {% for reg in page.registrations.early %}
+  <li data-icon="false">
+    <div class="ui-grid-a">
+      <div class="ui-block-a"><p>{{ reg.type }}</p></div>
+      <div class="ui-block-b"><p>{{ reg.price[0] }}</p></div>
+      <div class="ui-block-b"><p>{{ reg.price[1] }}</p></div>
+      <div class="ui-block-b"><p>{{ reg.price[2] }}</p></div>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="registration">
+  <li data-role="list-divider">Late Registration (Starting from July 15th, 00:00am CDT)</li>
+  <li data-icon="false">
+    <div class="ui-grid-a">
+      <div class="ui-block-a"><p><b>Event</b></p></div>
+      <div class="ui-block-b"><p><b>Member</b></p></div>
+      <div class="ui-block-b"><p><b>Non-Member</b></p></div>
+      <div class="ui-block-b"><p><b>Student</b></p></div>
+    </div>
+  </li>
+  {% for reg in page.registrations.late %}
+  <li data-icon="false">
+    <div class="ui-grid-a">
+      <div class="ui-block-a"><p>{{ reg.type }}</p></div>
+      <div class="ui-block-b"><p>{{ reg.price[0] }}</p></div>
+      <div class="ui-block-b"><p>{{ reg.price[1] }}</p></div>
+      <div class="ui-block-b"><p>{{ reg.price[2] }}</p></div>
+    </div>
+  </li>
+  {% endfor %}
+</ul>
+
+<h2>A Special Note on Author Registration Policy</h2>
+
+<p>Each accepted paper/poster must be presented by one of its author(s) at the SIGCOMM main conference or workshop. The author must register for the corresponding event according to his/her membership status: e.g. for a student author presenting a paper/poster, he/she only needs to register under the student category. We do not require a full-rate registration for each paper.</p>
+
+<h2>Extras</h2>
+
+<p>All conference registrations (Member / Non-member / Student) include coffee &amp; pastries, lunches, coffee breaks, a welcome reception, a banquet dinner and a conference kit. In addition to these items, a student registered for the conference will also receive a ticket to the student dinner.</p>
+
+<p>Workshop / Tutorial registration includes breakfasts, coffee breaks, lunches on the day of the registered Workshop / Tutorial. (Welcome Reception and banquet dinner are not included.)</p>
