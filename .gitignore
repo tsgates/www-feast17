@@ -1,0 +1,5 @@
+*~
+*.sublime*
+Gemfile.lock
+_site
+.sass-cache
