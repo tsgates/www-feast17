@@ -143,21 +143,21 @@
 .content-primary h1 {
     font-size: 2.4em;
     margin-top: 0.5em;
-    color: #{{ site.colors.highlight}};
+    color: #{{ site.colors.highlight }};
     font-weight: 500;
 }
 
 .content-primary h2 {
     font-size: 1.8em;
     margin-top: 1em;
-    color: #{{ site.colors.highlight}};
+    color: #{{ site.colors.highlight }};
     font-weight: 500;
 }
 
 .content-primary h3, h4 {
     font-size: 1.4em;
     margin-top: 1em;
-    color: #{{ site.colors.highlight}};
+    color: #{{ site.colors.highlight }};
     font-weight: 500;
 }
 
@@ -231,8 +231,8 @@
 
 .content-primary .program .prog-header {
     color: #ffffff !important;
-    background-color: #307530 !important;
-    border-color: #307530 !important;
+    background-color: #{{ site.colors.highlight-darker }} !important;
+    border-color: #{{ site.colors.highlight }} !important;
 }
 
 .content-primary .program .prog-header h3 {
@@ -266,7 +266,7 @@
 .content-primary .program .button-paper {
     padding: 4px 10px 4px 10px;
     border-radius: 5px;
-    background-color: #4e964e;
+    background-color: #{{ site.colors.highlight }};
     text-align: center;
     width: auto;
     margin: 0 0 6px 6px;
@@ -314,8 +314,12 @@
 
 .content-primary .program .ui-bar-a {
     padding: 0em 1.0em;
-    background-color: #4e964e;
+    background-color: #{{ site.colors.highlight }};
     border-color: #bbb;
+}
+
+.ui-bar-a a:link, .ui-bar-a a:visited, .ui-bar-a a:hover, .ui-bar-a a:active {
+    color: #{{ site.colors.hfont }};
 }
 
 .content-primary .program .ui-bar-a h3 {
@@ -327,7 +331,7 @@
 
 .content-primary .program .ui-bar-b {
     padding: 0em 1.0em;
-    background-color: #d1d1d1;
+    background-color: #{{ site.colors.program.break-background }};
     border-color: #bbb;
 }
 

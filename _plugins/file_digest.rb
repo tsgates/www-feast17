@@ -10,7 +10,7 @@ module Jekyll
       end
 
       def render(context)
-        Digest::SHA256.file("#{context.registers[:site].config['destination']}/#{@file_name}")
+        Digest::SHA256.file("#{context.registers[:site].config['source']}/#{@file_name}")
       end
     end
   end

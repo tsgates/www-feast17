@@ -2,12 +2,12 @@
   {% include tprog-item.html %}
 {% else %}
 
-{% assign has_link = (paper.link != "") %}{%
-   assign has_slides = paper.slides != "" %}{%
-   assign has_video = paper.video != "" %}
-
+{% if paper.link   != "" %}{% assign has_link   = true %}{% else %}{% assign has_link   = nil %}{% endif %}
+{% if paper.slides != "" %}{% assign has_slides = true %}{% else %}{% assign has_slides = nil %}{% endif %}
+{% if paper.video  != "" %}{% assign has_video  = true %}{% else %}{% assign has_video  = nil %}{% endif %}
+  
 {% comment %}<!-- make space for the button(s) -->{% endcomment %}
-{% if has_link or has_slides %}{% assign item_style = 'style="width: 85%"' %}{% endif %}{%
+{% if has_link or  has_slides %}{% assign item_style = 'style="width: 85%"' %}{% endif %}{%
    if has_link and has_slides %}{% assign item_style = 'style="width: 78%"' %}{% endif %}{%
    if has_link and has_slides and has_video %}{% assign item_style = 'style="width: 70%"' %}{% endif %}
 
@@ -16,7 +16,7 @@
     <h4>
       <div {{ item_style }}>
         <p class="paper-header">
-          {% if has_link %}
+          {% if has_link == true %}
             <a href="javascript:void(0)" onclick="window.location='{{ paper.link  }}'; event.stopPropagation();" class="ui-link">{{ paper.title }}</a>
           {% else %}
             {{ paper.title }}
