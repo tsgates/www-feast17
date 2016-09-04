@@ -14,7 +14,9 @@ baseurl: /sigcomm/2017
 
 # Configuration for site
 title: ACM SIGCOMM 2017
-logo_info: ACM SIGCOMM 2017, Los Angeles, CA
+logo:
+  image: images/sigcomm-2017-logo.png
+  info: ACM SIGCOMM 2017, Los Angeles, CA
 
 google_analytics_id: UA-83529610-1
 
@@ -82,27 +84,31 @@ menu:
     #   url: /n2women-travel-grant.html
 - name: Organizing Committee
   url: /org-committee.html
-- name: Anti-Harassment Policy
-  url: /policies.html
 - name: Calls
   submenu:
     - name: Call for Papers
-      url: /calls/cfp.html
-    - name: Paper Submission
-      url: /calls/submission.html
+      url: /cfp.html
+    # - name: Paper Submission
+    #   url: /submission.html
     - name: Call for Posters & Demos
-      url: /calls/cf-posters.html
+      url: /cf-posters.html
     - name: Call for Industrial Demos
-      url: /calls/cf-industrial-demos.html
+      url: /cf-industrial-demos.html
     - name: Call for Workshops
-      url: /calls/cf-workshops.html
+      url: /cf-workshops.html
     - name: Call for Tutorials
-      url: /calls/cf-tutorials.html
+      url: /cf-tutorials.html
+- name: Policies
+  submenu:
+    - name: Author Registration Policy
+      url: /policy-author-registration.html
+    - name: Anti-Harassment Policy
+      url: /policy-anti-harassment.html
 
 colors:
-  highlight: 0060a9
-  highlight-darker: 526796
-  hfont: fdb927
+  highlight: 3184BF
+  highlight-darker: 3184BF
+  hfont: FFC03D
 
   program:
     break-background: d1d1d1

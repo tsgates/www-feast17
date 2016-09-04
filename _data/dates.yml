@@ -1,16 +1,83 @@
+# Special considerations for the index page:
+# - track's title will be automatically added as a prefix
+# - the specified title will be downcased
 # - info: Workshop proposals due
-#   date: November XX, 2016
-- info: Main conference paper titles and abstracts due
+# - index page will show date only if important==true
+
+# All listed dates will appear in the specified order
+
+- track: main
+  info: Paper title and abstract registration deadline
   date: January 20, 2017 (5:00pm PST)
-- info: Main conference complete paper submissions due
+  important: true
+- track: main
+  info: Complete paper submissions deadline
   date: January 27, 2017 (5:00pm PST)
-- info: Notification to authors
+  important: true
+- track: main
+  info: Notification to authors
   date: May 5, 2017
-# - info: Final papers due
-  # date: Late June, 2017
-- info: Tutorial proposals due
+  important: true
+# - track: main
+#   info: Final papers due
+#   date: Late June, 2017
+
+- track: tutorials
+  info: Proposals deadline
   date: TBD
-- info: Posters &amp; Demos submissions due
+  important: true
+- track: tutorials
+  info: Notification of Acceptance
   date: TBD
-- info: SIGCOMM 2017 Main Technical Program
+
+- track: workshops
+  info: Proposals deadline
+  date: TBD
+  important: true
+- track: workshops
+  info: Announcement of workshops selected
+  date: TBD
+- track: workshops
+  info: Workshop Call for Papers due
+  date: TBD
+  
+- info: Submissions deadline
+  date: TBD
+  track: posters
+- info: Acceptance Notification
+  date: TBD
+  track: posters
+- info: Camera Ready Deadline
+  date: TBD
+  track: posters
+
+  
+- info: Technical Program
   date: August 21-25, 2017
+  track: main
+  important: true
+
+## Workshop planning dates
+- track: workshops-planning
+  date:  Before March 25, 2017
+  info:  Paper submissions deadline
+- track: workshops-planning
+  date:  Before end of April, 2017
+  info:  Paper acceptance notification
+- track: workshops-planning
+  date:  Before end of May, 2017
+  info:  Camera ready due
+- track: workshops-planning
+  date:  Before mid-June, 2017
+  info:  Program available online
+- track: workshops-planning
+  date:  Before mid-June, 2017
+  info:  List of organization details
+
+## Industrial demos
+- track: industrial-demos
+  date:  TBD
+  info:  Submission Deadline
+- track: industrial-demos
+  date:  TBD
+  info:  Acceptance Notification
