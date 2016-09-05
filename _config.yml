@@ -70,6 +70,8 @@ menu:
   submenu:
     - name: Local Information
       url: /venue.html
+    - name: Accommodations
+      url: /accommodations.html
     # - name: Visa Information
     #   url: /visa.html
     # - name: Accomodation

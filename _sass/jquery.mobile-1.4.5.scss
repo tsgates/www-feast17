@@ -1519,10 +1519,10 @@ div.ui-mobile-viewport {
 	overflow: hidden;
 	white-space: nowrap;
 	cursor: pointer;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+	/* -webkit-user-select: none; */
+	/* -moz-user-select: none; */
+	/* -ms-user-select: none; */
+	/* user-select: none; */
 }
 .ui-btn-icon-notext,
 .ui-header button.ui-btn.ui-btn-icon-notext,
@@ -4235,10 +4235,10 @@ textarea.ui-input-text.ui-textinput-autogrow {
 	-o-transition-duration: 100ms;
 	transition-duration: 100ms;
 	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
+	/* -webkit-user-select: none; */
+	/* -moz-user-select: none; */
+	/* -ms-user-select: none; */
+	/* user-select: none; */
 	cursor: pointer;
 }
 .ui-flipswitch.ui-flipswitch-active {
