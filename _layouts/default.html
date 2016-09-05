@@ -8,7 +8,7 @@ layout: nil
     <meta property="og:title" content="{% if page.title and page.title != '' %}{{ page.title }} - {% endif %}{{ site.title }}" />
     <meta property="og:image" content="{{ site.url }}" />
     <meta property="og:url" content="{{ page.url }}" />
-    {% for og in og_tags %}
+    {% for og in page.og_tags %}
     <meta property="{{ og.property }}" content="{{ og.content }}" />
     {% endfor %}
     <meta name="viewport" content="width=device-width, initial-scale=1" />
