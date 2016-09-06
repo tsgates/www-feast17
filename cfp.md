@@ -39,7 +39,7 @@ In addition to the main conference, SIGCOMM 2017 will have a series of co-locate
 
 SIGCOMM is a highly selective conference where full papers typically report novel results firmly substantiated by experimentation, deployment, simulation, or analysis. Submissions should be in two-column, 10-point format, and can be up to 12 pages in length with as many additional pages as necessary for references. Detailed submission instructions can be found on the conference web site.
 
-<!-- Detailed submission instructions can be found <a href="submission.html">here</a>. -->
+Detailed submission instructions can be found [here]({{ site.baseurl }}/submission.html).
 
 ## Experience Track
 

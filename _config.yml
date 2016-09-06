@@ -8,6 +8,7 @@ markdown: kramdown
 exclude: ['_DOCS', '_SCRIPTS', '.travis.yml', '.travis.d', '.sass-cache', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'LICENSE.md']
 sass:
   style: compressed
+encoding: UTF-8
 
 url: http://conferences.sigcomm.org
 baseurl: /sigcomm/2017
@@ -90,8 +91,8 @@ menu:
   submenu:
     - name: Call for Papers
       url: /cfp.html
-    # - name: Paper Submission
-    #   url: /submission.html
+    - name: Submission Requirements
+      url: /submission.html
     - name: Call for Posters & Demos
       url: /cf-posters.html
     - name: Call for Industrial Demos
