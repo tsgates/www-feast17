@@ -72,8 +72,8 @@ menu:
       url: /venue.html
     - name: Accommodations
       url: /accommodations.html
-    # - name: Visa Information
-    #   url: /visa.html
+    - name: Visa Information
+      url: /visa.html
     # - name: Accomodation
     #   url: /hotels.html
     # - name: Room Share
