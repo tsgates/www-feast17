@@ -21,8 +21,8 @@ To submit papers to the SIGCOMM 2017 conference, first carefully read the follow
 
 Then use [the paper submission site](//sigcomm17.hotcrp.com) to:
 
-- Register your paper by <b>{{ site.data.dates[0].date }}</b>.
-- Submit your paper by <b>{{ site.data.dates[1].date }}</b>.
+- Register your paper by <b>{{ site.data.dates.main-registration.date }}</b>.
+- Submit your paper by <b>{{ site.data.dates.main-submission.date }}</b>.
 
 <!-- {% include dates.html track = "main" %} -->
 
@@ -99,7 +99,7 @@ After the submission deadline, we will use the same tool to check the conformanc
 
 ## Paper Acceptance
 
-The SIGCOMM 2017 PC will notify authors of acceptance/rejection decisions by **{{ site.data.dates[2].date }}**. All accepted papers may be shepherded by members of the PC. Authors of accepted papers should plan to interact with their shepherds immediately after notification, and to budget sufficient time between acceptance notification and the camera-ready deadline to coordinate with their shepherd. It is a requirement that the paper be considered acceptable to the assigned shepherd so that the updates to the paper reflect the issues raised by the PC (conflicts will be mediated by the PC chairs) before the paper is considered "accepted" to appear in the conference proceedings. In addition, the publisher of the SIGCOMM proceedings will review all accepted papers submitted for the camera-ready deadline. Authors should also budget sufficient time immediately after the camera-ready deadline to be available and responsive to any editing changes requested by the publisher after submitting their camera-ready paper.
+The SIGCOMM 2017 PC will notify authors of acceptance/rejection decisions by **{{ site.data.dates.main-notification.date }}**. All accepted papers may be shepherded by members of the PC. Authors of accepted papers should plan to interact with their shepherds immediately after notification, and to budget sufficient time between acceptance notification and the camera-ready deadline to coordinate with their shepherd. It is a requirement that the paper be considered acceptable to the assigned shepherd so that the updates to the paper reflect the issues raised by the PC (conflicts will be mediated by the PC chairs) before the paper is considered "accepted" to appear in the conference proceedings. In addition, the publisher of the SIGCOMM proceedings will review all accepted papers submitted for the camera-ready deadline. Authors should also budget sufficient time immediately after the camera-ready deadline to be available and responsive to any editing changes requested by the publisher after submitting their camera-ready paper.
 
 After acceptance, substantive changes to paper titles require approval by the PC chairs. Only in exceptional circumstances should authors change their author list, and only with the approval of the PC chairs.
 

@@ -6,79 +6,97 @@
 
 # All listed dates will appear in the specified order
 
-## NOTE: Other pages assume that these 3 deadlines are first ones. Do not move
-- track: main
+main-registration:
+  track: main
   info: Paper title and abstract registration deadline
   date: January 20, 2017 (5:00pm PST)
   important: true
-- track: main
+main-submission:
+  track: main
   info: Complete paper submissions deadline
   date: January 27, 2017 (5:00pm PST)
   important: true
-- track: main
+main-notification:
+  track: main
   info: Notification to authors
   date: May 5, 2017
   important: true
-# - track: main
+# main-due:
+#   track: main
 #   info: Final papers due
 #   date: Late June, 2017
 
-- track: tutorials
+tutorials-proposals:
+  track: tutorials
   info: Proposals deadline
   date: TBD
   important: true
-- track: tutorials
+tutorials-notification:
+  track: tutorials
   info: Notification of Acceptance
   date: TBD
 
-- track: workshops
+workshops-proposals:
+  track: workshops
   info: Proposals deadline
   date: TBD
   important: true
-- track: workshops
+workshops-notification:
+  track: workshops
   info: Announcement of workshops selected
   date: TBD
-- track: workshops
+workshops-papers-due:
+  track: workshops
   info: Workshop Call for Papers due
   date: TBD
-  
-- info: Submissions deadline
-  date: TBD
-  track: posters
-- info: Acceptance Notification
-  date: TBD
-  track: posters
-- info: Camera Ready Deadline
-  date: TBD
-  track: posters
 
+posters-submission:
+  track: posters
+  info: Submissions deadline
+  date: TBD
+posters-notification:
+  track: posters
+  info: Acceptance Notification
+  date: TBD
+# posters-due:
+#   track: posters
+#   info: Camera Ready Deadline
+#   date: TBD
   
-- info: Technical Program
-  date: August 21-25, 2017
+main-program:
   track: main
+  info: Technical Program
+  date: August 21-25, 2017
   important: true
 
 ## Workshop planning dates
-- track: workshops-planning
+workshops-planning-submission:
+  track: workshops-planning
   date:  Before March 25, 2017
   info:  Paper submissions deadline
-- track: workshops-planning
+workshops-planning-notification:
+  track: workshops-planning
   date:  Before end of April, 2017
   info:  Paper acceptance notification
-- track: workshops-planning
+workshops-planning-due:
+  track: workshops-planning
   date:  Before end of May, 2017
   info:  Camera ready due
-- track: workshops-planning
+workshops-planning-program:
+  track: workshops-planning
   date:  Before mid-June, 2017
   info:  Program available online
-- track: workshops-planning
+workshops-planning-org:
+  track: workshops-planning
   date:  Before mid-June, 2017
   info:  List of organization details
 
 ## Industrial demos
-- track: industrial-demos
+industrial-demos-submission:
+  track: industrial-demos
   date:  TBD
   info:  Submission Deadline
-- track: industrial-demos
+industrial-demos-notification:
+  track: industrial-demos
   date:  TBD
   info:  Acceptance Notification
