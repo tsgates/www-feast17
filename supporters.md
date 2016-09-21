@@ -1,123 +1,64 @@
 ---
 layout: default
-title: Industrial Supporters
+title: Sponsorships
 ---
 
-# Industrial Supporters
+# {{ page.title }}
 
+Become a ACM SIGCOMM 2017 sponsor and your organization can reach a highly qualified technical audience of academics, industrial researchers, engineers, and students.
+ACM SIGCOMM is the flagship annual conference of the ACM Special Interest Group on Data Communication (SIGCOMM) on the applications, technologies, architectures, and protocols for computer communication.
+By sponsoring ACM SIGCOMM, you are able to increase visibility and product awareness among the people who are the most knowledgeable and passionate about your products.
+Please contact the ACM SIGCOMM 2017 Sponsorship Chair, [Giovanni Pau](mailto:gpau@cs.ucla.edu) to initiate your sponsorship, or for any additional information.
+
+All sponsors will receive recognition of their level of contribution in print, on the web, in registration brochures, in the conference program, and during opening and closing of the conference. Additional prominence and access are available at the following sponsorship levels:.
 <!-- when adding sponsor logos here, need also to add them to the sponsor ticker tape - see include/footer.php file -->
 
-## Platinum
-
-<!--
-<div class="sponsors">
-   <center>
-      <table width="100%" border="0">
-         <tr>
-            <td align="center" width="50%">
-               <a href="//www.cisco.com/"><img src="images/sponsors/cisco.png" alt="Cisco" style="width: 75%"/></a>
-            </td>
-            <td align="center" width="50%">
-               <a href="//www.nsf.gov/"><img src="images/sponsors/nsf.jpg" alt="NSF" style="width: 60%"/></a>
-            </td>
-         </tr>
-      </table>
-   </center>
+<p>
+<div class="ui-corner-all custom-corners">
+<div class="ui-bar ui-bar-a" markdown="1">
+### Platinum - Prominent Exhibition Sponsor
 </div>
--->
 
-## Gold
-
-<!--<div class="sponsors">
-   <center>
-      <table width="100%" border="0">
-         <tr>
-            <td align="center" width="50%">
-               <a href="//www.huawei.com/"><img src="images/sponsors/huawei.png" alt="Huawei" style="width: 40%"/></a>
-            </td>
-            <td align="center"  width="50%">
-               <a href="//www.ericsson.com/"><img src="images/sponsors/ericsson.png" alt="Ericsson" style="width: 40%"/></a>
-            </td>
-         </tr>
-      </table>
-   </center>
-   <center>
-      <table width="100%" border="0">
-         <tr>
-            <td align="center"  width="50%">
-               <a href="//research.facebook.com/"><img src="images/sponsors/facebook.png" alt="Facebook" style="width: 90%;"/></a>
-            </td>
-            <td align="center" width="50%">
-               <a href="//www.google.com/"><img src="images/sponsors/google.png" alt="Google" style="width: 90%;"/></a>
-            </td>
-         </tr>
-      </table>
-   </center>
-   <center>
-      <table width="100%" border="0">
-         <tr>
-            <td align="center">
-               <a href="//cgi.br/about/"><img src="images/sponsors/cgi_br.jpg" alt="CGI.br" style="width: 19%"/></a>
-               <a href="//nic.br/about-nic-br/"><img src="images/sponsors/nic_br.jpg" alt="CGI.br" style="width: 19%"/></a>
-            </td>
-         </tr>
-      </table>
-   </center>
+<div class="ui-body ui-body-a" markdown="1">
+- **20 ft of prominent exhibition space in the conference lobby.**
+- Company-provided banner in the entrance area to the conference site.
+- Three company-provided promotion items in each tote-bag.
+- Five conference registrations included.
 </div>
--->
-
-## Silver
-
-<!--
-<div class="sponsors">
-   <center>
-      <table width="100%" border="0">
-         <tr>
-            <td align="center">
-               <a href="//www.akamai.com/"><img src="images/sponsors/akamai.png" alt="Akamai" style="width: 35%;"/></a>
-            </td>
-         </tr>
-      </table>
-   </center>
 </div>
--->
+<!-- Current Sponsors: -->
+</p>
 
-## Bronze
-
-<!--
-<div class="sponsors">
-   <center>
-      <table width="100%" border="0">
-         <tr>
-            <td align="center"  width="20%">
-               &nbsp;
-            </td>
-            <td align="center" width="30%">
-               <a href="//www.hpe.com/"><img src="images/sponsors/hpe.png" alt="Hewlett Packard Enterprise" style="width: 90%;"/></a>
-            </td>
-            <td align="center"  width="30%">
-               <a href="//www.netapp.com/"><img src="images/sponsors/netapp.jpeg" alt="NetApp" style="width: 90%;"/></a>
-            </td>
-            <td align="center"  width="20%">
-               &nbsp;
-            </td>
-         </tr>
-      </table>
-   </center>
-   <center>
-      <table width="100%" border="0">
-         <tr>
-            <td align="center" width="33%">
-               <a href="//www.tid.es/"><img src="images/sponsors/telefonica.png" alt="Telef&oacute;nica" style="width: 60%;"/></a>
-            </td>
-            <td align="center"  width="34%">
-               <a href="//www.vmware.com/"><img src="images/sponsors/vmware.jpg" alt="VMWare" style="width: 90%;"/></a>
-            </td>
-            <td align="center"  width="33%">
-               <a href="//www.comcast.com/"><img src="images/sponsors/comcast.jpg" alt="Comcast" style="width: 85%;"/></a>
-            </td>
-         </tr>
-      </table>
-   </center>
+<p>
+<div class="ui-corner-all custom-corners">
+<div class="ui-bar ui-bar-a" markdown="1">
+### Gold - Exhibition and Banner Sponsor
 </div>
--->
+
+<div class="ui-body ui-body-a" markdown="1">
+- **Company-provided banner in the entrance area to the conference site.**
+- 12 ft of exhibition space in the conference lobby.
+- Two company-provided promotion items in each tote bag.
+- Three conference registrations included.
+</div>
+</div>
+</p>
+
+<!-- Current Sponsors: -->
+
+<p>
+<div class="ui-corner-all custom-corners">
+<div class="ui-bar ui-bar-a" markdown="1">
+### Silver - Exhibition Sponsor
+
+</div>
+
+<div class="ui-body ui-body-a" markdown="1">
+- **6 ft of exhibition space in the conference lobby.**
+- One company-provided promotion item in each tote bag.
+- One conference registration included.
+</div>
+</div>
+</p>
+
+<!-- Current Sponsors: -->
