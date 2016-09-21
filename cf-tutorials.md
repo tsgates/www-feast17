@@ -10,8 +10,15 @@ We seek to extend the SIGCOMM experience by tutorials on selected topics given b
 
 Tutorials must cover advanced topics that fit the scope of SIGCOMM and are of current interest to the SIGCOMM community. Tutorials may be lectures, interactive workshops, hands-on training, or any combination of the above. Exploring diverse ways of interacting with the audience is welcome as are cross-disciplinary topics.
 
-Tutorial proposals should be submitted in PDF format, should not exceed
-three (3) pages in total, and be sent to <b style="color: red">TBD</b>.
+### Where To Submit
+
+Please submit the tutorial proposals in PDF format, which **should not exceed three (3) pages in total, by sending it to the Tutorial Chairs over email by the deadline below.
+
+[Submit Tutorial Proposal](mailto:tutorialchairs17@sigcomm.org?subject=[SIGCOMM'2017] Tutorial Proposal){: data-role="button" class="button" }.
+
+### Important dates
+
+{% include dates.html track = "tutorials" %}
 
 ### Proposals must include:
 
@@ -30,9 +37,5 @@ three (3) pages in total, and be sent to <b style="color: red">TBD</b>.
 - Tutorials will likely be held in parallel with the workshops, i.e., Monday and/or Friday of the SIGCOMM week.
 
 - Upon acceptance of a tutorial proposal, either the tutorial co-chair or the tutorial speakers can request a cancelation of the tutorial if there is clear evidence indicating low attendance of the tutorial by the early registration deadline.
-
-## Important dates
-
-{% include dates.html track = "tutorials" %}
 
 <!-- <a href="files/cft.pdf" rel="external" data-role="button" class="dl-button button">Download this call as a PDF</a> -->

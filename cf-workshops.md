@@ -40,24 +40,28 @@ The workshop organizers should also take into account the following practical co
 
 - We will require all workshops to have identical start, end and break times.
 
-If you have questions about your workshop proposal, please contact workshopchairs17@sigcomm.org.  Also, email proposals in PDF to workshopchairs17@sigcomm.org by the deadline (see below).
+If you have questions about your workshop proposal, do not hesitate to contact the workshop chairs.
 
-Important Workshop Dates (preliminary)
---------------------------------------
+[Contact Workshop Chairs](mailto:workshopchairs17@sigcomm.org){: data-role="button" class="button" }.
+
+### Where To Submit
+
+Please submit the workshop proposals in PDF format by sending it to the Workshop Chairs over email by the deadline below.
+
+[Submit Workshop Proposal](mailto:workshopchairs17@sigcomm.org?subject=[SIGCOMM'2017] Workshop Proposal){: data-role="button" class="button" }.
+
+### Important dates
 
 {% include dates.html track = "workshops" %}
 
 Note that there are only three weeks between the notification and the final CFP.  Thus, we reiterate that you contact your workshop's potential PC members before submitting the proposal.
 
-Additional Important Dates (preliminary)
-----------------------------------------
+### Preliminary Information for Workshop Planning
 
 {% include dates.html track = "workshops-planning" %}
 
 In order for the workshops to be synchronized with preparations for the main conference and with travel grants, the dates above must be followed strictly by all workshops. Please contact the SIGCOMM 2017 Workshop co-chairs at workshopchairs16@sigcomm.org with any questions.
 
-
-## Important dates
 
 
 <!-- <a href="files/cft.pdf" rel="external" data-role="button" class="dl-button button">Download this call as a PDF</a> -->
