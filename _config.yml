@@ -29,8 +29,9 @@ program:
 
 # Configuration for navbar.html
 menu:
-- name: <i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home
+- name: Home
   url: /
+  icon: fa-home
 # - name: Supporters
 #   url: /supporters.html
 # - name: Conference
@@ -39,8 +40,9 @@ menu:
     #   url: /awards.html
     # - name: Program
     #   url: /program.html
-- name: <i class="fa fa-users" aria-hidden="true"></i>&nbsp;Program Committee
+- name: Program Committee
   url: /tpc.html
+  icon: fa-users
     # - name: Posters
     #   url: /posters.html
     # - name: Demos
@@ -67,7 +69,8 @@ menu:
 #       url: /tbd2.html
 # - name: Registration
 #   url: /registration.html
-- name: <i class="fa fa-map" aria-hidden="true"></i>&nbsp;Venue
+- name: Venue
+  icon: fa-map
   submenu:
     - name: Local Information
       url: /venue.html
@@ -85,9 +88,11 @@ menu:
     #   url: /n2women-fellowship.html
     # - name: N2Women Travel Grant
     #   url: /n2women-travel-grant.html
-- name: <i class="fa fa-users" aria-hidden="true"></i>&nbsp;Organizing Committee
+- name: Organizing Committee
   url: /org-committee.html
-- name: <i class="fa fa-bullhorn" aria-hidden="true"></i>&nbsp;Calls
+  icon: fa-users
+- name: Calls
+  icon: fa-bullhorn
   submenu:
     - name: Call for Papers
       url: /cfp.html
