@@ -107,6 +107,7 @@ menu:
     - name: Call for Workshops
       url: /cf-workshops.html
 - name: Policies
+  icon: fa-book
   submenu:
     - name: Author Registration Policy
       url: /policy-author-registration.html

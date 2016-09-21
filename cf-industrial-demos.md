@@ -22,7 +22,7 @@ TBD
 
 <!-- Demos of research projects from industry are better suited for the general SIGCOMM demo session; the industrial demo session has more of a product focus. Feel free to contact any member of the SIGCOMM industrial liaison board or the demo chairs if you have any questions. -->
 
-## Important Dates
+## <i class="fa fa-calendar"></i> Important Dates
 
 {% include dates.html track = "industrial-demos" %}
 

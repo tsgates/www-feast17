@@ -70,7 +70,7 @@ TBD
 
 <!-- Please submit your abstract at <https://sigcomm17posters.hotcrp.com/>. Submissions are single blind, so please include authors' names and affiliation. When submitting (a poster), indicate if the submission should be considered for the ACM SIGCOMM Student Research Competition (SRC). -->
 
-## Important Dates
+## <i class="fa fa-calendar"></i> Important Dates
 
 {% include dates.html track = "posters" %}
 

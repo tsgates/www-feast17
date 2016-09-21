@@ -16,7 +16,7 @@ Please submit the tutorial proposals in PDF format, which **should not exceed th
 
 [Submit Tutorial Proposal](mailto:tutorialchairs17@sigcomm.org?subject=[SIGCOMM'2017] Tutorial Proposal){: data-role="button" class="button" }.
 
-### Important dates
+### <i class="fa fa-calendar"></i> Important dates
 
 {% include dates.html track = "tutorials" %}
 

@@ -50,7 +50,7 @@ Please submit the workshop proposals in PDF format by sending it to the Workshop
 
 [Submit Workshop Proposal](mailto:workshopchairs17@sigcomm.org?subject=[SIGCOMM'2017] Workshop Proposal){: data-role="button" class="button" }.
 
-### Important dates
+### <i class="fa fa-calendar"></i> Important dates
 
 {% include dates.html track = "workshops" %}
 

@@ -49,7 +49,7 @@ Detailed submission instructions can be found [here]({{ site.baseurl }}/submissi
 
 Authors must as part of the submission process attest that their work complies with all applicable ethical standards of their home institution(s), including, but not limited to privacy policies and policies on experiments involving humans. Note that submitting research for approval by one's institution's ethics review body is necessary, but not sufficient -- in cases where the PC has concerns about the ethics of the work in a submission, the PC will have its own discussion of the ethics of that work. The PC takes a broad view of what constitutes an ethical concern, and authors agree to be available at any time during the review process to rapidly respond to queries from the PC chairs regarding ethical standards.
 
-## Important dates
+## <i class="fa fa-calendar"></i> Important dates
 
 {% include dates.html track = "main" %}
 
