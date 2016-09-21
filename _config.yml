@@ -29,7 +29,7 @@ program:
 
 # Configuration for navbar.html
 menu:
-- name: Home
+- name: <i class="fa fa-home" aria-hidden="true"></i>&nbsp;Home
   url: /
 # - name: Supporters
 #   url: /supporters.html
@@ -39,7 +39,7 @@ menu:
     #   url: /awards.html
     # - name: Program
     #   url: /program.html
-- name: Program Committee
+- name: <i class="fa fa-users" aria-hidden="true"></i>&nbsp;Program Committee
   url: /tpc.html
     # - name: Posters
     #   url: /posters.html
@@ -67,7 +67,7 @@ menu:
 #       url: /tbd2.html
 # - name: Registration
 #   url: /registration.html
-- name: Venue
+- name: <i class="fa fa-map" aria-hidden="true"></i>&nbsp;Venue
   submenu:
     - name: Local Information
       url: /venue.html
@@ -85,9 +85,9 @@ menu:
     #   url: /n2women-fellowship.html
     # - name: N2Women Travel Grant
     #   url: /n2women-travel-grant.html
-- name: Organizing Committee
+- name: <i class="fa fa-users" aria-hidden="true"></i>&nbsp;Organizing Committee
   url: /org-committee.html
-- name: Calls
+- name: <i class="fa fa-bullhorn" aria-hidden="true"></i>&nbsp;Calls
   submenu:
     - name: Call for Papers
       url: /cfp.html
@@ -109,9 +109,9 @@ menu:
       url: /policy-anti-harassment.html
 
 colors:
-  highlight: 3184BF
-  highlight-darker: 3184BF
-  hfont: FFC03D
+  highlight: 2E85C2
+  highlight-darker: 2E85C2
+  hfont: F9E90C
 
   program:
     break-background: d1d1d1

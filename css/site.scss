@@ -13,7 +13,7 @@
 
 /* Conference logo in the mobile header. */
 .header {
-    background-color: #ffffff !important;    
+    background-color: #ffffff !important;
     border-width: 0px;
 }
 
@@ -42,11 +42,11 @@
     padding: 1em 0px 1em 0px;
     max-width: 1200px;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
 }
 
 /* The left side menu */
-.leftnav {    
+.leftnav {
     float: left;
     text-align: left;
     width: 300px;
@@ -72,7 +72,7 @@
 .leftnav .navgroup {
     padding: 0px;
     margin: -1px 0px;
-    border-radius: 0px;    
+    border-radius: 0px;
 }
 
 .leftnav .subnav a {
@@ -119,7 +119,7 @@
 
 .content-primary .center {
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
     text-align: center;
 }
 
@@ -163,6 +163,10 @@
     font-weight: 500;
 }
 
+.ui-bar h2, .ui-bar h3, .ui-bar h4 {
+    margin: 0;
+}
+
 .content-primary .datetbl .ui-grid-a .ui-block-a {
     width: 30%;
     height: 100%;
@@ -176,7 +180,7 @@
 .content-primary .datetbl .ui-btn {
     margin:      0px;
     line-height: 1em;
-    text-align:  center;    
+    text-align:  center;
     font-size:   0.9em;
     font-weight: 700;
 }
@@ -242,7 +246,7 @@
     font-size: 1.1em;
     text-align: center !important;
     font-weight: 600;
-    margin: 0.3em 0em;    
+    margin: 0.3em 0em;
 }
 
 .content-primary .program .prog-no-filter {
@@ -301,7 +305,7 @@
 }
 
 .content-primary .ui-listview p.paper-header {
-    font-weight: 600 !important; 
+    font-weight: 600 !important;
 }
 
 .content-primary .program .keynote-photo {
@@ -311,7 +315,7 @@
 }
 
 .content-primary .program .prog-item {
-    padding: 0.5em 1.0em;    
+    padding: 0.5em 1.0em;
 }
 
 .content-primary .program .ui-bar-a {
@@ -370,25 +374,25 @@
     vertical-align:top;
     width: 25%;
     padding:0
-                
+
 }
 
 .content-primary  table.hotel td{
     text-align:left;
     vertical-align:bottom;
     padding:0
-                
+
 }
 
 .content-primary  table.hotel tr{
     line-height:1.3em
-                 
+
 }
 
 .content-primary table.hotel{
     font-size:.9em;
     padding-bottom:1em
-                       
+
 }
 
 .content-primary .roomshare {
@@ -421,20 +425,20 @@
 }
 
 .notlast {
-    border-radius: 0px !important;    
+    border-radius: 0px !important;
 }
 
 .dl-button {
     width : 55%;
     margin-top: 2.5em;
     margin-left: auto;
-    margin-right: auto;    
+    margin-right: auto;
 }
 
-video {  
-    width: 95%; 
-    max-width: 640px; 
-    height: auto; 
+video {
+    width: 95%;
+    max-width: 640px;
+    height: auto;
 }
 
 .socialbuttons {
@@ -488,7 +492,7 @@ a.button{
     width:40%;
     margin-left:auto;
     margin-right:auto
-                     
+
 }
 
 /* Layout rules
@@ -500,7 +504,7 @@ a.button{
         margin: 5px !important;
         padding: 0.5em 5px 0.5em 5px;
     }
-    
+
     .content-primary {
         float: none;
         width: 100%;
@@ -518,6 +522,10 @@ a.button{
     .content-primary h3, h4 {
         font-size: 1.2em;
         margin-top: 0.5em;
+    }
+
+    .ui-bar h2, .ui-bar h3, .ui-bar h4 {
+        margin: 0;
     }
 
     .content-primary .sponsors img {
@@ -581,4 +589,3 @@ a.button{
         display: none;
     }
 }
-
