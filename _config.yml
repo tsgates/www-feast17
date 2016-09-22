@@ -69,10 +69,10 @@ menu:
 #       url: /tbd2.html
 # - name: Registration
 #   url: /registration.html
-- name: Venue
+- name: Local Information
   icon: fa-map
   submenu:
-    - name: Local Information
+    - name: Venue
       url: /venue.html
     - name: Accommodations
       url: /accommodations.html

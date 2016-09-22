@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Accommodations
-group: Venue
+group: Local Information
 
 hotels:
 - id: luskin
