@@ -6,8 +6,6 @@ og_tags:
     content: The organizing committee is delighted to invite you to ACM SIGCOMM 2017, to be held on UCLA campus in Los Angeles, CA, U.S.A., August 21-25, 2017. SIGCOMM is the flagship annual conference of the ACM Special Interest Group on Data Communication (SIGCOMM) on the applications, technologies, architectures, and protocols
 ---
 
-<!-- {{ site.data.test }} -->
-
 # Welcome to SIGCOMM 2017
 
 The organizing committee is delighted to invite you to ACM SIGCOMM 2017, to be held on UCLA campus in Los Angeles, CA, USA on August 21-25, 2017.
