@@ -40,7 +40,7 @@
 /* Content container. */
 .ui-content {
     padding: 1em 0px 1em 0px;
-    max-width: 1200px;
+    // max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -50,6 +50,7 @@
     float: left;
     text-align: left;
     width: 25%;
+    max-width: 300px;
     margin: 0px 1px 20px 20px;
     /* padding-bottom: 120px; /* prevent menu from being hidden by sponsor ticker tape */
     position: absolute;
@@ -164,6 +165,18 @@
 
 .ui-bar h2, .ui-bar h3, .ui-bar h4 {
     margin: 0;
+}
+
+.content-primary .tbl {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+.content-primary .datetbl {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto 0 auto;
 }
 
 .content-primary .datetbl .ui-grid-a .ui-block-a {
@@ -564,7 +577,7 @@ a.button{
     .content-primary {
         float: right;
         width: 61%;
-        max-width: 800px;
+        // max-width: 800px;
         margin-right: 3%;
         padding-right: 3%;
     }
@@ -572,6 +585,10 @@ a.button{
 
 /* Printing */
 @media print {
+    #menu-btn {
+        display: none;
+    }
+
     #leftnav {
         display: none;
     }
@@ -586,5 +603,9 @@ a.button{
 
     .button {
         display: none;
+    }
+
+    .ui-content {
+        overflow-x: visible;
     }
 }
