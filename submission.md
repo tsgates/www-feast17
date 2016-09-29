@@ -103,4 +103,4 @@ The SIGCOMM 2017 PC will notify authors of acceptance/rejection decisions by **{
 
 After acceptance, substantive changes to paper titles require approval by the PC chairs. Only in exceptional circumstances should authors change their author list, and only with the approval of the PC chairs.
 
-Authors of accepted papers will also need to sign an ACM copyright release form. Electronic copies of the camera-ready papers will be published on the conference Web site before the conference, unless authors specifically request otherwise. All rejected papers will be treated as permanently confidential.
+Authors of accepted papers will also need to sign an ACM copyright release form.  All rejected papers will be treated as permanently confidential.
