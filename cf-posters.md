@@ -4,23 +4,18 @@ title: Call for Posters and Demos
 group: Calls
 
 committees:
-    - role: Demo Chairs
+    - role: Poster and Demo Chairs
       people:
-      - name:        TBD
-        affiliation: TBD
-        homepage:    TBD
+      - name:        Matthias Wählisch
+        affiliation: Freie Universität Berlin, Germany
+        homepage:    http://www.inf.fu-berlin.de/users/waehl/
 
-    - role: Poster Chairs
-      people:
-      - name:        TBD
-        affiliation: TBD
-        homepage:    TBD
+      - name:        Jeff Burke
+        affiliation: University of California, Los Angeles
+        homepage:    http://jeff-burke.com/bio/
 
     - role: Program Commitee
       people:
-      - name:        TBD
-        affiliation: TBD
-        homepage:    TBD
       - name:        TBD
         affiliation: TBD
         homepage:    TBD
