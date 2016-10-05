@@ -39,16 +39,16 @@ tutorials-notification:
 workshops-proposals:
   track: workshops
   info: Proposals deadline
-  date: TBD
+  date: November 23, 2016
   important: true
 workshops-notification:
   track: workshops
   info: Announcement of workshops selected
-  date: TBD
+  date: December 4, 2016
 workshops-papers-due:
   track: workshops
   info: Workshop Call for Papers due
-  date: TBD
+  date: December 22, 2016
 
 posters-submission:
   track: posters
