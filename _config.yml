@@ -32,8 +32,9 @@ menu:
 - name: Home
   url: /
   icon: fa-home
-# - name: Supporters
-#   url: /supporters.html
+- name: Supporters
+  url: /supporters.html
+  icon: fa-handshake
 # - name: Conference
 #   submenu:
     # - name: Awards

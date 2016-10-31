@@ -9,19 +9,19 @@
         {% if item.url == page.url %}{% assign active = 'navselected' %}
         {% else %}{% assign active = nil %}{% endif %}
         <li class="{% if forloop.first != true and forloop.last != true %}notlast{% endif %} {{ active }}" data-icon="false">
-          <a href="{{ site.baseurl }}{{ item.url }}">{% if item.icon %}<i class="fa {{ item.icon }}" aria-hidden="true"></i>&nbsp;{% endif %}{{ item.name }}</a>
+          <a href="{{ site.baseurl }}{{ item.url }}">{% if item.icon %}<i class="fa {{ item.icon }}" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;{% endif %}{{ item.name }}</a>
         </li>
       {% else %}
         {% if item.name == page.group %}{% assign collapsed = 'data-collapsed="false"' %}
         {% else %}{% assign collapsed = nil %}{% endif %}
         <div data-role="collapsible" data-theme="a" data-content-theme="a" data-collapsed-icon="arrow-d" data-expanded-icon="arrow-u" data-iconpos="right" {{ collapsed }} class="navgroup">
-          <h4>{% if item.icon %}<i class="fa {{ item.icon }}" aria-hidden="true"></i>&nbsp;{% endif %}{{ item.name }}</h4>
+          <h4>{% if item.icon %}<i class="fa {{ item.icon }}" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;{% endif %}{{ item.name }}</h4>
           <ul data-role="listview" data-inset="false">
             {% for subitem in item.submenu %}
               {% if subitem.url == page.url %}{% assign active = 'navselected' %}
               {% else %}{% assign active = nil %}{% endif %}
               <li class="subnav {{ active }}" data-icon="false">
-                <a href="{{ site.baseurl }}{{ subitem.url }}">{% if subitem.icon %}<i class="fa {{ subitem.icon }}" aria-hidden="true"></i>&nbsp;{% endif %}{{ subitem.name }}</a>
+                <a href="{{ site.baseurl }}{{ subitem.url }}">{% if subitem.icon %}<i class="fa {{ subitem.icon }}" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;{% endif %}{{ subitem.name }}</a>
               </li>
             {% endfor %}
           </ul>
