@@ -60,7 +60,7 @@ Note that there are only three weeks between the notification and the final CFP.
 
 {% include dates.html track = "workshops-planning" %}
 
-In order for the workshops to be synchronized with preparations for the main conference and with travel grants, the dates above must be followed strictly by all workshops. Please contact the SIGCOMM 2017 Workshop co-chairs at workshopchairs16@sigcomm.org with any questions.
+In order for the workshops to be synchronized with preparations for the main conference and with travel grants, the dates above must be followed strictly by all workshops. Please contact the SIGCOMM 2017 Workshop co-chairs at `workshopchairs17@sigcomm.org` with any questions.
 
 
 
