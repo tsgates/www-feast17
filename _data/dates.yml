@@ -28,13 +28,13 @@ main-notification:
 
 tutorials-proposals:
   track: tutorials
-  info: Proposals deadline
-  date: TBD
+  info: Proposals due
+  date: February 17, 2017
   important: true
 tutorials-notification:
   track: tutorials
   info: Notification of Acceptance
-  date: TBD
+  date: February 24, 2017
 
 workshops-proposals:
   track: workshops
