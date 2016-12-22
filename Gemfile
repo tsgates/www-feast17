@@ -1,10 +1,9 @@
-source "http://rubygems.org"
+source "https://rubygems.org"
 
-gem 'rake'
-gem 'jekyll'
-gem 'pygments.rb'
-gem 'RedCloth'
-gem 'liquid'
-gem 'classifier-reborn'
-gem 'kramdown'
-gem 'google_drive'
+gem 'rake',              '>=12.0.0'
+gem 'jekyll',            '>=3.3.1'
+gem 'pygments.rb',       '>=1.0.0'
+gem 'RedCloth',          '>=4.3.2'
+gem 'classifier-reborn', '>=2.0.4'
+gem 'kramdown',          '>=1.13.1'
+gem 'google_drive',      '>=2.1.2'
