@@ -61,7 +61,7 @@ module Jekyll
           end
         end
       rescue
-        return Jekyll.logger.error "Failed to generate the conference program: ", $!
+        # return Jekyll.logger.error "Failed to generate the conference program: ", $!
       end
     end
   end
