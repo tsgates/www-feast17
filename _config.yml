@@ -60,10 +60,10 @@ menu:
     #   url: /mentoring.html
     # - name: Social Events
     #   url: /social-events.html
-# - name: Workshops
-#   submenu:
-#     - name: TBD
-#       url: /tbd.html
+- name: Workshops
+  submenu:
+    - name: MECOMM
+      url: /workshop-mecomm.html
 # - name: Tutorials
 #   submenu:
 #     - name: TBD
