@@ -110,8 +110,8 @@ menu:
     #   url: /cf-industrial-demos.html
     - name: Call for Tutorials
       url: /cf-tutorials.html
-    - name: Call for Workshops
-      url: /cf-workshops.html
+    # - name: Call for Workshops
+    #   url: /cf-workshops.html
 - name: Policies
   icon: fa-book
   submenu:
