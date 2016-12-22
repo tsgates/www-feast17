@@ -61,11 +61,14 @@ menu:
     # - name: Social Events
     #   url: /social-events.html
 - name: Workshops
+  icon: fa-bullhorn
   submenu:
     - name: MECOMM
       url: /workshop-mecomm.html
     - name: MobiArch
       url: /workshop-mobiarch.html
+    - name: KBNets
+      url: /workshop-kbnets.html
 # - name: Tutorials
 #   submenu:
 #     - name: TBD
