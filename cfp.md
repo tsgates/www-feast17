@@ -57,6 +57,6 @@ Authors must as part of the submission process attest that their work complies w
 
 <!-- <a href="files/cfp.pdf" rel="external" data-role="button" class="dl-button button">Download this call as a PDF</a> -->
 
-## AUTHORS TAKE NOTE
+## Authors Take Note
 
 **The official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to *TWO WEEKS* prior to the first day of your conference. The official publication date affects the deadline for any patent filings related to published work.**

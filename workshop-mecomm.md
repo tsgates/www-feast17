@@ -136,7 +136,7 @@ Specifically, please note the following format requirements:
 
 - All papers submitted will be peer-reviewed (single-blind) and evaluated based on their suitability (i.e., within the workshop scope), novelty, and merit.
 - All papers must be submitted in Portable Document Format (PDF) electronically. Whatever text processor or formatter you use to write your paper (LaTeX, Microsoft Word, FrameMaker, etc.), please convert the output to PDF before submission.
-- Submissions must be limited to **6 pages**, single-spaced, double-column, with each column 9.25" by 3.33", 0.33" space between columns, use at least a 10pt font, and be correctly formatted to be printed on letter-sized (8.5" by 11") paper. <red>**Submissions that violate the formatting requirements may not be reviewed.**</red>
+- Submissions must be limited to **6 pages**, single-spaced, double-column, with each column 9.25" by 3.33", 0.33" space between columns, use at least a 10pt font, and be correctly formatted to be printed on letter-sized (8.5" by 11") paper. **<red>Submissions that violate the formatting requirements may not be reviewed.</red>**
 - We must be able to print your paper once it is submitted. Therefore, all fonts used in the paper MUST be embedded in the submitted PDF file.
 - The paper must be in a state where it can be printed clearly on standard black-and-white printers. Reviewers are not required to view your paper in color.
 
@@ -147,6 +147,10 @@ Further information about the workshop are provided on [the workshop website](ht
 ### Important Dates
 
 {% include dates2.html dates=page.dates %}
+
+## Authors Take Note
+
+**The official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to *TWO WEEKS* prior to the first day of your conference. The official publication date affects the deadline for any patent filings related to published work.**
 
 ### Committees
 

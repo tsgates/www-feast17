@@ -64,6 +64,8 @@ menu:
   submenu:
     - name: MECOMM
       url: /workshop-mecomm.html
+    - name: MobiArch
+      url: /workshop-mobiarch.html
 # - name: Tutorials
 #   submenu:
 #     - name: TBD
