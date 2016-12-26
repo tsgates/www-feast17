@@ -69,6 +69,10 @@ menu:
       url: /workshop-mobiarch.html
     - name: KBNets
       url: /workshop-kbnets.html
+    - name: Big-DAMA
+      url: /workshop-big-dama.html
+    - name: Internet QoE
+      url: /workshop-internet-qoe.html
 # - name: Tutorials
 #   submenu:
 #     - name: TBD
