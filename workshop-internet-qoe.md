@@ -59,7 +59,7 @@ Internet-QoE brings together researchers and practitioners from the Internet mea
 - Large-scale network simulation for QoE analysis
 - Novel approaches for large-scale QoE crowd-sourcing
 
-<!-- [Contact workshop co-chairs](mailto:TBD?subject=[Internet QoE 2017]){: data-role="button" class="button" }. -->
+[Contact workshop co-chairs](mailto:bustamante.fabian@gmail.com,choffnes@ccs.neu.edu,florian.wamser@informatik.uni-wuerzburg.de,Pedro.Casas@ait.ac.at?subject=[Internet QoE 2017]){: data-role="button" class="button" }.
 
 #### Submission Instructions
 
