@@ -18,12 +18,19 @@ committees:
       people:
        - name:        Pedro Casas
          affiliation: Austrian Institute of Technology, Austria
+         homepage:    http://pcasas.info/
+
        - name:        David Choffnes
          affiliation: Northeastern University, USA
+         homepage:    http://david.choffnes.com/
+
        - name:        Florian Wamser
          affiliation: University of Würzburg, Germany
+         homepage:    http://www.comnet.informatik.uni-wuerzburg.de/staff/members/florian_wamser/
+
        - name:        Fabián Bustamante
          affiliation: Northwestern University, USA
+         homepage:    http://www.cs.northwestern.edu/~fabianb/
 
 ---
 

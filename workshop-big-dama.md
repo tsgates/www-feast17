@@ -18,12 +18,19 @@ committees:
       people:
        - name:        Pedro Casas
          affiliation: Austrian Institute of Technology, Austria
+         homepage:    http://pcasas.info/
+
        - name:        Marco Mellia
          affiliation: Politecnico di Torino, Italy
+         homepage:    http://www.telematica.polito.it/public/faculty/marco-mellia
+
        - name:        Alberto Dainotti
          affiliation: CAIDA, USA
+         homepage:    http://www.caida.org/~alberto/
+
        - name:        Tanja Zseby
          affiliation: TU Wien, Austria
+         homepage:    https://www.nt.tuwien.ac.at/about-us/staff/tanja-zseby/
 
 ---
 
