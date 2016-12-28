@@ -73,6 +73,14 @@ menu:
       url: /workshop-big-dama.html
     - name: Internet QoE
       url: /workshop-internet-qoe.html
+    - name: HotConNet
+      url: /workshop-hotconnet.html
+    - name: Reproducibility
+      url: /workshop-reproducibility.html
+    - name: VR/AR Network
+      url: /workshop-vrar-network.html
+    - name: NetPL
+      url: /workshop-netpl.html
 # - name: Tutorials
 #   submenu:
 #     - name: TBD
