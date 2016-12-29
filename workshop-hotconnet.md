@@ -32,6 +32,8 @@ committees:
          affiliation: Fudan
        - name:        Bruce Davie
          affiliation: VMWare
+       - name:        Haggai Eran
+         affiliation: Mellanox
        - name:        Benjamin Hindman
          affiliation: Mesosphere
        - name:        Tim Hockin
