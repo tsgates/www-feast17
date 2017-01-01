@@ -46,6 +46,8 @@ committees:
          affiliation: JHU
        - name:        Xin Jin
          affiliation: JHU
+       - name:        Thomas Knauth
+         affiliation: TU Dresden
        - name:        Jeongkeun Lee
          affiliation: Barefoot
        - name:        Ben Pfaff
