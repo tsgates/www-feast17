@@ -45,7 +45,7 @@ hotels:
 # {{ page.title }}
 
 The main conference venue is [UCLA Meyer and Renee Luskin Conference Center](http://luskinconferencecenter.ucla.edu/).
-However, there are many other options for accommodation, including AirBnB, available within walking distance or using public transportation.
+However, there are many other options for accommodation, including the Hotel Angeleno and AirBnB, available within walking distance, via hotel shuttle, or using public transportation.
 
 Below is a list of conference hotels:
 
