@@ -1,12 +1,15 @@
-<div data-role="collapsible" data-theme="a" data-content-theme="a" id="{{ hotel.id }}-c">
+<div data-role="collapsible" data-theme="a" data-content-theme="a" id="{{ hotel.id }}-c" {% if include.expanded %}data-collapsed="false"{% endif %}>
   <h3><font class="hotel-header">{{ hotel.name }}</font></h3>
+
+  {% if hotel.image %}
+    <img style="float:right;" src="{{ site.baseurl }}/{{ hotel.image }}" alt="{{ hotel.name }}" />
+  {% endif %}
 
   <p>{{ hotel.address }}<br/>
   {% if hotel.url %}
     <a href="{{ hotel.url }}">Hotel Website</a>
   {% endif %}
   </p>
-
 
   <table class="hotel">
     <tr>
@@ -43,7 +46,11 @@
       <td>{{ hotel.reservation-info }}</td>
     </tr>
     <tr>
-      <th></th>
+      <th>Reservations by phone:</th>
+      <td>{{ hotel.phone }}</td>
+    </tr>
+    <tr>
+      <th>Amenities:</th>
       <td><ul>{% for item in hotel.amenities %}<li>{{ item }}</li>{% endfor %}</ul></td>
     </tr>
     <tr>
