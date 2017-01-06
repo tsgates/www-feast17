@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ACM SIGCOMM 2017 Workshop on on Big Data Analytics and Machine Learning for Data Communication Networks (Big-DAMA 2017)
+title: ACM SIGCOMM 2017 Workshop on Big Data Analytics and Machine Learning for Data Communication Networks (Big-DAMA 2017)
 group: Workshops
 
 dates:
@@ -37,6 +37,8 @@ committees:
 ## {{ page.title }}
 
 ### Call For Papers
+
+<img style="width: 50%; float: right; margin: 10px;" src="{{ site.baseurl }}/images/workshop-Big-DAMA-2017-logo.jpg" alt="Big-DAMA 2017" align="middle">
 
 Big data is transforming the world, and the data communication networks domain is not an exception. While the success of big data and machine learning in data communication networks has been so far mastered by the big players of the Internet - such as Google, network operators, practitioners and researchers have at their reach a matchless opportunity to also ride on the success of the big data wave. The complexity of today networks has dramatically increased in the last few years, making it more important and challenging to design scalable network measurement and analysis techniques and tools. Critical applications such as network monitoring, network security, or dynamic network management require fast mechanisms for online analysis of thousands of events per second, as well as efficient techniques for offline analysis of massive historical data. Besides characterization, making operational sense out of the ever-growing amount of network measurements is becoming a major challenge.
 
