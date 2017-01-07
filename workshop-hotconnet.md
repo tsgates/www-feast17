@@ -51,7 +51,7 @@ committees:
        - name:        Jeongkeun Lee
          affiliation: Barefoot
        - name:        Ben Pfaff
-         affiliation: Stanford
+         affiliation: VMWare
        - name:        Peter Pietzuch
          affiliation: Imperial College London
        - name:        George Porter
