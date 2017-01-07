@@ -96,8 +96,8 @@ menu:
       url: /accommodations.html
     - name: Visa Information
       url: /visa.html
-    # - name: Accomodation
-    #   url: /hotels.html
+    - name: Tourism
+      url: /tourism.html
     # - name: Room Share
     #   url: /room-share.html
     # - name: Travel Grants
