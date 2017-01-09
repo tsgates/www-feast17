@@ -71,8 +71,17 @@ All supporters will receive recognition of their level of contribution in print,
 - Two company-provided promotion items in each tote bag.
 - May supply giveaways or swags.
 - 3 conference registrations included.
+
+<div style="text-align: center;">
+{% for supporter in site.data.supporters
+%}{% if supporter[7] == "gold"
+%}<a href="{{ supporter[2] }}"><img src="{{ site.baseurl }}/images/sponsors/{{ supporter[1] }}" alt="{{ supporter[3] }}" style="height: 90px; margin: 10px" /></a>
+{% endif
+%}{% endfor %}
 </div>
 </div>
+</div>
+
 </p>
 
 <!-- Current Sponsors: -->
@@ -91,8 +100,17 @@ All supporters will receive recognition of their level of contribution in print,
 - One company-provided promotion item in each tote bag
 - May supply giveaways or swags
 - 2 conference registration included
+
+<div style="text-align: center;">
+{% for supporter in site.data.supporters
+%}{% if supporter[7] == "silver"
+%}<a href="{{ supporter[2] }}"><img src="{{ site.baseurl }}/images/sponsors/{{ supporter[1] }}" alt="{{ supporter[3] }}" style="height: 70px; margin: 10px" /></a>
+{% endif
+%}{% endfor %}
 </div>
 </div>
+</div>
+
 </p>
 
 <!-- Current Sponsors: -->
@@ -108,6 +126,15 @@ All supporters will receive recognition of their level of contribution in print,
 - Logo or name visibility (web, print, email, on-site)
 - May supply giveaways or swags
 - 1 conference registration included
+
+<div style="text-align: center;">
+{% for supporter in site.data.supporters
+%}{% if supporter[7] == "bronze"
+%}<a href="{{ supporter[2] }}"><img src="{{ site.baseurl }}/images/sponsors/{{ supporter[1] }}" alt="{{ supporter[3] }}" style="height: 50px; margin: 10px" /></a>
+{% endif
+%}{% endfor %}
 </div>
 </div>
+</div>
+
 </p>
