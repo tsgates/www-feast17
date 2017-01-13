@@ -7,4 +7,6 @@
     [100, "huawei.png", "http://www.huawei.com/", "huawei", 0, 406, 406, "gold"],
 
     [50, "thousand-eyes.jpg", "https://www.thousandeyes.com/", "thousandeyes", 0, 500, 354, "silver"],
+
+    [10, "comcast.jpg", "http://www.comcast.com/", "comcast", 0, 263, 594, "bronze"],
 ]
