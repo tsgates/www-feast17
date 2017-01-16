@@ -18,15 +18,51 @@ committees:
          affiliation: MIT
        - name:        Yibo Zhu
          affiliation: Microsoft Research
- 
 
+    - role: Technical Program Committee
+      people:
+       - name:        Aditya Akella
+         affiliation: University of Wisconsin-Madison
+         homepage:    http://pages.cs.wisc.edu/~akella/
+       - name:        Adam Belay
+         affiliation: MIT / Google
+       - name:        Mosharaf Chowdhury
+         affiliation: University of Michigan, Ann Arbor
+         homepage:    http://www.mosharaf.com/
+       - name:        Nandita Dukkipati
+         affiliation: Google
+         homepage:    https://research.google.com/pubs/author39115.html
+       - name:        Dongsu Han
+         affiliation: KAIST
+         homepage:    http://ina.kaist.ac.kr/~dongsuh/
+       - name:        Arvind Krishnamurthy
+         affiliation: University of Washington
+         homepage:    http://www.cs.washington.edu/people/faculty/arvind
+       - name:        Vishal Misra
+         affiliation: Columbia University
+         homepage:    http://www.cs.columbia.edu/~misra/
+       - name:        Costin Raiciu
+         affiliation: University Politehnica of Bucharest
+         homepage:    http://nets.cs.pub.ro/~costin/
+       - name:        Shachar Raindel
+         affiliation: Microsoft Azure
+       - name:        Luigi Rizzo
+         affiliation: Uni. Di Pisa / Google
+         homepage:    http://info.iet.unipi.it/~luigi/
+       - name:        Kun Tan
+         affiliation: Huawei
+       - name:        Eitan Zahavi
+         affiliation: Mellanox
+         homepage:    http://tx.technion.ac.il/~ezahavi/
+       - name:        Ming Zhang
+         affiliation: Alibaba
 ---
 
 ## {{ page.title }}
 
 ### Call For Papers
 
-Kernel-Bypass Networks (including, but not limited to RDMA and DPDK) have recently drawn much attention from the research community and the industry. Emerging applications such as AI training, distributed storage systems, and software middle-boxes/NFV have been shown to benefit significantly from technologies that bypass the conventional OS network stack. At the same time, recent switch and NIC developments (e.g., RoCE) have paved the way to the large-scale deployment of KBNets. 
+Kernel-Bypass Networks (including, but not limited to RDMA and DPDK) have recently drawn much attention from the research community and the industry. Emerging applications such as AI training, distributed storage systems, and software middle-boxes/NFV have been shown to benefit significantly from technologies that bypass the conventional OS network stack. At the same time, recent switch and NIC developments (e.g., RoCE) have paved the way to the large-scale deployment of KBNets.
 
 We believe that our community must expedite the research on kernel bypass networks. There are significant open questions, for example, regarding the merits of different kernel bypass architectures, how to design control plane and management systems for KBNets, and how to deal with inherent problems such as congestion spreading and deadlocks in such networks. As importantly, much more work is needed to rethink how we design distributed systems and applications to fully take advantage of KBNets.
 
