@@ -47,7 +47,7 @@ Both authors and PC members provide PC conflict information. The PC will review 
 1. You are currently employed at the same institution, have been previously employed at the same institution within the last 12 months, or are going to begin employment at the same institution.
 2. You have a professional partnership as follows:
   - Past or present association as thesis advisor or advisee.
-  - Collaboration on a project, publication, or grant proposal within the past 2 years (i.e., 2014 or later).
+  - Collaboration on a project, publication, or grant proposal within the past 2 years (i.e., 2015 or later).
 
 If there is no basis for PC conflicts provided by authors, those conflicts will be removed. In particular, do not improperly identify PC members as a conflict in an attempt to avoid having an individual review your paper.
 
