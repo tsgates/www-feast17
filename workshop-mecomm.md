@@ -21,7 +21,7 @@ committees:
        - name:        George Pavlou
          affiliation: University College London
        - name:        George Polyzos
-         affiliation: Athens University
+         affiliation: Athens University of Economics and Business
   
     - role: TPC Chairs
       people:
