@@ -1,12 +1,16 @@
 [
-    [350, "ucla-hsseas.jpg", "http://engineering.ucla.edu/", "ucla-hseas", 0, 418, 1050, "host"],
+    [350, "ucla-hsseas.jpg", "http://engineering.ucla.edu/", "ucla-hseas", 0, 418, 1050,    "host"],
 
-    [300, "nsf.jpg", "https://www.nsf.gov/", "nsf", 0, 298, 295, "platinum"],
-    [300, "cisco.png", "http://www.cisco.com/", "cisco", 0, 200, 379, "platinum"],
+    [300, "cisco.png", "http://www.cisco.com/", "cisco", 0, 200, 379,                       "platinum"],
+    [300, "nsf.jpg", "https://www.nsf.gov/", "nsf", 0, 298, 295,                            "platinum"],
 
-    [100, "huawei.png", "http://www.huawei.com/", "huawei", 0, 406, 406, "gold"],
+    [100, "huawei.png", "http://www.huawei.com/", "huawei", 0, 406, 406,                    "gold"],
 
     [50, "thousand-eyes.jpg", "https://www.thousandeyes.com/", "thousandeyes", 0, 500, 354, "silver"],
 
-    [10, "comcast.jpg", "http://www.comcast.com/", "comcast", 0, 263, 594, "bronze"],
+    [10, "akamai.png", "https://www.akamai.com/", "akamai", 0, 195, 450,                    "bronze"],
+    [10, "comcast.jpg", "http://www.comcast.com/", "comcast", 0, 263, 594,                  "bronze"],
+    [10, "netapp.jpeg", "http://www.netapp.com/", "netapp", 0, 478, 1200,                   "bronze"],
+    [10, "telefonica.png", "http://www.tid.es/", "telefonica", 0, 152, 250,                 "bronze"],
+    [10, "vmware.jpg", "http://www.vmware.com/", "vmware", 0, 100, 420,                     "bronze"],
 ]
