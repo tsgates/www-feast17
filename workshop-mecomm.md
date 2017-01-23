@@ -77,6 +77,8 @@ committees:
          affiliation: Aalborg University
        - name:        Sakir Sezer
          affiliation: Queen’s University Belfast
+       - name:        Leandros Tassiulas
+         affiliation: Yale University
        - name:        Nikos Thomos
          affiliation: University of Essex
        - name:        Dirk Trossen
