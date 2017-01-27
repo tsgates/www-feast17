@@ -32,6 +32,87 @@ committees:
          affiliation: Northwestern University, USA
          homepage:    http://www.cs.northwestern.edu/~fabianb/
 
+    - role: Technical Program Committee
+      people:
+       - name:        Özgü Alay
+         affiliation: Simula Research Lab, Norway
+         homepage:    http://vefur.simula.no/~ozgu/
+
+       - name:        Luigi Atzori
+         affiliation: University of Cagliari, Italy
+         homepage:    http://people.unica.it/luigiatzori1/
+
+       - name:        Rocky Chang
+         affiliation: The Hong Kong Polytechnic University, Hong Kong
+         homepage:    http://www4.comp.polyu.edu.hk/~csrchang/
+
+       - name:        Amogh Dhamdhere
+         affiliation: CAIDA, USA
+         homepage:    http://www.caida.org/~amogh/
+
+       - name:        Sebastian Egger
+         affiliation: Austrian Institute of Technology, Austria
+         homepage:    https://www.linkedin.com/in/sebastianegger
+
+       - name:        Marwan Fayed
+         affiliation: University of Stirling, UK
+         homepage:    http://www.cs.stir.ac.uk/~mmf/
+
+       - name:        Markus Fiedler
+         affiliation: BTH Karlskrona, Sweden
+         homepage:    https://www.researchgate.net/profile/Markus_Fiedler2
+
+       - name:        Emir Halepovic
+         affiliation: AT&T Research, USA
+         homepage:    http://www.research.att.com/people/Halepovic_Emir/index.html?fbid=62BoBlTfs4g
+
+       - name:        Oliver Hohlfeld
+         affiliation: RWTH Aachen University, Germany
+         homepage:    http://www.ohohlfeld.com/
+
+       - name:        Tobias Hoßfeld
+         affiliation: University of Duisburg-Essen, Germany
+         homepage:    https://www.mas.wiwi.uni-due.de/en/team/tobias-hossfeld/
+
+       - name:        Te-Yuan Huang
+         affiliation: Netflix, USA
+         homepage:    https://www.linkedin.com/in/tehuang
+
+       - name:        Lucjan Janowski
+         affiliation: AGH University of Science and Technology, Poland
+         homepage:    https://www.researchgate.net/profile/Lucjan_Janowski/publications
+
+       - name:        Steven Latré
+         affiliation: University of Antwerpen, Belgium
+         homepage:    https://www.uantwerpen.be/nl/personeel/steven-latre/
+
+       - name:        Raimund Schatz
+         affiliation: Austrian Institute of Technology, Austria
+         homepage:    https://www.schatz.cc/
+
+       - name:        Zubair Shafiq
+         affiliation: University of Iowa, USA
+         homepage:    http://homepage.divms.uiowa.edu/~mshafiq/
+
+       - name:        Lea Skorin-Kapov
+         affiliation: University of Zagreb, Croatia
+         homepage:    http://www.fer.unizg.hr/ztel/en/research/research_groups/netmedia/people/lea_skorin-kapov
+
+       - name:        Srikanth Sundaresan
+         affiliation: University of California Berkeley, USA
+         homepage:    http://www1.icsi.berkeley.edu/~srikanth/
+
+       - name:        Marcelo Torres
+         affiliation: Akamai, USA
+         homepage:    https://www.linkedin.com/in/marcelo-torres-a053149b
+
+       - name:        Martín Varela
+         affiliation: VTT Technical Research Center, Finland
+         homepage:    http://martin.varela.fi/
+
+       - name:        Thomas Zinner
+         affiliation: University of Würzburg, Germany
+         homepage:    http://www.comnet.informatik.uni-wuerzburg.de/staff/members/thomas_zinner/
 ---
 
 ## {{ page.title }}
