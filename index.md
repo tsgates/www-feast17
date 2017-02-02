@@ -12,6 +12,10 @@ The organizing committee is delighted to invite you to ACM SIGCOMM 2017, to be h
 
 SIGCOMM is the flagship annual conference of the ACM Special Interest Group on Data Communication (SIGCOMM) on the applications, technologies, architectures, and protocols for computer communication.
 
+<center>
+<a href="http://www.sigcomm.org/content/special-statement-freedom-mobility" target="_blank">Special statement on freedom of mobility</a>
+</center>
+
 ## <i class="fa fa-newspaper-o"></i> News
 
 {% include news.html %}
