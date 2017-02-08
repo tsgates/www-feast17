@@ -25,6 +25,47 @@ committees:
          affiliation: University of Texas at Austin, USA
        - name:        K.K Ramakrishnan
          affiliation: University of California, Riverside, USA
+
+    - role: Technical Program Committee
+      people:
+       - name:        Fred Baker
+         affiliation: Cisco
+       - name:        Bo Begole
+         affiliation: Huawei
+       - name:        Bob Briscoe
+         affiliation: Simula
+       - name:        Jiasi Chen
+         affiliation: University of California
+       - name:        Nuno Correia
+         affiliation: Universidade Nova de Lisboa
+       - name:        Sujit Dey
+         affiliation: University of California
+       - name:        Philip Godfrey
+         affiliation: University of Illinois at Urbana-Champaign
+       - name:        Mansoor Hanif
+         affiliation: BT
+       - name:        Guenter Klas
+         affiliation: Vodafone
+       - name:        Baochun Li
+         affiliation: University of Toronto
+       - name:        Jiangchuan Liu
+         affiliation: Simon Fraser University
+       - name:        John Lui
+         affiliation: The Chinese University of Hong Kong
+       - name:        Klara Nahrstedt
+         affiliation: University of Illinois Urbana-Champaign
+       - name:        Shiv Panwar
+         affiliation: New York University
+       - name:        Natasha Rooney
+         affiliation: GSMA
+       - name:        Randall Stewart
+         affiliation: Netflix
+       - name:        Ning Wang
+         affiliation: University of Surrey
+       - name:        Yao Wang
+         affiliation: New York University
+       - name:        Zhili Zhang
+         affiliation: University of Minnesota
 ---
 
 ## {{ page.title }}
