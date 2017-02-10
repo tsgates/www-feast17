@@ -35,11 +35,11 @@ committees:
        - name:        Bob Briscoe
          affiliation: Simula
        - name:        Jiasi Chen
-         affiliation: University of California
+         affiliation: University of California, Riverside
        - name:        Nuno Correia
          affiliation: Universidade Nova de Lisboa
        - name:        Sujit Dey
-         affiliation: University of California
+         affiliation: University of California, San Diego
        - name:        Philip Godfrey
          affiliation: University of Illinois at Urbana-Champaign
        - name:        Mansoor Hanif
