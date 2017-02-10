@@ -96,7 +96,7 @@ We solicit stimulating, original, previously unpublished ideas on completed work
 
 Submissions must be original, unpublished work, and not under consideration at another conference or journal. Submitted papers must be at most six (6) pages long, including all figures, tables, references, and appendices in two-column 10pt ACM format. Papers must include author’s names and affiliations for single-blind peer reviewing by the PC. Authors of accepted papers are expected to present their papers at the workshop.
 
-Paper registration and submission can be done via HotCRP at: [https://sigcomm17vrar-network.hotcrp.com/](https://sigcomm17vrar-network.hotcrp.com/).
+Paper registration and submission can be done via HotCRP at: [https://sigcomm17vrar.hotcrp.com/](https://sigcomm17vrar.hotcrp.com/).
 
 ### Important Dates
 
