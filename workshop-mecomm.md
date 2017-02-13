@@ -15,14 +15,22 @@ committees:
     - role: Workshop Co-Chairs
       people:
        - name:        Jon Crowcroft
-         affiliation : University of Cambridge
-       - name:       George Pavlou
-         affiliation: University College London
-       - name:        George Polyzos
-         affiliation: Athens University
+         affiliation: University of Cambridge
        - name:        Joe Mambretti
          affiliation: Northwestern University
+       - name:        George Pavlou
+         affiliation: University College London
+       - name:        George Polyzos
+         affiliation: Athens University of Economics and Business
   
+    - role: TPC Chairs
+      people:
+
+       - name:        Ioannis Psaras
+         affiliation: University College London
+       - name:        Kun Yang
+         affiliation: University of Essex
+
     - role: Organizing Committee
       people:
        - name:        Mays AL-Naday
@@ -32,58 +40,57 @@ committees:
        - name:        Martin J Reed
          affiliation: University of Essex
 
-    - role: TPC Chairs
-      people:
-
-       - name:        Ioannis Psaras
-         affiliation: University College London
-       - name:        Kun Yang
-         affiliation: University of Essex
-
     - role: Technical Program Committee
       people:
-       - name:        Ioannis Psaras
-         affiliation: University College London
-       - name:        K.K. Ramakrishnan
-         affiliation: University of California, Riverside
-       - name:        Toru Hasegawa
-         affiliation: Osaka University
-       - name:        Christos Papadopoulos
-         affiliation: Colorado State University
-       - name:        Spiros Spirou
-         affiliation: Amazon (UK)
-       - name:        Chathura Magurawalage
-         affiliation: University of Essex
-       - name:        Ke XU
-         affiliation: Tsinghua University
-       - name:        Gareth Tyson
-         affiliation: Queen Mary University of London
-       - name:        Sakir Sezer
-         affiliation: Queen’s University Belfast
-       - name:        Ning Wang
-         affiliation: University of Surrey
-       - name:        George Xylomenos
-         affiliation: Athens University of Economics and Business
-       - name:        Dirk Trossen
-         affiliation: InterDigital Europe
-       - name:        Nikos Thomos
-         affiliation: University of Essex
-       - name:        Janne Riihijärvi
-         affiliation: RWTH Aachen University
-       - name:        Martin Reed
-         affiliation: University of Essex
-       - name:        Konstantinos V. Katsaros
-         affiliation: Intracom S.A. Telecom Solutions
-       - name:        Hamed Haddadi
-         affiliation: Queen Mary University of London
-       - name:        Eduard Escalona
-         affiliation: Fundacio Privada I2CAT, Internet Innovacio Digital A Catalunya (ES)
-       - name:        Carolina Canales
-         affiliation: Ericsson España S.A. (ES)
+
        - name:        Mohammed AL-Khalidi
          affiliation: University of Essex
        - name:        Mays AL-Naday
          affiliation: University of Essex
+       - name:        Carolina Canales
+         affiliation: Ericsson España S.A. (ES)
+       - name:        Eduard Escalona
+         affiliation: Fundacio Privada I2CAT, Internet Innovacio Digital A Catalunya (ES)
+       - name:        Hamed Haddadi
+         affiliation: Queen Mary University of London
+       - name:        Toru Hasegawa
+         affiliation: Osaka University
+       - name:        Konstantinos V. Katsaros
+         affiliation: Intracom S.A. Telecom Solutions
+       - name:        Jiangchuan LIU
+         affiliation: Simon Fraser University
+       - name:        Chathura Magurawalage
+         affiliation: University of Essex
+       - name:        Christos Papadopoulos
+         affiliation: Colorado State University
+       - name:        Andrea Passarella
+         affiliation: National Research Council of Italy
+       - name:        Ioannis Psaras
+         affiliation: University College London
+       - name:        K.K. Ramakrishnan
+         affiliation: University of California, Riverside
+       - name:        Martin Reed
+         affiliation: University of Essex
+       - name:        Janne Riihijärvi
+         affiliation: RWTH Aachen University
+       - name:        Stefan Schmid
+         affiliation: Aalborg University
+       - name:        Sakir Sezer
+         affiliation: Queen’s University Belfast
+       - name:        Leandros Tassiulas
+         affiliation: Yale University
+       - name:        Nikos Thomos
+         affiliation: University of Essex
+       - name:        Dirk Trossen
+         affiliation: InterDigital Europe
+       - name:        Gareth Tyson
+         affiliation: Queen Mary University of London
+       - name:        Ning Wang
+         affiliation: University of Surrey
+       - name:        Ke XU
+         affiliation: Tsinghua University
+       - name:        George Xylomenos
+         affiliation: Athens University of Economics and Business
 ---
 
 

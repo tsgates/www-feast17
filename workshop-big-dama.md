@@ -32,6 +32,91 @@ committees:
          affiliation: TU Wien, Austria
          homepage:    https://www.nt.tuwien.ac.at/about-us/staff/tanja-zseby/
 
+    - role: Technical Program Committee
+      people:
+       - name:        Isabel Amigo
+         affiliation: Télécom Bretagne, France
+         homepage:    http://perso.telecom-bretagne.eu/isabelamigo/
+
+       - name:        Arian Bär
+         affiliation: BMW Group, Germany
+         homepage:    https://www.linkedin.com/in/arian-b%C3%A4r-6a056089
+
+       - name:        Elena Baralis
+         affiliation: Politecnico di Torino, Italy
+         homepage:    http://dbdmg.polito.it/wordpress/people/elena-baralis/
+
+       - name:        Pere Barlet-Ros
+         affiliation: UPC BarcelonaTech, Spain
+         homepage:    http://people.ac.upc.edu/pbarlet/
+
+       - name:        Alessandro D'Alconzo
+         affiliation: Austrian Institute of Technology, Austria
+         homepage:    https://www.researchgate.net/profile/Alessandro_DAlconzo
+
+       - name:        Constantine Dovrolis
+         affiliation: Georgia Tech, USA
+         homepage:    http://www.cc.gatech.edu/fac/Constantinos.Dovrolis/
+
+       - name:        Idilio Drago
+         affiliation: Politecnico di Torino, Italy
+         homepage:    https://sites.google.com/site/idiliod/
+
+       - name:        Pierdomenico Fiadino
+         affiliation: EURECAT, Spain
+         homepage:    http://eurecat.academia.edu/PierdomenicoFiadino
+
+       - name:        Marco Fiore
+         affiliation: CNR-IEIIT, Italy
+         homepage:    http://perso.citi.insa-lyon.fr/mfiore/
+
+       - name:        Tobias Flach
+         affiliation: Google, USA
+         homepage:    https://research.google.com/pubs/TobiasFlach.html
+
+       - name:        Kensuke Fukuda
+         affiliation: NII Tokyo, Japan
+         homepage:    http://researchmap.jp/kensuke/
+
+       - name:        Félix Iglesias Vázquez
+         affiliation: TU Wien, Austria
+         homepage:    https://www.nt.tuwien.ac.at/about-us/staff/felix-iglesias/
+
+       - name:        Hyunchul Kim
+         affiliation: Seoul National University, South Korea
+         homepage:    http://mmlab.snu.ac.kr/~hkim/
+
+       - name:        Federico Larroca
+         affiliation: Universidad de la República, Uruguay
+         homepage:    http://iie.fing.edu.uy/~flarroca/
+
+       - name:        Matthew Luckie
+         affiliation: University of Waikato, New Zealand
+         homepage:    http://www.caida.org/~mjl/
+
+       - name:        Ian Marsh
+         affiliation: RISE SICS, Sweden
+         homepage:    https://www.sics.se/people/ian-marsh
+
+       - name:        Pietro Michiardi
+         affiliation: EURECOM, France
+         homepage:    http://www.eurecom.fr/~michiard/
+
+       - name:        Philippe Owezarski
+         affiliation: CNRS, France
+         homepage:    https://homepages.laas.fr/owe/
+
+       - name:        Fabio Ricciato
+         affiliation: University of Ljubljana, Slovenia
+         homepage:    http://www.fri.uni-lj.si/en/fabio-ricciato
+
+       - name:        Dario Rossi
+         affiliation: Télécom ParisTech, France
+         homepage:    http://perso.telecom-paristech.fr/~drossi/
+
+       - name:        Narseo Vallina Rodriguez
+         affiliation: IMDEA Networks, Spain
+         homepage:    http://people.networks.imdea.org/~narseo_vallina/
 ---
 
 ## {{ page.title }}
