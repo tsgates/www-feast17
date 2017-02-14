@@ -34,35 +34,48 @@ committees:
 
     - role: Technical Program Committee
       people:
+       - name:        Thomas Michael Bonhert
+         affiliation: ZHAW
+       - name:        Jiannong Cao
+         affiliation: Hong Kong Polytechnical University
        - name:        Xu Chen
          affiliation: University of Goettingen
+       - name:        Xiuzhen Cheng
+         affiliation: George Washington University
+       - name:        Aaron Yi Ding
+         affiliation: Technical University of Munich
+       - name:        Ashutosh Dutta
+         affiliation: Columbia University
        - name:        Marco Fiore
          affiliation: CNR
+       - name:        Xiaoming Fu
+         affiliation: University of Goettingen
        - name:        Toru Hasegawa
-         affiliation: Osaka University 
+         affiliation: Osaka University
        - name:        Pan Hui
-         affiliation: HKUST/DT Innovation Laboratories 
+         affiliation: HKUST
+       - name:        Rittwik Jana
+         affiliation: ATT
+       - name:        Eddie Kohler
+         affiliation: HotCRP Author
        - name:        Lito Kriara
          affiliation: Disney Research
-       - name:        Ravi Kokku
-         affiliation: IBM T.J. Watson Research Center
        - name:        Jeremie Leguay
          affiliation: Huawei
-       - name:        Keun-Woo Lim
-         affiliation: Telecom ParisTech
-       - name:        Xin Liu
-         affiliation: UC Davis
-       - name:        Henrik Lundgren
-         affiliation: Technicolor
-       - name:        Kaushik Roy
+       - name:        Wenzhong Li
+         affiliation: Nanjing University
+       - name:        Thomas Magedanz
+         affiliation: Fraunhofer Fokus
+       - name:        Tamer Nadeem
+         affiliation: Old Dominion University
+       - name:        Michele Nogueira
+         affiliation: Federal University of Parana
+       - name:        Kaushik Roy Chowdhury
          affiliation: Northeastern University
-       - name:        Shruti Sanadhya
-         affiliation: HP
+       - name:        Stefano Secci
+         affiliation: UPMC
        - name:        Peter Steenkiste
-         affiliation: CMU
-       - name:        Lixia Zhang
-         affiliation: UCLA
-
+         affiliation: Carnegie Mellon University
 ---
 
 ## {{ page.title }}
