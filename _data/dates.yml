@@ -9,12 +9,12 @@
 main-registration:
   track: main
   info: Paper title and abstract registration deadline
-  date: January 20, 2017 (5:00pm PST)
+  date: <del>January 20, 2017 (5:00pm PST)</del>
   important: true
 main-submission:
   track: main
   info: Complete paper submissions deadline
-  date: January 27, 2017 (5:00pm PST)
+  date: <del>January 27, 2017 (5:00pm PST)</del>
   important: true
 main-notification:
   track: main
@@ -29,7 +29,7 @@ main-notification:
 tutorials-proposals:
   track: tutorials
   info: Proposals due
-  date: February 17, 2017
+  date: <del>February 17, 2017</del>
   important: true
 tutorials-notification:
   track: tutorials
@@ -39,16 +39,16 @@ tutorials-notification:
 workshops-proposals:
   track: workshops
   info: Proposals deadline
-  date: November 23, 2016
+  date: <del>November 23, 2016</del>
   important: true
 workshops-notification:
   track: workshops
   info: Announcement of workshops selected
-  date: December 4, 2016
+  date: <del>December 4, 2016</del>
 workshops-papers-due:
   track: workshops
   info: Workshop Call for Papers due
-  date: December 22, 2016
+  date: <del>December 22, 2016</del>
 
 posters-submission:
   track: posters

@@ -34,7 +34,7 @@ menu:
   icon: fa-home
 - name: Supporters
   url: /supporters.html
-  icon: fa-handshake
+  icon: fa-handshake-o
 # - name: Conference
 #   submenu:
     # - name: Awards
@@ -118,6 +118,8 @@ menu:
       url: /submission.html
     - name: Call for Posters & Demos
       url: /cf-posters.html
+    - name: Student Research Competition
+      url: /src.html
     # - name: Call for Industrial Demos
     #   url: /cf-industrial-demos.html
     - name: Call for Tutorials
