@@ -86,7 +86,7 @@ Please note that product-focused, as opposed to research-focused, industrial dem
 
 Presenting a poster is a great opportunity, especially for students, to obtain interesting and valuable feedback on ongoing research from a knowledgeable crowd at the conference. Accepted posters and demos will be published as a two-page abstract for the archived conference proceedings. We will summarize accepted submissions in an editorial note in the SIGCOMM newsletter, the Computer Communication Review (CCR). Students who are submitting posters are highly encouraged to examine if they are eligible for student travel grants.
 
-Poster and Demo submissions may qualify for the Student Research Competition.
+Poster and Demo submissions may qualify for the [Student Research Competition](src.html).
 
 ## How to Present a Poster On-site?
 
@@ -118,7 +118,7 @@ The posters and demos submitted to SIGCOMM 2017 must be original and cannot be c
 
 ## Where To Submit
 
-Please submit your abstract at <https://sigcomm17posters.hotcrp.com/>. Submissions are single blind, so please include authors' names and affiliation. When submitting (a poster), indicate if the submission should be considered for the ACM SIGCOMM Student Research Competition (SRC).
+Please submit your abstract at <https://sigcomm17posters.hotcrp.com/>. Submissions are single blind, so please include authors' names and affiliation. When submitting (a poster), indicate if the submission should be considered for the [ACM SIGCOMM Student Research Competition (SRC)](src.html).
 
 ## <i class="fa fa-calendar"></i> Important Dates
 
