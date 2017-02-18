@@ -116,8 +116,8 @@ menu:
       url: /cfp.html
     - name: Submission Requirements
       url: /submission.html
-    # - name: Call for Posters & Demos
-    #   url: /cf-posters.html
+    - name: Call for Posters & Demos
+      url: /cf-posters.html
     # - name: Call for Industrial Demos
     #   url: /cf-industrial-demos.html
     - name: Call for Tutorials
