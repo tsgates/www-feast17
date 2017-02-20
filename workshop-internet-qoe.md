@@ -5,9 +5,9 @@ group: Workshops
 
 dates:
     - info: Paper registration deadline
-      date: March 6, 2017
+      date: <del>March 6, 2017</del> March 17, 2017
     - info: Paper submission deadline
-      date: March 13, 2017
+      date: <del>March 13, 2017</del> March 24, 2017
     - info: Paper acceptance notification
       date: April 28, 2017
     - info: Camera ready deadline
