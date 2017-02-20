@@ -14,6 +14,7 @@
     [10, "netapp.jpeg", "https://www.netapp.com/", "netapp", 0, 478, 1200,                   "bronze"],
     [10, "telefonica.png", "http://www.tid.es/", "telefonica", 0, 152, 250,                  "bronze"],
     [10, "vmware.jpg", "http://www.vmware.com/", "vmware", 0, 100, 420,                      "bronze"],
+    [10, "bigdama.jpg", "https://bigdama.ait.ac.at/", "bigdama", 0, 800, 399,                "bronze"],
 ],
 [
     "uncommitted": {
