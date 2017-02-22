@@ -29,7 +29,7 @@ committees:
     - role: Technical Program Committee
       people:
        - name:        Fred Baker
-         affiliation: Cisco
+         affiliation: Self-employed
        - name:        Bo Begole
          affiliation: Huawei
        - name:        Bob Briscoe
