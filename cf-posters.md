@@ -20,7 +20,7 @@ committees:
 
     - role: Program Commitee
       people:
-      - name:        Emile Abend
+      - name:        Emile Aben
         affiliation: RIPE NCC
       - name:        Randy Bush
         affiliation: IIJ and Dragon Research
