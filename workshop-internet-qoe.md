@@ -107,7 +107,7 @@ committees:
          homepage:    https://www.linkedin.com/in/marcelo-torres-a053149b
 
        - name:        Martín Varela
-         affiliation: VTT Technical Research Center, Finland
+         affiliation: EXFO, Finland
          homepage:    http://martin.varela.fi/
 
        - name:        Thomas Zinner
