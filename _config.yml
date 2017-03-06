@@ -35,12 +35,15 @@ menu:
 - name: Supporters
   url: /supporters.html
   icon: fa-handshake-o
-# - name: Conference
-#   submenu:
-    # - name: Awards
-    #   url: /awards.html
+- name: Conference
+  icon: fa-bar-chart
+  submenu:
     # - name: Program
     #   url: /program.html
+    # - name: Awards
+    #   url: /awards.html
+    - name: Social Events
+      url: /social-events.html
 - name: Program Committee
   url: /tpc.html
   icon: fa-users
@@ -58,8 +61,6 @@ menu:
     #   url: /topic-preview.html
     # - name: Mentoring
     #   url: /mentoring.html
-    # - name: Social Events
-    #   url: /social-events.html
 - name: Workshops
   icon: fa-bullhorn
   submenu:
