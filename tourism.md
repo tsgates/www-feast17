@@ -7,7 +7,7 @@ group: Local Information
 # {{ page.title }}
 
 
-## Trasnportation
+## Transportation
 
 ### Methods
 
@@ -96,7 +96,7 @@ group: Local Information
 <div class="mySlides fade">
 <div class="numbertext">2 / 4</div>
 <img class="picture"  src="images/tourism/napavalley.jpg">
-<div class="text">Nappa Valley Fine Dining</div>
+<div class="text">Napa Valley Fine Dining</div>
 </div>
 
 <div class="mySlides fade">
@@ -407,7 +407,7 @@ group: Local Information
 *	Surfing/Stand up paddleboarding
 *	Paragliding in Malibu
 
-In addition to the above recommendations, you may find more complete list of activities in [Trip Adviser](https://www.tripadvisor.com/Attractions-g32655-Activities-Los_Angeles_California.html) this site.
+In addition to the above recommendations, you may find more complete list of activities in [Trip Adviser](https://www.tripadvisor.com/Attractions-g32655-Activities-Los_Angeles_California.html).
 
 <br><br><br><br><br><br><br>
  
