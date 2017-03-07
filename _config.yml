@@ -82,6 +82,8 @@ menu:
       url: /workshop-vrar-network.html
     - name: NetPL
       url: /workshop-netpl.html
+    - name: N2Women
+      url: /workshop-n2women.html
 # - name: Tutorials
 #   submenu:
 #     - name: TBD
