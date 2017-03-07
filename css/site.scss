@@ -28,6 +28,11 @@
 
 /* main content */
 
+p {
+	text-align: justify;
+	text-justify: inter-word;
+}
+
 .border {
     border: 1px solid #BBB;
     margin-top: 2em;
@@ -507,8 +512,117 @@ a.button{
 
 }
 
+
 red {
     color: red;
+}
+
+/* --------------------------------Style sheet for Slides in Tourism--------------------------*/
+
+
+
+/* Slideshow container */
+.slideshow-container,{
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  margin-left: 20px;
+}
+
+/* Next & previous buttons */
+.prev, .next{
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text{
+  color: white;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 2.7em;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot, .dot2, .dot3, .dot4, .dot5, .dot6, .dot7{
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover, .dot2:hover, .dot3:hover, .dot4:hover, .dot5:hover, .dot6:hover, .dot7:hover {
+  background-color: #717171;
+}
+
+.picture{
+	width: 500px;
+	height: 300px;
+}	
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+#source p {
+	font-size: .6em;
+	margin: 0;
+	padding: 0;
 }
 
 /* Layout rules
@@ -613,3 +727,26 @@ red {
         overflow-x: visible;
     }
 }
+
+#test img{
+	width:500px;
+	float: right;
+}
+
+.caption{
+	position:absolute;
+	left:0;
+	bottom:0;
+	padding-top:16px!important;
+	padding-bottom:16px!important;
+	color:white!important;
+	background-color:#000000!important;
+	content:"";
+	display:table;
+	clear:both;
+	font-size:18px!important;
+	padding:0.01em 16px;
+	float: right;
+	}
+
+	.display-container{position:relative}
