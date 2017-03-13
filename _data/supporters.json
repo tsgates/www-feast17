@@ -5,7 +5,7 @@
     [300, "facebook.png", "https://research.fb.com/", "facebook", 0, 713, 2026,              "platinum"],
 
     [100, "huawei.png", "https://www.huawei.com/", "huawei", 0, 406, 406,                    "gold"],
-    [100, "alibaba.png", "https://www.alibaba.com/", "alibaba", 0, 600, 72,                  "gold"],
+    [100, "alibaba.jpg", "https://www.alibaba.com/", "alibaba", 0, 600, 178,                 "gold"],
 
     [50, "thousand-eyes.jpg", "https://www.thousandeyes.com/", "thousandeyes", 0, 500, 354,  "silver"],
 
