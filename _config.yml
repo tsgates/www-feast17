@@ -84,10 +84,13 @@ menu:
       url: /workshop-netpl.html
     - name: N2Women
       url: /workshop-n2women.html
-# - name: Tutorials
-#   submenu:
-#     - name: TBD
-#       url: /tbd2.html
+- name: Tutorials
+  icon: fa-newspaper-o
+  submenu:
+    - name: C2C
+      url: /tutorial-c2c.html
+    - name: P4→NetFPGA
+      url: /tutorial-P4-NetFPGA.html
 # - name: Registration
 #   url: /registration.html
 - name: Local Information
@@ -115,7 +118,7 @@ menu:
 - name: Calls
   icon: fa-bullhorn
   submenu:
-    - name: Call for Papers
+    - name: <del>Call for Papers</del>
       url: /cfp.html
     - name: Submission Requirements
       url: /submission.html

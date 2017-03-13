@@ -57,7 +57,7 @@ The registration is through the [SIGCOMM conference registration](#TBD).
 
 <!-- https://docs.google.com/spreadsheets/d/1J-lppI-_qcclJbmP3DN_xhgKnJnL6S344BUQQ9JbvIE/edit#gid=406283272 -->
 
-{% include program.html type="n2women" %}
+{% include program-online.html type="n2women" %}
 
 ## Mentoring Program
 

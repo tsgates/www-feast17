@@ -1,6 +1,6 @@
-{% if paper.link   != "" %}{% assign has_link   = true %}{% else %}{% assign has_link   = nil %}{% endif %}
-{% if paper.slides != "" %}{% assign has_slides = true %}{% else %}{% assign has_slides = nil %}{% endif %}
-{% if paper.video  != "" %}{% assign has_video  = true %}{% else %}{% assign has_video  = nil %}{% endif %}
+{% if paper.link   %}{% assign has_link   = true %}{% else %}{% assign has_link   = nil %}{% endif %}
+{% if paper.slides %}{% assign has_slides = true %}{% else %}{% assign has_slides = nil %}{% endif %}
+{% if paper.video  %}{% assign has_video  = true %}{% else %}{% assign has_video  = nil %}{% endif %}
   
 {% comment %}<!-- make space for the button(s) -->{% endcomment %}
 {% if has_link or  has_slides %}{% assign item_style = 'style="width: 85%"' %}{% endif %}{%

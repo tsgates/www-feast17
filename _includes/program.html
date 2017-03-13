@@ -1,6 +1,6 @@
 <div id="{{ include.type }}-program" class="{{ include.type }}-program">
   <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
-    {% for item in site.data.program[include.type] %}
+    {% for item in include.data %}
       {% if    item.type == "day"         %}
         {% assign progdate = item.time | downcase | split: "," | first %}{% assign progitemclass = "prog-" | append: progdate %}
         <li class="prog-header prog-no-filter ui-bar-a prog-item {{ progitemclass }}">
@@ -16,6 +16,8 @@
         {% assign paper = item %}{% include tprog-paper.html %}
       {% elsif item.type == "session"     %}
         {% assign session = item %}{% include tprog-session.html %}
+      {% elsif item.type == "tutorial"     %}
+        {% assign session = item %}{% include tprog-tutorial.html %}
       {% elsif item.type == "social"      %}
         {% include tprog-social.html %}
       {% elsif item.type == "talk"        %}

@@ -2,14 +2,14 @@
   {% for committee in include.committees %}
     <li data-role="list-divider">{{ committee.role }}</li>
     {% for person in committee.people %}
-    <li data-icon="false">
-      {% if person.homepage %}<a href="{{ person.homepage }}" target="_blank" rel="external">{% endif %}
-        <div class="ui-grid-a">
-          <div class="ui-block-a"><p>{{ person.name }}</p></div>
-          <div class="ui-block-b"><p>{{ person.affiliation }}</p></div>
-        </div>
-      {% if person.homepage %}</a>{% endif %}
-    </li>  
+      <li data-icon="false">
+        {% if person.homepage %}<a href="{{ person.homepage }}" target="_blank" rel="external">{% endif %}
+          <div class="ui-grid-a">
+            <div class="ui-block-a"><p>{{ person.name }}</p></div>
+            <div class="ui-block-b"><p>{{ person.affiliation }}</p></div>
+          </div>
+          {% if person.homepage %}</a>{% endif %}
+      </li>  
     {% endfor %}
   {% endfor %}
 </ul>
