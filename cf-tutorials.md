@@ -4,23 +4,23 @@ title: Call for Tutorials
 group: Calls
 ---
 
-## {{ page.title }}
+# {{ page.title }}
 
 We seek to extend the SIGCOMM experience by tutorials on selected topics given by renowned scientists and	practitioners in their fields. We therefore solicit proposals for full-day or half-day tutorials on topics relevant to the SIGCOMM community.
 
 Tutorials must cover advanced topics that fit the scope of SIGCOMM and are of current interest to the SIGCOMM community. Tutorials may be lectures, interactive workshops, hands-on training, or any combination of the above. Exploring diverse ways of interacting with the audience and cross disciplinary topics are welcome.
 
-### Where To Submit
+## Where To Submit
 
 Tutorial proposals should be submitted in PDF format, should not exceed three (3) pages in total, and be sent to [tutorialchairs17@sigcomm.org](mailto:tutorialchairs17@sigcomm.org?subject=[SIGCOMM'2017] Tutorial Proposal).
 
 [Submit Tutorial Proposal](mailto:tutorialchairs17@sigcomm.org?subject=[SIGCOMM'2017] Tutorial Proposal){: data-role="button" class="button" }.
 
-### <i class="fa fa-calendar"></i> Important dates
+## <i class="fa fa-calendar"></i> Important dates
 
 {% include dates.html track = "tutorials" %}
 
-### Proposals must include:
+## Proposals must include:
 
 - A **motivation** for the tutorial (why this, why now, why at SIGCOMM?)
 
@@ -36,7 +36,7 @@ Tutorial proposals should be submitted in PDF format, should not exceed three (3
 
 - Any **restrictions** (e.g., number of participants)
 
-### Important notes:
+## Important notes:
 
 - It is *recommended* that there are up to three speakers for a full-day tutorial and up to two speakers for a half-day tutorial.
 

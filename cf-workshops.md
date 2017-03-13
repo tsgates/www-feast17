@@ -4,7 +4,7 @@ title: Call for Workshop Proposals
 group: Calls
 ---
 
-## {{ page.title }}
+# {{ page.title }}
 
 SIGCOMM 2017 is soliciting proposals for new and recurring workshops. SIGCOMM 2017 will hold multiple one-day workshops in conjunction with the conference, to be held in Los Angeles, CA, USA from August 21 to 25, 2017. Workshops will take place on Monday, August 21 and Friday, August 25.
 
@@ -44,24 +44,22 @@ If you have questions about your workshop proposal, do not hesitate to contact t
 
 [Contact Workshop Chairs](mailto:workshopchairs17@sigcomm.org){: data-role="button" class="button" }.
 
-### Where To Submit
+## Where To Submit
 
 Please submit the workshop proposals in PDF format by sending it to the Workshop Chairs over email by the deadline below.
 
 [Submit Workshop Proposal](mailto:workshopchairs17@sigcomm.org?subject=[SIGCOMM'2017] Workshop Proposal){: data-role="button" class="button" }.
 
-### <i class="fa fa-calendar"></i> Important dates
+## <i class="fa fa-calendar"></i> Important dates
 
 {% include dates.html track = "workshops" %}
 
 Note that there are only three weeks between the notification and the final CFP.  Thus, we reiterate that you contact your workshop's potential PC members before submitting the proposal.
 
-### Preliminary Information for Workshop Planning
+## Preliminary Information for Workshop Planning
 
 {% include dates.html track = "workshops-planning" %}
 
 In order for the workshops to be synchronized with preparations for the main conference and with travel grants, the dates above must be followed strictly by all workshops. Please contact the SIGCOMM 2017 Workshop co-chairs at `workshopchairs17@sigcomm.org` with any questions.
-
-
 
 <!-- <a href="files/cft.pdf" rel="external" data-role="button" class="dl-button button">Download this call as a PDF</a> -->
