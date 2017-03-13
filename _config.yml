@@ -44,9 +44,12 @@ menu:
     #   url: /awards.html
     - name: Social Events
       url: /social-events.html
-- name: Program Committee
-  url: /tpc.html
-  icon: fa-users
+    - name: Program Committee
+      url: /tpc.html
+      # icon: fa-users
+    - name: Organizing Committee
+      url: /org-committee.html
+      # icon: fa-users
     # - name: Posters
     #   url: /posters.html
     # - name: Demos
@@ -112,9 +115,6 @@ menu:
     #   url: /n2women-fellowship.html
     # - name: N2Women Travel Grant
     #   url: /n2women-travel-grant.html
-- name: Organizing Committee
-  url: /org-committee.html
-  icon: fa-users
 - name: Calls
   icon: fa-bullhorn
   submenu:
