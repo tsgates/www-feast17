@@ -91,7 +91,7 @@ Topics include but are not limited to:
 
 #### Submission Instructions
 
-Submissions must describe original, previously unpublished research, not currently under review by another conference or journal. Papers must be submitted electronically via the submission site. The length of papers must be no more than **6 pages**, including tables and figures. The cover page must contain the name and affiliation of author(s) for **single-blind** peer reviewing by the program committee. Each submission will receive **at least three independent blind** reviews from the TPC. At least one of the authors of every accepted paper must register and present their work at the workshop.
+Submissions must describe original, previously unpublished research, not currently under review by another conference or journal. Papers must be submitted electronically via the submission site. The length of papers must be no more than **6 pages**, including tables, figures __<red>and references, using the same template as SIGCOMM submission</red>__ ([SIGCOMM submission instructions](submission.html)).  The cover page must contain the name and affiliation of author(s) for **single-blind** peer reviewing by the program committee. Each submission will receive **at least three independent blind** reviews from the TPC. At least one of the authors of every accepted paper must register and present their work at the workshop.
 
 Please submit your paper via [https://sigcomm17kbnets.hotcrp.com/](https://sigcomm17kbnets.hotcrp.com/).
 
