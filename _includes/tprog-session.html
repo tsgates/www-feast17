@@ -1,17 +1,17 @@
 <li class="ui-li ui-bar-{% if include.is_break %}b{% else %}a{% endif %} prog-item ui-li-divider {{ progitemclass }} {% if forloop.last %}listlast{% endif %} {% if forloop.last %}listlast{% endif %}" data-role="list-divider">
   <h3>
     {{ session.time }}
-    {% if session.link %}
+    {% if session.link and session.link != "" %}
       <a href="{{ session.link }}">{{ session.title }}</a>
     {% else %}
       {{ session.title }}
     {% endif %}
   </h3>
   {% if include.is_break != true %}
-    {% if session.authors %}
+    {% if session.authors and session.authors != "" %}
       <p>Session Chair: {{ session.authors | replace_regex: '\(([^\)]*)\)', '<em>(\1)</em>'}}</p>
     {% endif %}
-    {% if session.room %}
+    {% if session.room and session.room != "" %}
       <p>Room: {{ session.room }}</p>
       {% endif %}
   {% endif %}
