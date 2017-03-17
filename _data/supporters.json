@@ -15,12 +15,12 @@
     [10, "telefonica.png", "http://www.tid.es/", "telefonica", 0, 152, 250,                  "bronze"],
     [10, "vmware.jpg", "http://www.vmware.com/", "vmware", 0, 100, 420,                      "bronze"],
     [10, "bigdama.jpg", "https://bigdama.ait.ac.at/", "bigdama", 0, 800, 399,                "bronze"],
+    [10, "barefoot-networks.jpg", "https://barefootnetworks.com/", "barefoot", 0, 600, 246,  "bronze"],
 ],
 [
     "uncommitted": {
         [300, "nsf.jpg", "https://www.nsf.gov/", "nsf", 0, 298, 295,                         "uncommitted"],
         [10,  "BBN",     "http://www.raytheon.com/ourcompany/bbn/", "bbn", 0, 0, 0,          "bronze"],
         [100, "ericsson.png", "http://www.ericsson.com/", "ericsson", 0, 0, 0,               "uncommitted"],
-        [100, "Barefoot Networks", "",                    "barefoot", 0, 0, 0,               "uncommitted"],
     }
 ]

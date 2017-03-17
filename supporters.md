@@ -104,7 +104,7 @@ All supporters will receive recognition of their level of contribution in print,
 <div style="text-align: center;">
 {% for supporter in site.data.supporters
 %}{% if supporter[7] == "silver"
-%}<a href="{{ supporter[2] }}"><img src="{{ site.baseurl }}/images/sponsors/{{ supporter[1] }}" alt="{{ supporter[3] }}" style="height: 70px; margin: 10px" /></a>
+%}<a href="{{ supporter[2] }}"><img src="{{ site.baseurl }}/images/sponsors/{{ supporter[1] }}" alt="{{ supporter[3] }}" style="height: 90px; margin: 10px" /></a>
 {% endif
 %}{% endfor %}
 </div>
@@ -130,7 +130,7 @@ All supporters will receive recognition of their level of contribution in print,
 <div style="text-align: center;">
 {% for supporter in site.data.supporters
 %}{% if supporter[7] == "bronze"
-%}<a href="{{ supporter[2] }}"><img src="{{ site.baseurl }}/images/sponsors/{{ supporter[1] }}" alt="{{ supporter[3] }}" style="height: 50px; margin: 10px" /></a>
+%}<a href="{{ supporter[2] }}"><img src="{{ site.baseurl }}/images/sponsors/{{ supporter[1] }}" alt="{{ supporter[3] }}" style="height: 90px; margin: 10px" /></a>
 {% endif
 %}{% endfor %}
 </div>
