@@ -5,13 +5,13 @@ group: Workshops
 
 dates:
     - info: Opening of the discussion forum and submission system (OPEN NOW)
-      date: January 25, 2017
+      date: <del>January 25, 2017</del>
     - info: Submission deadline
-      date: March 24, 2017
+      date: <del>March 24, 2017</del> March 31st, 2017 9:00pm PST
     - info: Acceptance notification
       date: April 28, 2017
     - info: Camera ready deadline
-      date: May 26, 2017
+      date: May 29th, 2017 9:00pm PST
 
 committees:
     - role: Workshop Co-Chairs
