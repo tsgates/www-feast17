@@ -5,11 +5,11 @@ group: Workshops
 
 dates:
     - info: Submission deadline
-      date: March 24, 2017 5:00pm PST
+      date: <del>March 24, 2017</del> March 31st, 2017 9:00pm PST
     - info: Acceptance notification
       date: April 24, 2017
     - info: Camera ready deadline
-      date: May 24, 2017 5:00pm PST
+      date: May 29th, 2017 9:00pm PST
 
 committees:
     - role: Workshop Co-Chairs
