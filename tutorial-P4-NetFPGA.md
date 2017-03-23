@@ -5,7 +5,7 @@ group: Tutorials
 
 data:
   - type: day
-    time: Monday, August 21, 2017
+    time: TBD
 
   - type: tutorial
     time: 9am - 10:30am

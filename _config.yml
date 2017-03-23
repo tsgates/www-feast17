@@ -94,6 +94,8 @@ menu:
       url: /tutorial-c2c.html
     - name: P4→NetFPGA
       url: /tutorial-P4-NetFPGA.html
+    - name: Adaptive Streaming
+      url: /tutorial-adaptive-streaming.html
 # - name: Registration
 #   url: /registration.html
 - name: Local Information
