@@ -19,13 +19,13 @@ data:
     room: Foyer
     title: Coffee Break
   - type: tutorial
-    time: 11am - 12:30am
+    time: 11:00am - 12:30pm
     room: TBD
-    title: "Part II: Omnidirectional (360) Media"
+    title: "Part II: Omnidirectional (360°) Media"
 
 presenters:
   - name:        Ali C. Begen
-    affiliation: Networked Media
+    affiliation: Networked Media / Ozyegin University
     bio:         "<p>Ali C. Begen is the co-founder of Networked Media, a technology company that offers consulting services to industrial, legal and academic institutions in the IP video space. He has been a research and development engineer since 2001, and has broad experience in mathematical modeling, performance analysis, optimization, standards development, intellectual property and innovation. Between 2007 and 2015, he was with the Video and Content Platforms Research and Advanced Development Group at Cisco, where he has architected, designed and developed algorithms, protocols, products and solutions in the service provider and enterprise video domains. Currently, he is also affiliated with Ozyegin University, where he is an assistant professor in the computer science department.</p>
 <br/>
 <p>Ali holds a Ph.D. degree in electrical and computer engineering from Georgia Tech. He received a number of scholarly and industry awards, and he has editorial positions in prestigious magazines and journals in the field. He is a senior member of the IEEE and a senior member of the ACM. In January 2016, he was elected as a distinguished lecturer by the IEEE Communications Society. Information on his projects, publications, talks, and teaching, standards and professional activities can be found at http://ali.begen.net.</p>"
@@ -56,12 +56,12 @@ Unlike most of its counterparts that offer mostly theoretic content, this tutori
 
 This tutorial consists of two main parts. In the first part, we provide a detailed overview of the HTML5 standard and show how it can be used for adaptive streaming deployments. In particular, we focus on the HTML5 video, media extensions, and multi-bitrate encoding, encapsulation and encryption workflows, and survey well-established streaming solutions. Furthermore, we present experiences from the existing deployments and the relevant de jure and de facto standards (DASH, HLS, CMAF) in this space.
 
-In the second part, we focus on omnidirectional (360) media from creation to consumption. We survey means for the acquisition, projection, coding and packaging of omnidirectional media as well as delivery, decoding and rendering methods. Emerging standards and industry practices are covered as well. Throughout the tutorial, we present some of the current research trends, open issues that need further exploration and investigation, and various efforts that are underway in the streaming industry.
+In the second part, we focus on omnidirectional (360°) media from creation to consumption. We survey means for the acquisition, projection, coding and packaging of omnidirectional media as well as delivery, decoding and rendering methods. Emerging standards and industry practices are covered as well. Throughout the tutorial, we present some of the current research trends, open issues that need further exploration and investigation, and various efforts that are underway in the streaming industry.
 
 Upon attending this tutorial, the participants will have an overview and understanding of the following topics:
 
 - Principles of HTTP adaptive streaming for the Web/HTML5
-- Principles of omnidirectional (360) media delivery
+- Principles of omnidirectional (360°) media delivery
 - Content generation, distribution and consumption workflows for traditional and omnidirectional media
 - Standards and emerging technologies in the adaptive streaming space
 - Current and future research on traditional and omnidirectional media delivery
