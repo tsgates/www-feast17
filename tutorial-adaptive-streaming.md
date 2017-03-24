@@ -40,7 +40,9 @@ presenters:
 
 ### Call For Participation
 
-Universal media access is now a reality. We can generate, distribute, share and consume any media content, anywhere, anytime and with/on any device. A major technical breakthrough was the adaptive streaming over HTTP resulting in the standardization of MPEG-DASH, which is now successfully deployed in HTML5 environments thanks to corresponding media source extensions (MSE). The next big thing in adaptive media streaming is virtual reality applications and, specifically, omnidirectional (360°) media streaming, which is currently built on top of the existing adaptive streaming ecosystems. 
+Universal media access is now a reality. We can generate, distribute, share and consume any media content, anywhere, anytime and with/on any device. A major technical breakthrough was the adaptive streaming over HTTP resulting in the standardization of MPEG-DASH, which is now successfully deployed in HTML5 environments thanks to corresponding media source extensions (MSE). The next big thing in adaptive media streaming is virtual reality applications and, specifically, omnidirectional (360°) media streaming, which is currently built on top of the existing adaptive streaming ecosystems.
+
+Unlike most of its counterparts that offer mostly theoretic content, this tutorial will focus on practical matters such as the existing products and solutions that are being used by millions of users around the globe and the new developing technologies that will be used by even more users in a few years.
 
 ### Presenters
 
@@ -52,24 +54,21 @@ Universal media access is now a reality. We can generate, distribute, share and 
 
 ### Topics Covered
 
-This tutorial consists of three main parts. In the first part, we provide a detailed overview of the HTML5 standard and show how it can be used for adaptive streaming deployments. In particular, we focus on the HTML5 video, media extensions, and multi-bitrate encoding, encapsulation and encryption workflows, and survey well-established streaming solutions. Furthermore, we present experiences from the existing deployments and the relevant de jure and de facto standards (DASH, HLS, CMAF) in this space.
+This tutorial consists of two main parts. In the first part, we provide a detailed overview of the HTML5 standard and show how it can be used for adaptive streaming deployments. In particular, we focus on the HTML5 video, media extensions, and multi-bitrate encoding, encapsulation and encryption workflows, and survey well-established streaming solutions. Furthermore, we present experiences from the existing deployments and the relevant de jure and de facto standards (DASH, HLS, CMAF) in this space.
 
-In the second part, we focus on omnidirectional (360) media from creation to consumption. We survey means for the acquisition, projection, coding and packaging of omnidirectional media as well as delivery, decoding and rendering methods. Emerging standards and industry practices are covered as well. 
-
-The last part presents some of the current research trends, open issues that need further exploration and investigation, and various efforts that are underway in the streaming industry.
+In the second part, we focus on omnidirectional (360) media from creation to consumption. We survey means for the acquisition, projection, coding and packaging of omnidirectional media as well as delivery, decoding and rendering methods. Emerging standards and industry practices are covered as well. Throughout the tutorial, we present some of the current research trends, open issues that need further exploration and investigation, and various efforts that are underway in the streaming industry.
 
 Upon attending this tutorial, the participants will have an overview and understanding of the following topics:
+
 - Principles of HTTP adaptive streaming for the Web/HTML5
 - Principles of omnidirectional (360) media delivery
 - Content generation, distribution and consumption workflows for traditional and omnidirectional media
 - Standards and emerging technologies in the adaptive streaming space
 - Current and future research on traditional and omnidirectional media delivery
 
-Omnidirectional (360) videos are becoming more and more popular, and products and tools for creation/consumption are part of today’s mainstream. This is an area that cannot be ignored by anybody who is working in the networking field. Unlike most of its counterparts that offer mostly theoretic content, this tutorial will focus on practical matters such as the existing products and solutions that are being used by millions of users around the globe and the new developing technologies that will be used by even more users in a few years.
-
 ### Tutorial Type
 
-The tutorial will be in the form of a lecture. However, live demonstrations are planned to show specific examples. 
+The tutorial will be in the form of a lecture. However, live demonstrations are planned to show specific examples.
 
 ### Target Audience and Prerequisites
 
