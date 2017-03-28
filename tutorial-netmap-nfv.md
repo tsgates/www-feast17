@@ -13,7 +13,11 @@ data:
   - type: tutorial
     time: 9:15am - 10:30am
     room: TBD
-    title: "Background and motivation. Introduction to the Netmap API with examples. The VALE switch and Netmap pipes."
+    title: "<ul>
+    <li>Background and motivation.</li>
+    <li>Introduction to the Netmap API with examples.</li>
+    <li>The VALE switch and Netmap pipes.</li>
+    </ul>"
   - type: break
     time: 10:30am - 11:00am
     room: Foyer
@@ -21,7 +25,10 @@ data:
   - type: tutorial
     time: 11:00am - 12:30pm
     room: TBD
-    title: "Netmap as a backend for VMs. Pass-through of host Netmap ports."
+    title: "<ul>
+    <li>Netmap as a backend for VMs.</li>
+    <li>Pass-through of host Netmap ports.</li>
+    </ul>"
   - type: break
     time: 12:30pm - 2:00pm
     room: Foyer
@@ -29,7 +36,10 @@ data:
   - type: tutorial
     time: 2:00pm - 3:30pm
     room: TBD
-    title: "Hands-on experience: writing an NFV application using the Netmap API. Exploiting the different kinds of Netmap ports and passthrough."
+    title: "<ul>
+    <li>Hands-on experience: writing an NFV application using the Netmap API.</li>
+    <li>Exploiting the different kinds of Netmap ports and passthrough.</li>
+    </ul>"
   - type: break
     time: 3:30pm - 4:00pm
     room: Foyer
@@ -37,7 +47,9 @@ data:
   - type: tutorial
     time: 4:00pm - 5:30pm
     room: TBD
-    title: "Continue hands-on experience: writing and loading an in-kernel VALE switch module. Conclusion."
+    title: "<ul><li>Continue hands-on experience:<ul><li>writing and loading an in-kernel VALE switch module.</li></ul></li>
+    <li>Conclusion.</li>
+    </ul>"
 
 presenters:
   - name:        Giuseppe Lettieri
