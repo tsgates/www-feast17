@@ -96,6 +96,8 @@ menu:
       url: /tutorial-P4-NetFPGA.html
     - name: Adaptive Streaming
       url: /tutorial-adaptive-streaming.html
+    - name: Netmap for NFV
+      url: /tutorial-netmap-nfv.html
 # - name: Registration
 #   url: /registration.html
 - name: Local Information
