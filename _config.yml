@@ -90,14 +90,30 @@ menu:
 - name: Tutorials
   icon: fa-newspaper-o
   submenu:
-    - name: C2C
-      url: /tutorial-c2c.html
-    - name: P4→NetFPGA
-      url: /tutorial-P4-NetFPGA.html
     - name: Adaptive Streaming
       url: /tutorial-adaptive-streaming.html
+      icon: fa-adjust
+    - name: C2C
+      url: /tutorial-c2c.html
+      icon: fa-adjust
+    - name: mmWave
+      url: /tutorial-mmWave.html
+      icon: fa-adjust
+    - name: NDN 
+      url: /tutorial-ndn.html
+      icon: fa-adjust
     - name: Netmap for NFV
       url: /tutorial-netmap-nfv.html
+      icon: fa-circle
+    - name: P4
+      url: /tutorial-p4.html
+      icon: fa-circle
+    - name: P4→NetFPGA
+      url: /tutorial-P4-NetFPGA.html
+      icon: fa-circle
+    - name: Understanding Latency
+      url: /tutorial-latency.html
+      icon: fa-adjust
 # - name: Registration
 #   url: /registration.html
 - name: Local Information

@@ -6,47 +6,51 @@ group: Tutorials
 data:
   - type: day
     time: TBD
+    room: TBD
+
   - type: tutorial
     time: 9:00am - 9:15am
-    room: TBD
     title: Welcome and Intro
+
   - type: tutorial
     time: 9:15am - 10:30am
-    room: TBD
     title: "<ul>
     <li>Background and motivation.</li>
     <li>Introduction to the Netmap API with examples.</li>
     <li>The VALE switch and Netmap pipes.</li>
     </ul>"
+
   - type: break
     time: 10:30am - 11:00am
     room: Foyer
     title: Coffee Break
+
   - type: tutorial
     time: 11:00am - 12:30pm
-    room: TBD
     title: "<ul>
     <li>Netmap as a backend for VMs.</li>
     <li>Pass-through of host Netmap ports.</li>
     </ul>"
+
   - type: break
     time: 12:30pm - 2:00pm
     room: Foyer
     title: Lunch Break
+
   - type: tutorial
     time: 2:00pm - 3:30pm
-    room: TBD
     title: "<ul>
     <li>Hands-on experience: writing an NFV application using the Netmap API.</li>
     <li>Exploiting the different kinds of Netmap ports and passthrough.</li>
     </ul>"
+
   - type: break
     time: 3:30pm - 4:00pm
     room: Foyer
     title: Coffee Break
+
   - type: tutorial
     time: 4:00pm - 5:30pm
-    room: TBD
     title: "<ul><li>Continue hands-on experience:<ul><li>writing and loading an in-kernel VALE switch module.</li></ul></li>
     <li>Conclusion.</li>
     </ul>"
@@ -86,7 +90,7 @@ We aim at attendees becoming able to write a simple packet processing applicatio
 
 ### Tutorial Program
 
-{% include program.html type="tutorial-c2c" data=page.data %}
+{% include program.html type="tutorial-netmap-nfv" data=page.data %}
 
 ### Motivation
 

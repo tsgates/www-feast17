@@ -6,10 +6,10 @@ group: Tutorials
 data:
   - type: day
     time: TBD
+    room: TBD
 
   - type: tutorial
     time: 9am - 10:30am
-    room: TBD
     title: Introduction to P4 and P4 Language Walkthrough, Joint Session with P4 Tutorial
 
   - type: break
@@ -19,12 +19,10 @@ data:
 
   - type: tutorial
     time: 10:45am - 11:15am
-    room: TBD
     title: NetFPGA Introduction and Architecture Overview
 
   - type: tutorial
     time: 11:15am - 12:30pm
-    room: TBD
     title: P4→NetFPGA design flow, start hands-on experience
 
   - type: break
@@ -34,7 +32,6 @@ data:
 
   - type: tutorial
     time: 1:30pm - 3:30pm
-    room: TBD
     title: Continue hands on experience, live demo
 
   - type: break
@@ -44,23 +41,22 @@ data:
 
   - type: tutorial
     time: 4pm - 5pm
-    room: TBD
     title: Expert panel, Conclusion
 
 presenters:
   - name:        Gordon Brebner
     affiliation: Xilinx Labs, USA
     bio:         "<b>Gordon Brebner</b> is a Distinguished Engineer at Xilinx, Inc., the world’s leading provider of all-programmable FPGAs and SoCs.  He works in Xilinx Labs, leading an international group researching issues surrounding networked processing systems of the future.  His main personal research interests concern dynamically reconfigurable architectures, domain-specific languages with highly concurrent implementations, and high performance networking.  Most recently, his research has led to the Xilinx SDNet product for SDN and NFV at 100G+ rates.  He holds around 40 patents and has published around 60 papers in the general area of networking with FPGAs.  Prior to joining Xilinx in 2002, he was the Professor of Computer Systems and Head of the Department of Computer Science at the University of Edinburgh.  He is currently co-chair of the P4 Language Design working group in P4.org, and chair of the Protocol Independent Forwarding working group in the Open Networking Foundation."
-  
+
   - name:        Noa Zilberman
     affiliation: University of Cambridge, UK
     bio:         "<b>Noa Zilberman</b> is a Leverhulme Early Career Fellow at the University of Cambridge
   ter Laboratory in England, where she is the Chief Architect of NetFPGA SUME. Her research interests include high-performance networking and computing architectures, converged interconnect, network measurements and open source hardware research. Zilberman has over 15 years of industrial experience. In her last role before joining the University of Cambridge, she was a Senior Principal Chip Architect at Broadcom's Network Switching group. She is a Senior Member of IEEE, a member of ACM, Usenix and BCS, and has a PhD in Electrical Engineering from Tel Aviv University."
-  
+
   - name:        Nate Foster
     affiliation: Cornell University, USA
     bio:         "<b>Nate Foster</b> is an Associate Professor of Computer Science at Cornell University and a Visiting Researcher at Barefoot Networks. He serves as chair of the P4 Technical Steering Committee and as co-chair of the P4 Language Design Working Group. His research focuses on the design and implementation of languages for programming software-defined networks. In the past he has also worked on bidirectional languages (also known as 'lenses'), data provenance, type systems, mechanized proof, and formal semantics. He received a PhD in Computer and Information Science from the University of Pennsylvania, an MPhil in History and Philosophy of Science from Cambridge University, and a BA in Computer Science from Williams College. His awards include a Sloan Research Fellowship, an NSF CAREER Award, a Most Influential POPL Paper Award, a Tien '72 Teaching Award, a Cornell Engineering Research Excellence Award, and a Rubinoff Award."
-  
+
   - name:        Stephen Ibanez
     affiliation: Stanford University, USA
     bio:         "<b>Stephen Ibanez</b> is a PhD Candidate at Stanford working with Professor Nick McKeown. His research interests involve finding new and exciting applications for programmable data-planes, running P4 programs on programmable hardware, network measurement and management, as well as network security. He is currently using P4 to design switches that implement proactive congestion control algorithms for next generation datacenter networks. Stephen is leading the effort to bring together a community of developers and users for the P4→NetFPGA platform."

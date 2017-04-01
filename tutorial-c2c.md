@@ -6,22 +6,24 @@ group: Tutorials
 data:
   - type: day
     time: TBD
-  - type: tutorial
+    room: TBD
+
+  - title: Welcome and Intro
+    type: tutorial
     time: 9:00am - 9:15am
-    room: TBD
-    title: Welcome and Intro
-  - type: tutorial
+
+  - title: Lecture, Part I
+    type: tutorial
     time: 9:15am - 10:30am
-    room: TBD
-    title: Lecture, Part I
-  - type: break
+
+  - title: Coffee Break
+    type: break
     time: 10:30am - 11:00am
     room: Foyer
-    title: Coffee Break
-  - type: tutorial
+
+  - title: Lecture, Part II
+    type: tutorial
     time: 11am - 12:30am
-    room: TBD
-    title: Lecture, Part II
 
 presenters:
 - name:        Falko Dressler

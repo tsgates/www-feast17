@@ -6,22 +6,24 @@ group: Tutorials
 data:
   - type: day
     time: TBD
-  - type: tutorial
+    room: TBD
+
+  - title: Welcome and Intro
     time: 9:00am - 9:15am
-    room: TBD
-    title: Welcome and Intro
-  - type: tutorial
+    type: tutorial
+
+  - title: "Part I: The HTML5 Standard and Adaptive Streaming"
     time: 9:15am - 10:30am
-    room: TBD
-    title: "Part I: The HTML5 Standard and Adaptive Streaming"
-  - type: break
+    type: tutorial
+
+  - title: Coffee Break
     time: 10:30am - 11:00am
+    type: break
     room: Foyer
-    title: Coffee Break
-  - type: tutorial
+
+  - title: "Part II: Omnidirectional (360°) Media"
     time: 11:00am - 12:30pm
-    room: TBD
-    title: "Part II: Omnidirectional (360°) Media"
+    type: tutorial
 
 presenters:
   - name:        Ali C. Begen
@@ -50,7 +52,7 @@ Unlike most of its counterparts that offer mostly theoretic content, this tutori
 
 ### Tutorial Program
 
-{% include program.html type="tutorial-c2c" data=page.data %}
+{% include program.html type="tutorial-adaptive-streaming" data=page.data %}
 
 ### Topics Covered
 
