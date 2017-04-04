@@ -12,12 +12,17 @@ data:
     time: 9:00am - 9:15am
     type: tutorial
 
-  - title: "The latency budget<br/><ul>
-  <li>Root causes - spending the budget </li>
-  <li>Mitigations - refunds </li>
-  </ul>"
+  - title: The latency budget
     type: tutorial
-    time: 9:15am - 10:30am
+    time: 9:15am - 9:35am
+
+  - title: Root causes - spending the budget
+    type: tutorial
+    time: 9:35am - 10:00am
+
+  - title: Mitigations - refunds
+    type: tutorial
+    time: 10:00am - 10:30am
 
   - title: Coffee Break
     type: break
