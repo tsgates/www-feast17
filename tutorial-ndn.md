@@ -46,10 +46,6 @@ presenters:
   affiliation: University of Arizona
   bio:         "<p>Beichuan Zhang is Associate Professor at the Department of Computer Science, the University of Arizona. His research interest is in Internet routing architectures and protocols. He has been working on Named Data Networking, green networking, and inter-domain routing. He received the Applied Networking Research Prize in 2011 by ISOC and IRTF, and best paper awards at IEEE ICDCS in 2005 and IWQoS in 2014. Dr. Zhang received Ph.D. from UCLA and B.S. from Peking University.</p>"
 
-- name:        Lixia Zhang
-  affiliation: University of California, Los Angeles
-  bio:         "<p>Lixia Zhang is a Professor in the Computer Science Department of UCLA.  She received her Ph.D in computer science from MIT and was a member of the research staff at Xerox PARC before joining UCLA. She is a fellow of ACM and IEEE, the recipient of IEEE Internet Award, and the holder of UCLA Postel Chair in Computer Science.  Since 2010 she has been leading the effort on the design and development of the NDN architecture. </p>"
-
 ---
 
 ## {{ page.title }}
