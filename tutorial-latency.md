@@ -30,19 +30,19 @@ data:
     room: Foyer
 
   - title: Exploring case studies
-    time: 11:00am - 11:20am
+    time: 11:00am - 11:30am
     type: tutorial
 
   - title: Some new opportunities
-    time: 11:20am - 11:40am
+    time: 11:30am - 11:55am
     type: tutorial
 
   - title: Application in current and emerging networks
-    time: 11:40am - 12:00pm
+    time: 11:55am - 12:20pm
     type: tutorial
 
   - title: Conclusions and review (with Q&A)
-    time: 12:00pm - 12:30pm
+    time: 12:20pm - 12:30pm
     type: tutorial
 
 presenters:
