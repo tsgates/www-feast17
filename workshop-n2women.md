@@ -4,10 +4,12 @@ title: "The Sixth Networking Networking Women Workshop (N2Women'17): Personal De
 group: Workshops
 
 dates:
-#    - info: Submission deadline
-#      date: March 24, 2017
-#    - info: Acceptance notification
-#      date: April 30, 2017
+    - info: Posters submission deadline
+      date: June 2, 2017
+    - info: Acceptance notification
+      date: June 16, 2017
+    - info: Travel grants deadline
+      date: June 9, 2017
     - info: Workshop Date
       date: August 20, 2017
 
@@ -19,10 +21,32 @@ committees:
        - name:        Yingying Chen
          affiliation: Stevens Institute of Technology
 
-    - role: N2Women Dinner Chair
+    - role: Organizing Committee
       people:
+       - name:        Mohammad Alizadeh
+         affiliation: MIT
+       - name:        Theophilus Benson
+         affiliation: Duke
+       - name:        Monia Ghobadi
+         affiliation: Microsoft
+       - name:        Jorjeta Jetcheva
+         affiliation: Fujitsu Laboratories of America
+       - name:        Qianru Li
+         affiliation: UCLA
+       - name:        Michele Noguiera
+         affiliation: FUPR, Brazil
+       - name:        Ji Ping
+         affiliation: CUNY
        - name:        Radhika Niranjan Mysore
          affiliation: Google
+       - name:        Guiling Wang
+         affiliation: NJIT
+       - name:        Wendy Hui Wang
+         affiliation: Stevens Institute of Technology
+       - name:        Wenye Wang
+         affiliation: NCSU
+       - name:        Zhehui Zhang
+         affiliation: UCLA
 
     - role: Steering Committee
       people:
@@ -90,4 +114,4 @@ More information will be available soon. Apply at [TBD](#TBD)
 
 ## Support
 
-This workshop is possible thanks to the generous support of SIGCOMM and IEEE COMSOC.
+This workshop is possible thanks to the generous support of SIGCOMM, IEEE COMSOC, and Google.
