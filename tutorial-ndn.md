@@ -52,7 +52,11 @@ presenters:
 
 ### Call For Participation
 
-This is a half-day tutorial on Named Data Networking (NDN), a newly developed data-centric Internet architecture. The morning starts with an introduction of the NDN architecture by Van Jacobson, followed by research topics and recent results.
+This half-day SIGCOMM tutorial provides an introduction to [Named Data Networking (NDN)](https://named-data.net/), a newly developed data-centric Internet architecture.
+NDN makes a conceptually simple yet fundamental change to the narrow waist of the Internet's narrow waist architecture by replaces TCP/IP's narrow focus on "where" to send packet with "what" content to fetch. We believe that this shift to data-centric networking can greatly help enhance Internet security, enable mobility support, scale both data disseminations as well as data collection (e.g., from IoT devices), as well as facilitate new application developments.
+
+The morning starts with an introduction of the NDN architecture by Van Jacobson, followed by research topics and recent results.
+For more detailed information about the tutorial and additional activities, please check out [NDN Tutorial homepage](https://named-data.net/tutorials/sigcomm2017/)
 
 ### Presenters
 
