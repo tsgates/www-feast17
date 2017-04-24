@@ -16,8 +16,8 @@ baseurl: /sigcomm/2017
 # Configuration for site
 title: ACM SIGCOMM 2017
 logo:
-  image: images/sigcomm-2017-logo.png
-  info: ACM SIGCOMM 2017, Los Angeles, CA
+  image: images/logo.png
+  info: FEAST 2017
 
 # Configuration for navbar.html
 menu:
