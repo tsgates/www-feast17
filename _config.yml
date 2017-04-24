@@ -14,7 +14,7 @@ url: https://tc.gtisc.gatech.edu
 baseurl: /feast17
 
 # Configuration for site
-title: ACM SIGCOMM 2017
+title: FEAST 2017 (ACM CCS workshop)
 logo:
   image: images/logo.png
   info: FEAST 2017
