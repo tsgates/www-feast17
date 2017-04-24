@@ -1,20 +1,22 @@
 ---
 layout: default
-title: ACM SIGCOMM 2017
+title: FEAST 2017
 og_tags:
   - property: og:description
-    content: The organizing committee is delighted to invite you to ACM SIGCOMM 2017, to be held on UCLA campus in Los Angeles, CA, U.S.A., August 21-25, 2017. SIGCOMM is the flagship annual conference of the ACM Special Interest Group on Data Communication (SIGCOMM) on the applications, technologies, architectures, and protocols
+    content: The 2017 workshop on Forming an Ecosystem Around Software Transformation
 ---
 
-# Welcome to SIGCOMM 2017
+# Welcome to FEAST 2017
 
-The organizing committee is delighted to invite you to ACM SIGCOMM 2017, to be held on UCLA campus in Los Angeles, CA, USA on August 21-25, 2017.
-
-SIGCOMM is the flagship annual conference of the ACM Special Interest Group on Data Communication (SIGCOMM) on the applications, technologies, architectures, and protocols for computer communication.
-
-<center>
-<a href="http://www.sigcomm.org/content/special-statement-freedom-mobility" target="_blank">Special statement on freedom of mobility</a>
-</center>
+FEAST 2017 will be held in conjunction with the 24th ACM Conference on
+Computer and Communications Security (CCS) on 03 November 2017.  The
+workshop is geared toward discussion and understanding of several
+critical topics surrounding software executable transformation for
+improving the security and efficiency of all software used in
+security-critical applications.  The scope of discussion for this
+workshop will include topics that may be necessary to fully exploit
+the power and impact of late-stage software customization efforts as
+described in the Call for Talks.
 
 ## <i class="fa fa-newspaper-o"></i> News
 

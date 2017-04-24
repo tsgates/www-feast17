@@ -24,9 +24,6 @@ menu:
 - name: Home
   url: /
   icon: fa-home
-- name: Supporters
-  url: /supporters.html
-  icon: fa-handshake-o
 - name: Conference
   icon: fa-bar-chart
   submenu:

@@ -73,17 +73,6 @@ layout: compressed
 
         {% include menu.html %}
       </div> <!-- content -->
-
-      {% if page.url != "/supporters.html" %}
-        <div class="logobar" data-role="footer" data-position="fixed" data-tap-toggle="false" data-theme="c"></div>
-      {% endif %}
-
     </div> <!-- page -->
-
-    {% if page.url != "/supporters.html" %}
-      {% include supporters.html %}
-    {% endif %}
-
-    {% include google-analytics.html %}
   </body>
 </html>
