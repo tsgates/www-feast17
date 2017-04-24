@@ -5,7 +5,7 @@ plugins_dir: ./_plugins
 lsi: true
 highlighter: rouge
 markdown: kramdown
-exclude: ['_DOCS', '_SCRIPTS', '.travis.yml', '.travis.d', '.sass-cache', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'LICENSE.md']
+exclude: ['_docs', '_SCRIPTS', '.travis.yml', '.travis.d', '.sass-cache', 'Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'LICENSE.md']
 sass:
   style: compressed
 encoding: UTF-8
