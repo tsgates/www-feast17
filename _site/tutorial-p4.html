@@ -1,0 +1,375 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="ACM SIGCOMM 2017 Tutorial (Full-Day): P4: Programming the Network Data Plane - ACM SIGCOMM 2017" />
+    <meta property="og:image" content="https://tc.gtisc.gatech.edu" />
+    <meta property="og:url" content="/tutorial-p4.html" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="copyright" content="This site inherents designs and contents from https://github.com/cawka/SIGCOMM2017 and https://github.com/apietila/SIGCOMM2016" />
+
+    <title>ACM SIGCOMM 2017 Tutorial (Full-Day): P4: Programming the Network Data Plane - ACM SIGCOMM 2017</title>
+
+    <!-- fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    <script src="https://use.fontawesome.com/3f4ded534f.js"></script>
+
+    <!-- Favicon alternatives: https://css-tricks.com/favicon-quiz/ -->
+    <!-- Generated using http://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/feast17/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/feast17/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/feast17/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/feast17/images/favicons/manifest.json">
+    <link rel="mask-icon" href="/feast17/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/feast17/images/favicons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="FEAST 2017">
+    <meta name="application-name" content="FEAST 2017">
+    <meta name="msapplication-config" content="/feast17/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- send file digest to prevent caching issues -->
+    <link rel="stylesheet" href="/feast17/css/site.css?digest=33185dffbe15195d37867ff8ef55f82381ea2a52f9557d40b7e2e2f5177891fc" />
+
+    <!-- make the CSS work with older IE -->
+    <script src="/feast17/js/css3-mediaqueries.js"></script>
+
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/feast17/js/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <!-- Grab CDN jquerymobile, with a protocol relative URL; fall back to local if offline -->
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script>$.mobile || document.write('<script src="/feast17/js/jquery.mobile-1.4.5.min.js"><\/script>')</script>
+
+    <script src="/feast17/js/jqm-docs.js"></script>
+
+    <!-- send file digest to prevent caching issues -->
+    <script src="/feast17/js/script.js?digest=19bdbd828e6ef866ab91feb50eb955a5dd3093edcacabc45184b5402ea6c7989" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <div data-role="page" data-theme="a" class="main-page">
+
+      <div class="header" data-role="header" data-theme="a" data-position="inline">
+        <div>
+          <a href="/feast17/"><img src="/feast17/images/logo.png" alt="FEAST 2017"></a>
+        </div>
+        <a href="#" onclick="$.mobile.silentScroll($.mobile.activePage.find('.leftnav').position().top)" id="menu-btn" class="ui-btn-right" data-corners="true" data-icon="grid">MENU</a>
+      </div>
+
+      <div data-role="content" class="ui-content">
+        <div class="content-primary">
+          <h2 id="acm-sigcomm-2017-tutorial-full-day-p4-programming-the-network-data-plane">ACM SIGCOMM 2017 Tutorial (Full-Day): P4: Programming the Network Data Plane</h2>
+
+<h3 id="call-for-participation">Call For Participation</h3>
+
+<p>This hands-on tutorial will provide a comprehensive introduction to the P4 language. Attendees will learn how to express novel data-plane applications in the P4 language, and how to compile, execute, and evaluate P4 programs using Mininet, a network emulation framework.</p>
+
+<h3 id="presenters">Presenters</h3>
+
+<!-- <div  class="presenters"> -->
+<ul class="program" data-role="listview" data-inset="true" data-theme="d" data-dividertheme="a">
+         
+      <li data-icon="false" class="prog-item">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+          <h4>
+            <div>
+              <p class="paper-header">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a"><p>Nate Foster</p></div>
+                  <div class="ui-block-b"><p>Cornell University</p></div>
+                </div>
+              </p>
+            </div>
+            <div class="ui-li-aside">
+            </div>
+          </h4>
+          <ul data-role="listview" data-inset="false">
+            <li data-icon="false">
+              <p>
+                
+                <p>Nate Foster is an Associate Professor of Computer Science at Cornell University and a Visiting Researcher at Barefoot Networks.  He serves as chair of the P4 Technical Steering Committee and as co-chair of the P4 Language Design Working Group. His research focuses on the design and implementation of languages for programming software-defined networks. In the past he has also worked on bidirectional languages (also known as "lenses"), data provenance, type systems, mechanized proof, and formal semantics. He received a PhD in Computer and Information Science from the University of Pennsylvania, an MPhil in History and Philosophy of Science from Cambridge University, and a BA in Computer Science from Williams College. His awards include a Sloan Research Fellowship, an NSF CAREER Award, a Most Influential POPL Paper Award, a Tien '72 Teaching Award, a Cornell Engineering Research Excellence Award, and a Rubinoff Award.</p>
+              </p>
+              <p>&nbsp;</p>
+            </li>
+          </ul>
+        </div>
+      </li>
+         
+      <li data-icon="false" class="prog-item">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+          <h4>
+            <div>
+              <p class="paper-header">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a"><p>Changhoon Kim </p></div>
+                  <div class="ui-block-b"><p>Barefoot Networks</p></div>
+                </div>
+              </p>
+            </div>
+            <div class="ui-li-aside">
+            </div>
+          </h4>
+          <ul data-role="listview" data-inset="false">
+            <li data-icon="false">
+              <p>
+                
+                <p>Changhoon Kim is Director of System Architecture at Barefoot Networks. Before joining Barefoot, he worked at Windows Azure, Microsoft's cloud-service division, and led engineering and research projects on the architecture, performance, management, and operation of datacenter and enterprise networks. Changhoon is interested in programmable network data plane, network monitoring and diagnostics, network verification, self-programming/configuring networks, and debugging and diagnosis of large-scale distributed systems. Changhoon received Ph.D. from Princeton University. Many of his R&amp;D contributions — including VL2, Seawall, EyeQ, Ananta, and SEATTLE — are adopted in large production networks.</p>
+              </p>
+              <p>&nbsp;</p>
+            </li>
+          </ul>
+        </div>
+      </li>
+    
+  </ul>
+<p><!-- </div> --></p>
+
+<h3 id="tutorial-program">Tutorial Program</h3>
+
+<div id="tutorial-p4-program" class="tutorial-p4-program">
+  <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
+    
+      
+        
+        <li class="prog-header prog-no-filter ui-bar-a prog-item prog-tbd">
+          <h3>TBD   (Room: TBD)</h3>
+        </li>
+      
+    
+      
+        <li class="ui-li ui-bar-a prog-tutorial prog-item ui-li-divider prog-tbd  " data-role="list-divider">
+  <h3>
+    9am - 10:30am
+    
+      Introduction to P4 and P4 Language Walkthrough, Joint Session with P4→NetFPGA Tutorial
+    
+  </h3>
+  
+    
+    
+  
+</li>
+
+<li class="hidden">Introduction to P4 and P4 Language Walkthrough, Joint Session with P4→NetFPGA Tutorial</li>
+
+      
+    
+      
+        <li class="ui-li ui-bar-b prog-item ui-li-divider prog-tbd  " data-role="list-divider">
+  <h3>
+    10:30am - 10:45am
+    
+      Coffee Break
+    
+    
+      (Foyer)
+    
+  </h3>
+  
+</li>
+
+<li class="hidden">Coffee Break</li>
+
+      
+    
+      
+        <li class="ui-li ui-bar-a prog-tutorial prog-item ui-li-divider prog-tbd  " data-role="list-divider">
+  <h3>
+    10:45am - 12:30pm
+    
+      TBD
+    
+  </h3>
+  
+    
+    
+  
+</li>
+
+<li class="hidden">TBD</li>
+
+      
+    
+      
+        <li class="ui-li ui-bar-b prog-item ui-li-divider prog-tbd  " data-role="list-divider">
+  <h3>
+    12:30pm - 1:30pm
+    
+      Lunch Break
+    
+    
+      (Foyer)
+    
+  </h3>
+  
+</li>
+
+<li class="hidden">Lunch Break</li>
+
+      
+    
+      
+        <li class="ui-li ui-bar-a prog-tutorial prog-item ui-li-divider prog-tbd  " data-role="list-divider">
+  <h3>
+    1:30pm - 3:30pm
+    
+      TBD
+    
+  </h3>
+  
+    
+    
+  
+</li>
+
+<li class="hidden">TBD</li>
+
+      
+    
+      
+        <li class="ui-li ui-bar-b prog-item ui-li-divider prog-tbd  " data-role="list-divider">
+  <h3>
+    3:30pm - 4pm
+    
+      Coffee Break
+    
+    
+      (Foyer)
+    
+  </h3>
+  
+</li>
+
+<li class="hidden">Coffee Break</li>
+
+      
+    
+      
+        <li class="ui-li ui-bar-a prog-tutorial prog-item ui-li-divider prog-tbd listlast listlast" data-role="list-divider">
+  <h3>
+    4pm - 5pm
+    
+      TBD
+    
+  </h3>
+  
+    
+    
+  
+</li>
+
+<li class="hidden">TBD</li>
+
+      
+    
+  </ul>
+</div>
+
+<h3 id="motivation">Motivation</h3>
+
+<p><a href="http://www.p4.org">P4</a> is a new programming language for describing how network packets should be processed on a variety of targets ranging from general-purpose CPUs to network processors, FPGAs, and custom ASICs. P4 was designed with three goals in mind: (i) protocol independence: devices should not “bake in” specific protocols; (ii) field reconfigurability: programmers should be able to modify the behavior of devices after they have been deployed; and (iii) portability: programs should not be tied to specific hardware targets.</p>
+
+<p>The P4 community has created—and continues to maintain and develop—a language specification, a set of open-source tools (compilers, debuggers, code analyzers, libraries, software P4 switches, etc.), and sample P4 programs with the goal of making it easy for P4 users to quickly and correctly author new data-plane behaviors. New ideas are being developed in P4, prototyped as new forwarding behaviors, and published at some of the top conferences in networking. Existing data-plane features typically realized in a fixed-function logic are also being authored in P4.</p>
+
+<p>The most recent update to the P4 language specification incorporates features designed to embrace functional and architectural heterogeneity of various targets while keeping the language core simple and clean. The new specification also offers features to improve portability and composability of a P4 program, allowing P4 consumers and target providers to reuse their code. Second, the P4 development environment has also been evolving. The P4 community now has a more powerful compiler, along with an architecture-independent software P4 switch. There are now several P4-programmable targets, including programmable NICs, high-end switching chips, and even software switches such as OVS  and eBPF. Finally, P4 has become an increasingly popular choice for developing novel data-plane designs. Examples include P4 programs that realize in-band network telemetry, L4 connection load-balancing, path-condition-aware adaptive routing, a better NetFlow, and even Paxos. We believe there are many opportunities for academic researchers to help evolve the design of the language, discover new implementation techniques, and develop use cases.</p>
+
+<h3 id="topics-covered">Topics Covered</h3>
+
+<ul>
+  <li>
+    <p>Background on P4 language (joint with P4→FPGA workshop)</p>
+  </li>
+  <li>
+    <p>Demonstration of implementing features in P4</p>
+  </li>
+  <li>
+    <p>Hands-on training with P4 development environment</p>
+
+    <ul>
+      <li>
+        <p>Compiler</p>
+      </li>
+      <li>
+        <p>Debugger</p>
+      </li>
+      <li>
+        <p>Behavioral model and hardware targets</p>
+      </li>
+      <li>
+        <p>Lab Exercises</p>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Mini-Workshop</p>
+
+    <ul>
+      <li>
+        <p>Research problems</p>
+      </li>
+      <li>
+        <p>Teaching resources</p>
+      </li>
+      <li>
+        <p>Getting involved</p>
+      </li>
+      <li>
+        <p>Panel discussion</p>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="audience-expectations-and-prerequisites">Audience Expectations and Prerequisites</h3>
+
+<p>The tutorial will be useful to researchers, students, and practitioners alike (engineers, network admins, network architects, and developers). Attendees will be expected to bring their own laptops. We will provide a VM image containing all necessary packages and tools. The P4 language specifications is publicly available on the P4 website under an Apache license. Key development tools (front-end compiler and software switch capable of running P4 programs) are available as <a href="https://github.com/p4lang">open-source tools</a>. We have given version of this tutorial at various venues, including previous SIGCOMMs, the P4 workshop, P4 Bootcamp, ONS Webniars, etc.</p>
+
+        </div><!-- content-primary -->
+
+        <div class="leftnav" role="panel" data-position="left" data-display="overlay" data-theme="a">
+
+  <a href="/feast17/"><img src="/feast17/images/logo.png" alt="FEAST 2017"></a>
+
+  <ul data-role="listview" data-inset="true" data-theme="a" data-divider-theme="a">
+
+    
+      
+        
+        <li class=" " data-icon="false">
+          <a href="/feast17/"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Home</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast " data-icon="false">
+          <a href="/feast17/program.html"><i class="fa fa-bar-chart" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Program</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast " data-icon="false">
+          <a href="/feast17/cfp.html"><i class="fa fa-bullhorn" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call for Papers</a>
+        </li>
+        
+    
+      
+        
+        <li class=" " data-icon="false">
+          <a href="/feast17/tpc.html"><i class="fa fa-map" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Organizers</a>
+        </li>
+        
+    
+  </ul>
+</div>
+
+      </div> <!-- content -->
+    </div> <!-- page -->
+  </body>
+</html>

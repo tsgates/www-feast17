@@ -10,8 +10,8 @@ sass:
   style: compressed
 encoding: UTF-8
 
-url: http://conferences.sigcomm.org
-baseurl: /sigcomm/2017
+url: https://tc.gtisc.gatech.edu
+baseurl: /feast17
 
 # Configuration for site
 title: ACM SIGCOMM 2017

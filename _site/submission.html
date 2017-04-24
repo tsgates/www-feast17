@@ -1,0 +1,337 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="Paper Submission Requirements - ACM SIGCOMM 2017" />
+    <meta property="og:image" content="https://tc.gtisc.gatech.edu" />
+    <meta property="og:url" content="/submission.html" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="copyright" content="This site inherents designs and contents from https://github.com/cawka/SIGCOMM2017 and https://github.com/apietila/SIGCOMM2016" />
+
+    <title>Paper Submission Requirements - ACM SIGCOMM 2017</title>
+
+    <!-- fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    <script src="https://use.fontawesome.com/3f4ded534f.js"></script>
+
+    <!-- Favicon alternatives: https://css-tricks.com/favicon-quiz/ -->
+    <!-- Generated using http://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/feast17/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/feast17/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/feast17/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/feast17/images/favicons/manifest.json">
+    <link rel="mask-icon" href="/feast17/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/feast17/images/favicons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="FEAST 2017">
+    <meta name="application-name" content="FEAST 2017">
+    <meta name="msapplication-config" content="/feast17/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- send file digest to prevent caching issues -->
+    <link rel="stylesheet" href="/feast17/css/site.css?digest=33185dffbe15195d37867ff8ef55f82381ea2a52f9557d40b7e2e2f5177891fc" />
+
+    <!-- make the CSS work with older IE -->
+    <script src="/feast17/js/css3-mediaqueries.js"></script>
+
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/feast17/js/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <!-- Grab CDN jquerymobile, with a protocol relative URL; fall back to local if offline -->
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script>$.mobile || document.write('<script src="/feast17/js/jquery.mobile-1.4.5.min.js"><\/script>')</script>
+
+    <script src="/feast17/js/jqm-docs.js"></script>
+
+    <!-- send file digest to prevent caching issues -->
+    <script src="/feast17/js/script.js?digest=19bdbd828e6ef866ab91feb50eb955a5dd3093edcacabc45184b5402ea6c7989" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <div data-role="page" data-theme="a" class="main-page">
+
+      <div class="header" data-role="header" data-theme="a" data-position="inline">
+        <div>
+          <a href="/feast17/"><img src="/feast17/images/logo.png" alt="FEAST 2017"></a>
+        </div>
+        <a href="#" onclick="$.mobile.silentScroll($.mobile.activePage.find('.leftnav').position().top)" id="menu-btn" class="ui-btn-right" data-corners="true" data-icon="grid">MENU</a>
+      </div>
+
+      <div data-role="content" class="ui-content">
+        <div class="content-primary">
+          <h1 id="paper-submission-requirements">Paper Submission Requirements</h1>
+
+<p>The SIGCOMM 2017 conference seeks papers describing significant research contributions to the field of computer and data communication networks. Paper submissions typically report novel results firmly substantiated by experimentation, simulation, or analysis. As an aid to the community, the SIGCOMM web site provides <a href="//www.sigcomm.org/publish/hints-tips-and-guides/">useful advice</a> to authors planning to submit to SIGCOMM conferences. Papers published in <a href="//www.sigcomm.org/top/learn/sigcomm-conference/sigcomm-conference">previous SIGCOMM conferences</a> also serve as excellent examples of anticipated scope, rigor, and length.</p>
+
+<p>To submit papers to the SIGCOMM 2017 conference, first carefully read the following sections on:</p>
+
+<ul>
+  <li><a href="#experience-track" data-ajax="false">Experience track</a>: a track focused on deployment experience, to which authors may opt to submit. Note that based on the preference authors express at submission time, each submission will only be considered for either the “main” conference track or the experience track, but not both.</li>
+  <li><a href="#ethics-considerations" data-ajax="false">Ethics considerations</a>: the conference’s ethics expectations.</li>
+  <li><a href="#paper-registration" data-ajax="false">Paper registration</a>: what to register, and how to determine TPC conflicts.</li>
+  <li><a href="#paper-novelty" data-ajax="false">Paper novelty</a>: what is eligible to be submitted, including policies on prior papers at a workshop.</li>
+  <li><a href="#paper-anonymity" data-ajax="false">Paper anonymity</a>: how to prepare for anonymous submission.</li>
+  <li><a href="#paper-formatting" data-ajax="false">Paper formatting</a>: how to format your paper, including LaTeX and Word templates.</li>
+  <li><a href="#paper-acceptance" data-ajax="false">Paper acceptance</a>: what to expect if your paper is accepted.</li>
+</ul>
+
+<p>Then use <a href="//sigcomm17.hotcrp.com">the paper submission site</a> to:</p>
+
+<ul>
+  <li>Register your paper by <b><del>January 20, 2017 (5:00pm PST)</del></b>.</li>
+  <li>Submit your paper by <b><del>January 27, 2017 (5:00pm PST)</del></b>.</li>
+</ul>
+
+<!-- <ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  
+    
+    
+    
+      <li data-icon="false">
+        <div class="ui-grid-a">
+          <div class="ui-block-a"><h2><del>January 20, 2017 (5:00pm PST)</del></h2></div>
+          <div class="ui-block-b"><p>Paper title and abstract registration deadline</p></div>
+        </div>
+      </li>
+    
+  
+    
+    
+    
+      <li data-icon="false">
+        <div class="ui-grid-a">
+          <div class="ui-block-a"><h2><del>January 27, 2017 (5:00pm PST)</del></h2></div>
+          <div class="ui-block-b"><p>Complete paper submissions deadline</p></div>
+        </div>
+      </li>
+    
+  
+    
+    
+    
+      <li data-icon="false">
+        <div class="ui-grid-a">
+          <div class="ui-block-a"><h2>May 5, 2017</h2></div>
+          <div class="ui-block-b"><p>Notification to authors</p></div>
+        </div>
+      </li>
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+      <li data-icon="false">
+        <div class="ui-grid-a">
+          <div class="ui-block-a"><h2>August 21-25, 2017</h2></div>
+          <div class="ui-block-b"><p>Technical Program</p></div>
+        </div>
+      </li>
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+  
+    
+    
+    
+    
+</ul>
+ -->
+
+<p>These are <font color="#ff0000">hard deadlines</font> and no extensions will be given.</p>
+
+<p>The information on this page is intentionally comprehensive.  Both new authors and veteran authors are urged to read through this page in its entirety. Our goal is to ensure that all authors have a consistent understanding of the submission process, and that everyone complies with the process fairly. If you have any questions about submitting papers to SIGCOMM 2017, or encounter problems with the paper submission site, contact the PC chairs well before the deadlines.</p>
+
+<h2 id="experience-track">Experience Track</h2>
+
+<p>SIGCOMM 2017 will carry forward the experience track first introduced in SIGCOMM 2015. The goal is to encourage submissions of papers on the design, analysis, and evaluation of techniques in commercial or otherwise widely used deployment. The PC will evaluate a submission to the experience track with the understanding that its contribution may lie predominantly in extending the community’s knowledge of how known techniques fare in realistic settings, and particularly in settings that most in the community cannot duplicate, for reasons of scale or otherwise. At paper registration time, authors must explicitly indicate if a submission is to be considered for the experience track. Each submission will only be considered for one track - either the experience track or the main conference track, but not both - in accordance with the authors’ preference expressed at submission time.</p>
+
+<h2 id="ethics-considerations">Ethics Considerations</h2>
+
+<p>Authors must as part of the submission process attest that their work complies with all applicable ethical standards of their home institution(s), including, but not limited to privacy policies and policies on experiments involving humans. The PC takes a broad view of what constitutes an ethical concern, and authors agree to be available at any time during the review process to rapidly respond to queries from the PC chairs regarding ethical standards.</p>
+
+<h2 id="paper-registration">Paper Registration</h2>
+
+<p><a href="//sigcomm17.hotcrp.com">Registration</a> only requires submission of paper metadata: paper title and abstract, author names, affiliations, contact email addresses, topics matching the subject matter of the paper, track (experience or main), and conflicts with PC members. The paper itself does not need to be submitted at the registration deadline. However, the paper title and abstract submitted during registration must be complete - not placeholders - and correctly characterize the paper that will be submitted. Authors can change the wording of their titles and abstracts for submission, but their essence should not fundamentally change. The PC will use the information provided during registration as a basis for making review assignments.</p>
+
+<p>Both authors and PC members provide PC conflict information. The PC will review paper conflicts to ensure the integrity of the reviewing process, adding conflicts where necessary. Broadly, we define conflict of interest with a PC member using the following principles:</p>
+
+<ol>
+  <li>You are currently employed at the same institution, have been previously employed at the same institution within the last 12 months, or are going to begin employment at the same institution.</li>
+  <li>You have a professional partnership as follows:
+    <ul>
+      <li>Past or present association as thesis advisor or advisee.</li>
+      <li>Collaboration on a project, publication, or grant proposal within the past 2 years (i.e., 2015 or later).</li>
+    </ul>
+  </li>
+</ol>
+
+<p>If there is no basis for PC conflicts provided by authors, those conflicts will be removed. In particular, do not improperly identify PC members as a conflict in an attempt to avoid having an individual review your paper.</p>
+
+<h2 id="paper-novelty">Paper Novelty</h2>
+
+<p>Under no circumstances should authors submit previously published work, submit the same work simultaneously to multiple venues, or submit papers that plagiarize the work of other authors. Like other conferences and journals, SIGCOMM prohibits these practices and may take action against authors who have engaged in them. In some cases, the program committee may share information about submitted papers with other conference chairs and journal editors to ensure the integrity of papers under consideration. If the PC discovers a violation of these principles, sanctions may include, but are not limited to, contacting the institutions of the authors and publicizing the details of the case.</p>
+
+<p>SIGCOMM will review extended versions of previously-published short preliminary papers (such as workshop papers) in accordance with published <a href="//www.sigcomm.org/about/policies/frequently-asked-questions-faq/">SIGCOMM policy</a> and the <a href="//www.acm.org/publications/policies/plagiarism_policy">ACM Plagiarism Policy</a>. To preserve author anonymity, authors MUST cite this related prior work, while making a good-faith effort not to reveal common authorship. For example, such a submission should not explicitly point out that specific text has been adopted from the author’s own prior work.</p>
+
+<p>Papers accompanied by nondisclosure agreement requests will not be considered for publication, nor ever disclosed.</p>
+
+<h2 id="paper-anonymity">Paper Anonymity</h2>
+
+<p>All submitted papers will be judged based on their quality and relevance through double-blind reviewing, where the identities of the authors are withheld from the reviewers. As an author, you are required to make a good-faith effort to preserve the anonymity of your submission, while at the same time allowing the reader to fully grasp the context of related past work, including your own. Common sense and careful writing will go a long way towards preserving anonymity. Minimally, please take the following steps when preparing your submission:</p>
+
+<ul>
+  <li>Remove the names and affiliations of authors from the title page.</li>
+  <li>Remove acknowledgment of identifying names and funding sources.</li>
+  <li>Use care in naming your files. Source file names (e.g., “Alice-n-Bob.dvi”) are often embedded in the final output as readily accessible comments.</li>
+  <li>Use care in referring to related work, particularly your own. Do not omit references to provide anonymity, as this leaves the reviewer unable to grasp the context. Instead, reference your past work in the third person, just as you would any other piece of related work by another author.</li>
+</ul>
+
+<h2 id="paper-formatting">Paper Formatting</h2>
+
+<p>All submissions must obey the following formatting requirements. Your goal as an author is to produce a clearly readable submission within these constraints.</p>
+
+<p>Before final submission, you are expected to make sure that your paper complies with these requirements. Authors are strongly discouraged from violating the formatting requirements with the aim of including additional material: <strong><font color="#ff0000">submissions that violate the formatting requirements may not be reviewed</font></strong>. You can visually inspect a page-by-page report of your paper format using the same tool as the submission system via a separate <a href="//www.sysnet.ucsd.edu/sigops/banal/index.php">online form</a>.</p>
+
+<p>After the submission deadline, we will use the same tool to check the conformance of papers. The format checking tool uses heuristics and can make mistakes. The PC chairs will manually inspect and possibly reject those papers with evident format violations. However, no paper will be rejected due to format violations without first being checked by hand.</p>
+
+<ul>
+  <li>
+    <p>Submit papers of no more than <strong><font color="#ff0000">twelve (12) single-spaced pages</font></strong>, including figures, tables, any appendices, etc., followed by as many pages as necessary for references. Papers whose non-reference content is longer than 12 pages will not be reviewed. Note that this length specification is the same as in 2015, but differs from that in prior years.</p>
+  </li>
+  <li>
+    <p>Submit papers using formatted for printing on Letter-sized (8.5” by 11”) paper.  Paper text blocks must follow ACM guidelines: double-column, with each column 9.25” by 3.33”, 0.33” space between columns.  Each column must contain no more than 55 lines of text.  For submission, use <a href="http://www.acm.org/publications/proceedings-template" rel="external">2017 ACM Article template</a> (<a href="http://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acmart.zip" rel="external">LaTeX</a>, <a href="http://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acm_windows_word_template.zip" rel="external">MS Word/Windows</a>, <a href="http://www.acm.org/binaries/content/assets/publications/consolidated-tex-template/acm_mac_2011_word_template.zip" rel="external">MS Word/Mac</a>).</p>
+
+    <p class="bs-callout bs-callout-info">If you are using LaTeX, you can make use of <a href="https://github.com/conference-websites/acmart-sigproc-template">this template for ACM conference proceedings</a>.  Unlike the official template, it only includes example for conference proceedings.</p>
+  </li>
+  <li>
+    <p>Note that the final copy will be 14 pages using the ACM standard 10pt format. This style may result in more text than your submission so that you can adequately address reviewer and shepherd comments.</p>
+  </li>
+  <li>
+    <p>List the submission number and the number of pages in your paper in the author block, e.g., “Paper #N, 14 pages”, beneath your title. Registering your title, abstract, etc., will provide a paper submission number. Per the anonymity guidelines, remember to remove any author names.</p>
+  </li>
+  <li>
+    <p>Provide an abstract of no more than 200 words.</p>
+  </li>
+  <li>
+    <p>Number the pages.</p>
+  </li>
+  <li>
+    <p>Submit papers in PDF (Portable Document Format) and ensure that they are compatible with Adobe Acrobat (English version). Other formats, including Postscript, will not be accepted. Avoid using non-standard fonts. The PC must be able to display and print your submission exactly as we receive it using only standard tools and printers, so we strongly suggest that you use only standard fonts that are embedded in the PDF file.</p>
+  </li>
+  <li>
+    <p>Ensure that the paper prints well on black-and-white printers, not color printers. Pay particular attention to figures and graphs in the paper to ensure that they are legible without color. Explicitly using grayscale colors will provide best control over how graphs and figures will print on black-and-white printers.</p>
+  </li>
+  <li>
+    <p>Ensure that labels and symbols used in graphs and figures are legible, including the font sizes of tick marks, axis labels, legends, etc.</p>
+  </li>
+  <li>
+    <p>Limit the file size to less than 15 MB. Contact the PC chairs if you have a file larger than 15 MB.</p>
+  </li>
+</ul>
+
+<h2 id="paper-acceptance">Paper Acceptance</h2>
+
+<p>The SIGCOMM 2017 PC will notify authors of acceptance/rejection decisions by <strong>May 5, 2017</strong>. All accepted papers may be shepherded by members of the PC. Authors of accepted papers should plan to interact with their shepherds immediately after notification, and to budget sufficient time between acceptance notification and the camera-ready deadline to coordinate with their shepherd. It is a requirement that the paper be considered acceptable to the assigned shepherd so that the updates to the paper reflect the issues raised by the PC (conflicts will be mediated by the PC chairs) before the paper is considered “accepted” to appear in the conference proceedings. In addition, the publisher of the SIGCOMM proceedings will review all accepted papers submitted for the camera-ready deadline. Authors should also budget sufficient time immediately after the camera-ready deadline to be available and responsive to any editing changes requested by the publisher after submitting their camera-ready paper.</p>
+
+<p>After acceptance, substantive changes to paper titles require approval by the PC chairs. Only in exceptional circumstances should authors change their author list, and only with the approval of the PC chairs.</p>
+
+<p>Authors of accepted papers will also need to sign an ACM copyright release form.  All rejected papers will be treated as permanently confidential.</p>
+
+        </div><!-- content-primary -->
+
+        <div class="leftnav" role="panel" data-position="left" data-display="overlay" data-theme="a">
+
+  <a href="/feast17/"><img src="/feast17/images/logo.png" alt="FEAST 2017"></a>
+
+  <ul data-role="listview" data-inset="true" data-theme="a" data-divider-theme="a">
+
+    
+      
+        
+        <li class=" " data-icon="false">
+          <a href="/feast17/"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Home</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast " data-icon="false">
+          <a href="/feast17/program.html"><i class="fa fa-bar-chart" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Program</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast " data-icon="false">
+          <a href="/feast17/cfp.html"><i class="fa fa-bullhorn" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call for Papers</a>
+        </li>
+        
+    
+      
+        
+        <li class=" " data-icon="false">
+          <a href="/feast17/tpc.html"><i class="fa fa-map" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Organizers</a>
+        </li>
+        
+    
+  </ul>
+</div>
+
+      </div> <!-- content -->
+    </div> <!-- page -->
+  </body>
+</html>

@@ -1,0 +1,326 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="ACM SIGCOMM 2017 Workshop on Kernel-Bypass Networks (KBNets'17) - ACM SIGCOMM 2017" />
+    <meta property="og:image" content="https://tc.gtisc.gatech.edu" />
+    <meta property="og:url" content="/workshop-kbnets.html" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="copyright" content="This site inherents designs and contents from https://github.com/cawka/SIGCOMM2017 and https://github.com/apietila/SIGCOMM2016" />
+
+    <title>ACM SIGCOMM 2017 Workshop on Kernel-Bypass Networks (KBNets'17) - ACM SIGCOMM 2017</title>
+
+    <!-- fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    <script src="https://use.fontawesome.com/3f4ded534f.js"></script>
+
+    <!-- Favicon alternatives: https://css-tricks.com/favicon-quiz/ -->
+    <!-- Generated using http://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/feast17/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/feast17/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/feast17/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/feast17/images/favicons/manifest.json">
+    <link rel="mask-icon" href="/feast17/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/feast17/images/favicons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="FEAST 2017">
+    <meta name="application-name" content="FEAST 2017">
+    <meta name="msapplication-config" content="/feast17/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- send file digest to prevent caching issues -->
+    <link rel="stylesheet" href="/feast17/css/site.css?digest=33185dffbe15195d37867ff8ef55f82381ea2a52f9557d40b7e2e2f5177891fc" />
+
+    <!-- make the CSS work with older IE -->
+    <script src="/feast17/js/css3-mediaqueries.js"></script>
+
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/feast17/js/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <!-- Grab CDN jquerymobile, with a protocol relative URL; fall back to local if offline -->
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script>$.mobile || document.write('<script src="/feast17/js/jquery.mobile-1.4.5.min.js"><\/script>')</script>
+
+    <script src="/feast17/js/jqm-docs.js"></script>
+
+    <!-- send file digest to prevent caching issues -->
+    <script src="/feast17/js/script.js?digest=19bdbd828e6ef866ab91feb50eb955a5dd3093edcacabc45184b5402ea6c7989" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <div data-role="page" data-theme="a" class="main-page">
+
+      <div class="header" data-role="header" data-theme="a" data-position="inline">
+        <div>
+          <a href="/feast17/"><img src="/feast17/images/logo.png" alt="FEAST 2017"></a>
+        </div>
+        <a href="#" onclick="$.mobile.silentScroll($.mobile.activePage.find('.leftnav').position().top)" id="menu-btn" class="ui-btn-right" data-corners="true" data-icon="grid">MENU</a>
+      </div>
+
+      <div data-role="content" class="ui-content">
+        <div class="content-primary">
+          <h2 id="acm-sigcomm-2017-workshop-on-kernel-bypass-networks-kbnets17">ACM SIGCOMM 2017 Workshop on Kernel-Bypass Networks (KBNets’17)</h2>
+
+<h3 id="call-for-papers">Call For Papers</h3>
+
+<p>Kernel-Bypass Networks (including, but not limited to RDMA and DPDK) have recently drawn much attention from the research community and the industry. Emerging applications such as AI training, distributed storage systems, and software middle-boxes/NFV have been shown to benefit significantly from technologies that bypass the conventional OS network stack. At the same time, recent switch and NIC developments (e.g., RoCE) have paved the way to the large-scale deployment of KBNets.</p>
+
+<p>We believe that our community must expedite the research on kernel bypass networks. There are significant open questions, for example, regarding the merits of different kernel bypass architectures, how to design control plane and management systems for KBNets, and how to deal with inherent problems such as congestion spreading and deadlocks in such networks. As importantly, much more work is needed to rethink how we design distributed systems and applications to fully take advantage of KBNets.</p>
+
+<p>The ACM SIGCOMM Workshop on Kernel-Bypass Networks (KBNets’17) is organized with the goal of bringing together researchers from the networking, operating systems, and distributed systems communities to promote the development and evolution of kernel-bypass networks. We welcome submissions related to all aspects of KBNets and KBNets-based systems, including network/system architecture, design, implementation, simulation, modeling, analysis, and measurement. We highly encourage novel and innovative early stage work that will encourage discussion and future research on KBNets.</p>
+
+<h4 id="topics-of-interest">Topics of Interest</h4>
+
+<p>Topics include but are not limited to:</p>
+
+<ul>
+  <li>Network transport for kernel-bypass networks</li>
+  <li>Control plane for kernel-bypass networks</li>
+  <li>Security issues regarding kernel-bypass networks</li>
+  <li>Distributed systems that are based on kernel-bypass networks, e.g., AI training, distributed storage, database and in-memory caches</li>
+  <li>Data center network architectures for kernel-bypass networks</li>
+  <li>Virtualization for kernel-bypass networks</li>
+  <li>NIC/switch hardware design for kernel-bypass networks</li>
+  <li>Middle-boxes/NFV optimization with kernel-bypass networks</li>
+  <li>Diagnosing and troubleshooting kernel-bypass networks</li>
+  <li>Experiences and best-practices in deploying kernel-bypass networks</li>
+  <li>Measurement and performance studies of kernel-bypass networks and applications</li>
+  <li>Deployment strategies and backward compatibility with traditional network stacks</li>
+  <li>Other approaches such as high performance OS data-plane architectures</li>
+</ul>
+
+<p><a href="mailto:alizadeh@csail.mit.edu,yibzh@microsoft.com?subject=[KBNets'17]" data-role="button" class="button">Contact workshop co-chairs</a>.</p>
+
+<h4 id="submission-instructions">Submission Instructions</h4>
+
+<p>Submissions must describe original, previously unpublished research, not currently under review by another conference or journal. Papers must be submitted electronically via the submission site. The length of papers must be no more than <strong>6 pages</strong>, including tables, figures <strong><red>and references, using the same template as SIGCOMM submission</red></strong> (<a href="submission.html">SIGCOMM submission instructions</a>).  The cover page must contain the name and affiliation of author(s) for <strong>single-blind</strong> peer reviewing by the program committee. Each submission will receive <strong>at least three independent blind</strong> reviews from the TPC. At least one of the authors of every accepted paper must register and present their work at the workshop.</p>
+
+<p>Please submit your paper via <a href="https://sigcomm17kbnets.hotcrp.com/">https://sigcomm17kbnets.hotcrp.com/</a>.</p>
+
+<h3 id="important-dates">Important Dates</h3>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="datetbl">
+  
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a"><h2><del>March 24, 2017</del> March 31, 2017</h2></div>
+        <div class="ui-block-b"><p>Submission deadline</p></div>
+      </div>
+    </li>
+  
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a"><h2>April 30, 2017</h2></div>
+        <div class="ui-block-b"><p>Acceptance notification</p></div>
+      </div>
+    </li>
+  
+    <li data-icon="false">
+      <div class="ui-grid-a">
+        <div class="ui-block-a"><h2>May 26, 2017</h2></div>
+        <div class="ui-block-b"><p>Camera ready deadline</p></div>
+      </div>
+    </li>
+    
+</ul>
+
+<h2 id="authors-take-note">Authors Take Note</h2>
+
+<p><strong>The official publication date is the date the proceedings are made available in the ACM Digital Library. This date may be up to <em>TWO WEEKS</em> prior to the first day of your conference. The official publication date affects the deadline for any patent filings related to published work.</strong></p>
+
+<h3 id="committees">Committees</h3>
+
+<ul data-role="listview" data-inset="true" data-theme="a" data-content-theme="a" class="tbl">
+  
+    <li data-role="list-divider">Workshop Co-Chairs</li>
+    
+      <li data-icon="false">
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a"><p>Mohammad Alizadeh</p></div>
+            <div class="ui-block-b"><p>MIT</p></div>
+          </div>
+          
+      </li>  
+    
+      <li data-icon="false">
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a"><p>Yibo Zhu</p></div>
+            <div class="ui-block-b"><p>Microsoft Research</p></div>
+          </div>
+          
+      </li>  
+    
+  
+    <li data-role="list-divider">Technical Program Committee</li>
+    
+      <li data-icon="false">
+        <a href="http://pages.cs.wisc.edu/~akella/" target="_blank" rel="external">
+          <div class="ui-grid-a">
+            <div class="ui-block-a"><p>Aditya Akella</p></div>
+            <div class="ui-block-b"><p>University of Wisconsin-Madison</p></div>
+          </div>
+          </a>
+      </li>  
+    
+      <li data-icon="false">
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a"><p>Adam Belay</p></div>
+            <div class="ui-block-b"><p>MIT / Google</p></div>
+          </div>
+          
+      </li>  
+    
+      <li data-icon="false">
+        <a href="http://www.mosharaf.com/" target="_blank" rel="external">
+          <div class="ui-grid-a">
+            <div class="ui-block-a"><p>Mosharaf Chowdhury</p></div>
+            <div class="ui-block-b"><p>University of Michigan, Ann Arbor</p></div>
+          </div>
+          </a>
+      </li>  
+    
+      <li data-icon="false">
+        <a href="https://research.google.com/pubs/author39115.html" target="_blank" rel="external">
+          <div class="ui-grid-a">
+            <div class="ui-block-a"><p>Nandita Dukkipati</p></div>
+            <div class="ui-block-b"><p>Google</p></div>
+          </div>
+          </a>
+      </li>  
+    
+      <li data-icon="false">
+        <a href="http://ina.kaist.ac.kr/~dongsuh/" target="_blank" rel="external">
+          <div class="ui-grid-a">
+            <div class="ui-block-a"><p>Dongsu Han</p></div>
+            <div class="ui-block-b"><p>KAIST</p></div>
+          </div>
+          </a>
+      </li>  
+    
+      <li data-icon="false">
+        <a href="http://www.cs.washington.edu/people/faculty/arvind" target="_blank" rel="external">
+          <div class="ui-grid-a">
+            <div class="ui-block-a"><p>Arvind Krishnamurthy</p></div>
+            <div class="ui-block-b"><p>University of Washington</p></div>
+          </div>
+          </a>
+      </li>  
+    
+      <li data-icon="false">
+        <a href="http://www.cs.columbia.edu/~misra/" target="_blank" rel="external">
+          <div class="ui-grid-a">
+            <div class="ui-block-a"><p>Vishal Misra</p></div>
+            <div class="ui-block-b"><p>Columbia University</p></div>
+          </div>
+          </a>
+      </li>  
+    
+      <li data-icon="false">
+        <a href="http://nets.cs.pub.ro/~costin/" target="_blank" rel="external">
+          <div class="ui-grid-a">
+            <div class="ui-block-a"><p>Costin Raiciu</p></div>
+            <div class="ui-block-b"><p>University Politehnica of Bucharest</p></div>
+          </div>
+          </a>
+      </li>  
+    
+      <li data-icon="false">
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a"><p>Shachar Raindel</p></div>
+            <div class="ui-block-b"><p>Microsoft Azure</p></div>
+          </div>
+          
+      </li>  
+    
+      <li data-icon="false">
+        <a href="http://info.iet.unipi.it/~luigi/" target="_blank" rel="external">
+          <div class="ui-grid-a">
+            <div class="ui-block-a"><p>Luigi Rizzo</p></div>
+            <div class="ui-block-b"><p>Uni. Di Pisa / Google</p></div>
+          </div>
+          </a>
+      </li>  
+    
+      <li data-icon="false">
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a"><p>Kun Tan</p></div>
+            <div class="ui-block-b"><p>Huawei</p></div>
+          </div>
+          
+      </li>  
+    
+      <li data-icon="false">
+        <a href="http://tx.technion.ac.il/~ezahavi/" target="_blank" rel="external">
+          <div class="ui-grid-a">
+            <div class="ui-block-a"><p>Eitan Zahavi</p></div>
+            <div class="ui-block-b"><p>Mellanox</p></div>
+          </div>
+          </a>
+      </li>  
+    
+      <li data-icon="false">
+        
+          <div class="ui-grid-a">
+            <div class="ui-block-a"><p>Ming Zhang</p></div>
+            <div class="ui-block-b"><p>Alibaba</p></div>
+          </div>
+          
+      </li>  
+    
+  
+</ul>
+
+
+        </div><!-- content-primary -->
+
+        <div class="leftnav" role="panel" data-position="left" data-display="overlay" data-theme="a">
+
+  <a href="/feast17/"><img src="/feast17/images/logo.png" alt="FEAST 2017"></a>
+
+  <ul data-role="listview" data-inset="true" data-theme="a" data-divider-theme="a">
+
+    
+      
+        
+        <li class=" " data-icon="false">
+          <a href="/feast17/"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Home</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast " data-icon="false">
+          <a href="/feast17/program.html"><i class="fa fa-bar-chart" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Program</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast " data-icon="false">
+          <a href="/feast17/cfp.html"><i class="fa fa-bullhorn" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call for Papers</a>
+        </li>
+        
+    
+      
+        
+        <li class=" " data-icon="false">
+          <a href="/feast17/tpc.html"><i class="fa fa-map" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Organizers</a>
+        </li>
+        
+    
+  </ul>
+</div>
+
+      </div> <!-- content -->
+    </div> <!-- page -->
+  </body>
+</html>

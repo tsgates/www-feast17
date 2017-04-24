@@ -1,0 +1,378 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta property="og:title" content="ACM SIGCOMM 2017 Tutorial (Half-Day): Named Data Networking (NDN) Tutorial - ACM SIGCOMM 2017" />
+    <meta property="og:image" content="https://tc.gtisc.gatech.edu" />
+    <meta property="og:url" content="/tutorial-ndn.html" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="copyright" content="This site inherents designs and contents from https://github.com/cawka/SIGCOMM2017 and https://github.com/apietila/SIGCOMM2016" />
+
+    <title>ACM SIGCOMM 2017 Tutorial (Half-Day): Named Data Networking (NDN) Tutorial - ACM SIGCOMM 2017</title>
+
+    <!-- fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+    <script src="https://use.fontawesome.com/3f4ded534f.js"></script>
+
+    <!-- Favicon alternatives: https://css-tricks.com/favicon-quiz/ -->
+    <!-- Generated using http://realfavicongenerator.net/ -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/feast17/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="/feast17/images/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/feast17/images/favicons/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/feast17/images/favicons/manifest.json">
+    <link rel="mask-icon" href="/feast17/images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/feast17/images/favicons/favicon.ico">
+    <meta name="apple-mobile-web-app-title" content="FEAST 2017">
+    <meta name="application-name" content="FEAST 2017">
+    <meta name="msapplication-config" content="/feast17/images/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- send file digest to prevent caching issues -->
+    <link rel="stylesheet" href="/feast17/css/site.css?digest=33185dffbe15195d37867ff8ef55f82381ea2a52f9557d40b7e2e2f5177891fc" />
+
+    <!-- make the CSS work with older IE -->
+    <script src="/feast17/js/css3-mediaqueries.js"></script>
+
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/feast17/js/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <!-- Grab CDN jquerymobile, with a protocol relative URL; fall back to local if offline -->
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script>$.mobile || document.write('<script src="/feast17/js/jquery.mobile-1.4.5.min.js"><\/script>')</script>
+
+    <script src="/feast17/js/jqm-docs.js"></script>
+
+    <!-- send file digest to prevent caching issues -->
+    <script src="/feast17/js/script.js?digest=19bdbd828e6ef866ab91feb50eb955a5dd3093edcacabc45184b5402ea6c7989" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <div data-role="page" data-theme="a" class="main-page">
+
+      <div class="header" data-role="header" data-theme="a" data-position="inline">
+        <div>
+          <a href="/feast17/"><img src="/feast17/images/logo.png" alt="FEAST 2017"></a>
+        </div>
+        <a href="#" onclick="$.mobile.silentScroll($.mobile.activePage.find('.leftnav').position().top)" id="menu-btn" class="ui-btn-right" data-corners="true" data-icon="grid">MENU</a>
+      </div>
+
+      <div data-role="content" class="ui-content">
+        <div class="content-primary">
+          <h2 id="acm-sigcomm-2017-tutorial-half-day-named-data-networking-ndn-tutorial">ACM SIGCOMM 2017 Tutorial (Half-Day): Named Data Networking (NDN) Tutorial</h2>
+
+<h3 id="call-for-participation">Call For Participation</h3>
+
+<p>This half-day SIGCOMM tutorial provides an introduction to <a href="https://named-data.net/">Named Data Networking (NDN)</a>, a newly developed data-centric Internet architecture.
+NDN makes a conceptually simple yet fundamental change to the narrow waist of the Internet’s narrow waist architecture by replaces TCP/IP’s narrow focus on “where” to send packet with “what” content to fetch. We believe that this shift to data-centric networking can greatly help enhance Internet security, enable mobility support, scale both data disseminations as well as data collection (e.g., from IoT devices), as well as facilitate new application developments.</p>
+
+<p>The morning starts with an introduction of the NDN architecture by Van Jacobson, followed by research topics and recent results.
+For more detailed information about the tutorial and additional activities, please check out <a href="https://named-data.net/tutorials/sigcomm2017/">NDN Tutorial homepage</a></p>
+
+<h3 id="presenters">Presenters</h3>
+
+<!-- <div  class="presenters"> -->
+<ul class="program" data-role="listview" data-inset="true" data-theme="d" data-dividertheme="a">
+         
+      <li data-icon="false" class="prog-item">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+          <h4>
+            <div>
+              <p class="paper-header">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a"><p>Alexander Afanasyev</p></div>
+                  <div class="ui-block-b"><p>University of California, Los Angeles</p></div>
+                </div>
+              </p>
+            </div>
+            <div class="ui-li-aside">
+            </div>
+          </h4>
+          <ul data-role="listview" data-inset="false">
+            <li data-icon="false">
+              <p>
+                
+                <p>Alexander Afanasyev is an Adjunct Assistant Professor in University of California, Los Angeles.  He received his Ph.D. degree in computer science from UCLA in 2013.  His research focus is on the next-generation Internet architecture as part of the Named Data Networking (NDN) project. His research interests include a variety of topics that are vital for the success of NDN, including scalability of name-based routing, auto-configuration, distributed data synchronization, application and network security.  Dr. Afanasyev is also leading the development effort of the overall NDN codebase.</p>
+              </p>
+              <p>&nbsp;</p>
+            </li>
+          </ul>
+        </div>
+      </li>
+         
+      <li data-icon="false" class="prog-item">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+          <h4>
+            <div>
+              <p class="paper-header">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a"><p>Jeff Burke</p></div>
+                  <div class="ui-block-b"><p>UCLA School of Theater, Film and Television (TFT)</p></div>
+                </div>
+              </p>
+            </div>
+            <div class="ui-li-aside">
+            </div>
+          </h4>
+          <ul data-role="listview" data-inset="false">
+            <li data-icon="false">
+              <p>
+                
+                <p>Jeff Burke is Assistant Dean for Technology and Innovation at the UCLA School of Theater, Film and Television (TFT), where he has been a faculty member since 2001.  His research explores the intersections of the built environment, computer networks, and storytelling. He has produced, managed, programmed, and designed performances, short films, new genre art installations and new facility construction internationally for over fifteen years, incorporating emerging technologies as part of these projects and creative works.  Burke co-founded REMAP, a joint center of TFT and the Henry Samueli School of Engineering and Applied Science, which uses a mixture of research, artistic production, and community engagement to investigate the interrelationships among culture, community, and technology. From 2006-2012, Burke was the area lead for participatory sensing at the NSF Center for Embedded Networked Sensing (CENS). He is Co-PI and application team lead for the Named Data Networking research project. </p>
+              </p>
+              <p>&nbsp;</p>
+            </li>
+          </ul>
+        </div>
+      </li>
+         
+      <li data-icon="false" class="prog-item">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+          <h4>
+            <div>
+              <p class="paper-header">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a"><p>Patrick Crowley</p></div>
+                  <div class="ui-block-b"><p>Washington University in St. Louis</p></div>
+                </div>
+              </p>
+            </div>
+            <div class="ui-li-aside">
+            </div>
+          </h4>
+          <ul data-role="listview" data-inset="false">
+            <li data-icon="false">
+              <p>
+                
+                <p>Patrick Crowley is Professor of Computer Science &amp; Engineering at Washington University in St. Louis, where he directs the Applied Research Lab. He is also founder and CTO of Observable Networks, a cloud-native network security company. His research interests are in computer and network systems architecture, with a current focus on information-centric networking, programmable network systems design, and the invention of superior network monitoring and security techniques.</p>
+              </p>
+              <p>&nbsp;</p>
+            </li>
+          </ul>
+        </div>
+      </li>
+         
+      <li data-icon="false" class="prog-item">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+          <h4>
+            <div>
+              <p class="paper-header">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a"><p>Van Jacobson</p></div>
+                  <div class="ui-block-b"><p>University of California, Los Angeles / Google</p></div>
+                </div>
+              </p>
+            </div>
+            <div class="ui-li-aside">
+            </div>
+          </h4>
+          <ul data-role="listview" data-inset="false">
+            <li data-icon="false">
+              <p>
+                
+                <p>Van Jacobson has been a long-term contributor to the Internet. His algorithms for the Transmission Control Protocol (TCP) saved Internet from congestion collapse in 1980's and are used by over 90% of Internet hosts today. He developed the blueprint of Named Data Networking (NDN) 10 years ago and continues to serve as the NDN architect.</p>
+              </p>
+              <p>&nbsp;</p>
+            </li>
+          </ul>
+        </div>
+      </li>
+         
+      <li data-icon="false" class="prog-item">
+        <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+          <h4>
+            <div>
+              <p class="paper-header">
+                <div class="ui-grid-a">
+                  <div class="ui-block-a"><p>Beichuan Zhang</p></div>
+                  <div class="ui-block-b"><p>University of Arizona</p></div>
+                </div>
+              </p>
+            </div>
+            <div class="ui-li-aside">
+            </div>
+          </h4>
+          <ul data-role="listview" data-inset="false">
+            <li data-icon="false">
+              <p>
+                
+                <p>Beichuan Zhang is Associate Professor at the Department of Computer Science, the University of Arizona. His research interest is in Internet routing architectures and protocols. He has been working on Named Data Networking, green networking, and inter-domain routing. He received the Applied Networking Research Prize in 2011 by ISOC and IRTF, and best paper awards at IEEE ICDCS in 2005 and IWQoS in 2014. Dr. Zhang received Ph.D. from UCLA and B.S. from Peking University.</p>
+              </p>
+              <p>&nbsp;</p>
+            </li>
+          </ul>
+        </div>
+      </li>
+    
+  </ul>
+<p><!-- </div> --></p>
+
+<h3 id="tutorial-program">Tutorial Program</h3>
+
+<div id="tutorial-ndn-program" class="tutorial-ndn-program">
+  <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
+    
+      
+        
+        <li class="prog-header prog-no-filter ui-bar-a prog-item prog-tbd">
+          <h3>TBD   (Room: TBD)</h3>
+        </li>
+      
+    
+      
+        <li class="ui-li ui-bar-a prog-tutorial prog-item ui-li-divider prog-tbd  " data-role="list-divider">
+  <h3>
+    9:00am - 9:05am
+    
+      Welcome and Introduction
+    
+  </h3>
+  
+    
+    
+  
+</li>
+
+<li class="hidden">Welcome and Introduction</li>
+
+      
+    
+      
+        <li class="ui-li ui-bar-a prog-tutorial prog-item ui-li-divider prog-tbd  " data-role="list-divider">
+  <h3>
+    9:05am - 10:30am
+    
+      NDN Architecture (Van Jacobson)
+    
+  </h3>
+  
+    
+    
+  
+</li>
+
+<li class="hidden">NDN Architecture (Van Jacobson)</li>
+
+      
+    
+      
+        <li class="ui-li ui-bar-b prog-item ui-li-divider prog-tbd  " data-role="list-divider">
+  <h3>
+    10:30am - 11:00am
+    
+      Coffee Break
+    
+    
+      (Foyer)
+    
+  </h3>
+  
+</li>
+
+<li class="hidden">Coffee Break</li>
+
+      
+    
+      
+        <li class="ui-li ui-bar-a prog-tutorial prog-item ui-li-divider prog-tbd listlast listlast" data-role="list-divider">
+  <h3>
+    11am - 12:30am
+    
+      NDN Research (NDN project team)
+    
+  </h3>
+  
+    
+    
+  
+</li>
+
+<li class="hidden">NDN Research (NDN project team)</li>
+
+      
+    
+  </ul>
+</div>
+
+<h3 id="motivation">Motivation</h3>
+
+<p>This half-day tutorial aims to provide a comprehensive overview of <a href="https://named-data.net/">Named Data Networking (NDN)</a>, a newly developed Internet architecture. NDN replaces TCP/IP architecture’s focus on “where”, i.e., the addresses and hosts, with “what”, i.e., the content that users and applications care about. This fundamental shift brings profound impacts to enhancing Internet security, enabling mobility support, scaling both data disseminations as well as data collection (e.g., from IoT devices), and facilitating new application development.</p>
+
+<p>Launched in 2010 under the NSF’s Future Internet Architecture program, the NDN project has attracted researchers from both academia and industry around the world to explore all aspects of its design, implementation, and applications.  It is arguably the most prominent inspiration and realization of the Information-Centric Networking (ICN) vision, around which a growing research community has formed over the past several years.</p>
+
+<p>Together with an increasing interests in NDN, there are also a number of questions as well as misconceptions regarding NDN.  This tutorial aims to bring NDN to the broader networking community by explaining NDN’s basic architectural concepts, articulating research issues, demonstrating NDN operations and applications, and introducing its open-source code development. We expect the tutorial to benefit network researchers and students with different levels of background knowledge on NDN/ICN, from people who want to learn what NDN really is, to people who are looking for new topics to explore, or for ways to contribute to NDN design and development.</p>
+
+<p>The tutorial will start with an introduction to the NDN architecture by Van Jacobson, followed by an overview of the NDN research topics and recent results by the NDN project team researchers.</p>
+
+<h3 id="topics-include">Topics Include</h3>
+
+<ul>
+  <li>
+    <p>Introduction of the basic concepts, fundamental principles, key mechanisms, and articulation on how to take NDN to the next stage.</p>
+  </li>
+  <li>
+    <p>Survey on existing NDN research work, with emphasis on research challenges and recent results, including</p>
+
+    <ul>
+      <li>Routing</li>
+      <li>Forwarding</li>
+      <li>Caching</li>
+      <li>Mobility</li>
+      <li>Security</li>
+      <li>Applications</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="expected-audience-and-prerequisites">Expected Audience and Prerequisites</h3>
+
+<p>This tutorial targets the general networking research community with no specific prerequisite. We expect the tutorial to benefit network researchers and students with different levels of background knowledge on NDN/ICN, from people who want to learn what NDN really is, to people who are looking for new topics to explore, or for ways to contribute to NDN design and development.</p>
+
+        </div><!-- content-primary -->
+
+        <div class="leftnav" role="panel" data-position="left" data-display="overlay" data-theme="a">
+
+  <a href="/feast17/"><img src="/feast17/images/logo.png" alt="FEAST 2017"></a>
+
+  <ul data-role="listview" data-inset="true" data-theme="a" data-divider-theme="a">
+
+    
+      
+        
+        <li class=" " data-icon="false">
+          <a href="/feast17/"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Home</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast " data-icon="false">
+          <a href="/feast17/program.html"><i class="fa fa-bar-chart" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Program</a>
+        </li>
+        
+    
+      
+        
+        <li class="notlast " data-icon="false">
+          <a href="/feast17/cfp.html"><i class="fa fa-bullhorn" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Call for Papers</a>
+        </li>
+        
+    
+      
+        
+        <li class=" " data-icon="false">
+          <a href="/feast17/tpc.html"><i class="fa fa-map" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Organizers</a>
+        </li>
+        
+    
+  </ul>
+</div>
+
+      </div> <!-- content -->
+    </div> <!-- page -->
+  </body>
+</html>
