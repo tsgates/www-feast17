@@ -24,130 +24,15 @@ menu:
 - name: Home
   url: /
   icon: fa-home
-- name: Conference
+- name: Program
   icon: fa-bar-chart
-  submenu:
-    # - name: Program
-    #   url: /program.html
-    # - name: Awards
-    #   url: /awards.html
-    - name: Social Events
-      url: /social-events.html
-    - name: Program Committee
-      url: /tpc.html
-      # icon: fa-users
-    - name: Organizing Committee
-      url: /org-committee.html
-      # icon: fa-users
-    # - name: Posters
-    #   url: /posters.html
-    # - name: Demos
-    #   url: /demos.html
-    # - name: ACM SRC
-    #   url: /acm-src.html
-    # - name: Industrial Demos
-    #   url: /industrial-demos.html
-    # - name: Posters/Demos from Main Track
-    #   url: /posters-and-demos-main-track.html
-    # - name: Topic Preview
-    #   url: /topic-preview.html
-    # - name: Mentoring
-    #   url: /mentoring.html
-- name: Workshops
+  url: /program.html
+- name: Call for Papers
   icon: fa-bullhorn
-  submenu:
-    - name: MECOMM
-      url: /workshop-mecomm.html
-    - name: MobiArch
-      url: /workshop-mobiarch.html
-    - name: KBNets
-      url: /workshop-kbnets.html
-    - name: Big-DAMA
-      url: /workshop-big-dama.html
-    - name: Internet QoE
-      url: /workshop-internet-qoe.html
-    - name: HotConNet
-      url: /workshop-hotconnet.html
-    - name: Reproducibility
-      url: /workshop-reproducibility.html
-    - name: VR/AR Network
-      url: /workshop-vrar-network.html
-    - name: NetPL
-      url: /workshop-netpl.html
-    - name: N2Women
-      url: /workshop-n2women.html
-- name: Tutorials
-  icon: fa-newspaper-o
-  submenu:
-    - name: Adaptive Streaming
-      url: /tutorial-adaptive-streaming.html
-      icon: fa-adjust
-    - name: C2C
-      url: /tutorial-c2c.html
-      icon: fa-adjust
-    - name: mmWave
-      url: /tutorial-mmWave.html
-      icon: fa-adjust
-    - name: NDN 
-      url: /tutorial-ndn.html
-      icon: fa-adjust
-    - name: Netmap for NFV
-      url: /tutorial-netmap-nfv.html
-      icon: fa-circle
-    - name: P4
-      url: /tutorial-p4.html
-      icon: fa-circle
-    - name: P4→NetFPGA
-      url: /tutorial-P4-NetFPGA.html
-      icon: fa-circle
-    - name: Understanding Latency
-      url: /tutorial-latency.html
-      icon: fa-adjust
-# - name: Registration
-#   url: /registration.html
-- name: Local Information
+  url: /cfp.html
+- name: Organizers
   icon: fa-map
-  submenu:
-    - name: Venue
-      url: /venue.html
-    - name: Accommodations
-      url: /accommodations.html
-    - name: Visa Information
-      url: /visa.html
-    - name: Tourism
-      url: /tourism.html
-    # - name: Room Share
-    #   url: /room-share.html
-    # - name: Travel Grants
-    #   url: /travel-grants.html
-    # - name: N2Women Fellowship
-    #   url: /n2women-fellowship.html
-    # - name: N2Women Travel Grant
-    #   url: /n2women-travel-grant.html
-- name: Calls
-  icon: fa-bullhorn
-  submenu:
-    - name: <del>Call for Papers</del>
-      url: /cfp.html
-    - name: Submission Requirements
-      url: /submission.html
-    - name: Call for Posters & Demos
-      url: /cf-posters.html
-    - name: Student Research Competition
-      url: /src.html
-    - name: Call for Industrial Demos
-      url: /cf-industrial-demos.html
-    - name: <del>Call for Tutorials</del>
-      url: /cf-tutorials.html
-    - name: <del>Call for Workshops</del>
-      url: /cf-workshops.html
-- name: Policies
-  icon: fa-book
-  submenu:
-    - name: Author Registration Policy
-      url: /policy-author-registration.html
-    - name: Anti-Harassment Policy
-      url: /policy-anti-harassment.html
+  url: /tpc.html
 
 colors:
   highlight: 2E85C2
