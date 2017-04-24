@@ -29,6 +29,7 @@ described in the Call for Papers.
 ## <i class="fa fa-gg"></i> Sponsors
 
 <div class="sponsors">
-	<a href="//www.acm.org/"><img src="images/acm.png" alt="Association for Computing Machinery" /></a>
-	<a href="//www.sigcomm.org/"><img src="images/sig.png" alt="ACM SIGCOMM" /></a>
+ <a href="https://www.acm.org/"><img src="images/acm.png" alt="Association for Computing Machinery" /></a>
+ <a href="https://www.sigsac.org/"><img src="images/sigsac.png" alt="ACM Special Interest Group on Security, Audit and Control (SIGSAC)" /></a>
+ <a href="https://www.onr.navy.mil"><img src="images/onr.png" alt="ONR" /></a>
 </div>

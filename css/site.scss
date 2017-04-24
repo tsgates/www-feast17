@@ -144,8 +144,6 @@ p {
 }
 
 .content-primary .sponsors img {
-    width: 40%;
-    max-width: 400px;
     padding: 10px 20px 10px 20px;
     vertical-align: middle
 }
@@ -768,6 +766,8 @@ red {
 	font-size:18px!important;
 	padding:0.01em 16px;
 	float: right;
-	}
+}
 
-	.display-container{position:relative}
+.display-container {
+  position:relative
+}
