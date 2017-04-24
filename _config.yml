@@ -19,14 +19,6 @@ logo:
   image: images/sigcomm-2017-logo.png
   info: ACM SIGCOMM 2017, Los Angeles, CA
 
-google_analytics_id: UA-83529610-1
-
-program:
-  # If the specified file doesn't exist, there will be command-line dialog to create it 
-  google_client_id: .travis.d/google_client_id.json
-  # Google spreadsheet with the conference data
-  spreadsheet: 1J-lppI-_qcclJbmP3DN_xhgKnJnL6S344BUQQ9JbvIE
-
 # Configuration for navbar.html
 menu:
 - name: Home
