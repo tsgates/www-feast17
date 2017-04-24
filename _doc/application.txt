@@ -1,0 +1,152 @@
+1. Workshop title
+
+  The 2017 Workshop on Forming an Ecosystem Around Software Transformation (FEAST 2017)
+
+2. A draft Call for Papers articulating the scope and topics covered by the workshop
+           
+Background:
+
+Typical software engineering methodologies are largely focused on
+programmer productivity and their methods have been known to introduce
+significant execution inefficiency as a side effect.  Recent work
+investigating efficient and timely software has attempted to enhance
+software execution efficiency while preserving the source code-level
+abstractions and object-orientation that enhance a programmer’s
+productivity.
+
+Such efforts seek to undo the side effects on security and performance
+overhead by reclaiming software execution efficiency and reducing
+indirection, as well as performing automatic program de-layering and
+program specialization (de-bloating).  Several promising results from
+these efforts have demonstrated their viability in improving program
+execution efficiency as well as reduction of the cyber security attack
+surface.  As a result, the community may benefit by investing in the
+development of tool ecosystems to take advantage of this recent
+progress, to mature the technologies, and determine how best to
+transparently deploy them.
+
+Scope:
+
+Despite some early progress within the computer science research
+community, software executable transformation is not a solved science.
+Namely, a critical step in the process of reverse engineering and
+binary understanding is, in the general case, undecidable.  Various
+automated tools (an ecosystem of tools) will need to be investigated
+and developed by the community to guarantee the effectiveness and
+correctness of transformation efforts and to enhance and ensure the
+security of transformed software.  The FEAST workshop will include
+discussion topics geared toward:
+
+  - Understanding issues of software executable transformation for
+    various programming languages and environment, and the potential
+    methods for alleviating those issues
+
+  - Identification of tools to be
+    investigated and developed for guaranteeing correctness, enhancing
+    security, and enabling non-critical/undesired feature removal
+
+  - Identification of layers and areas of computing systems that are
+    suitable for and can benefit from software
+    customization/transformation, along with identification of
+    associated challenges and constraints, and the particular
+    adaptation to the methodology needed to operate within the
+    identified areas
+
+  - Automated extraction of models from software
+    executables that are amenable to formal methods analysis and
+    verification
+
+3. A brief summary and justification for the workshop, including
+   anticipated benefits to the ACM CCS community.
+
+FEAST'17 plans to serve as a venue to discuss of the state-of-the-art
+topics on software transformation techniques and ecosystems focusing
+on security issues, such as software de-bloating issues. We also
+invite PIs from ONR for giving feedback (and sharing real experiences)
+on this topic. The workshop will be partly supported by the ONR.
+
+
+4. Proposed format and agenda
+
+The program plans to highlight three to four topic sessions, covering
+various topics in software transformation focusing on security
+issues. The workshop will accept both papers and presentations,
+including regular papers, position papers, work-in-progress reports,
+presentation of early research results, position talks, outlining of
+challenges/opportunities, and technical surveys of ongoing approaches.
+The goal is to spur discussions of the topics covered.
+
+5. Expected number of submissions and acceptance rate
+
+15 out of 20-30
+
+6. Expected number of attendees
+
+50
+
+7. Program chair(s), and, if available, tentative program committee
+
+Chairs:
+  Dinghao Wu (PSU)
+  Taesoo Kim (Gatech)
+
+PC (tentative):
+
+  Jan Vitek             NEU
+  Dongyan Xu            Purdue
+  Matthias Payer        Purdue
+  Kevin Hamlet          UT Dallas
+  Giovanni Vigna        UCSB
+  Christopher Kruegel	UCSB
+  David Brumley         CMU
+  Binoy Ravindran       VT
+  Wenke Lee             Gatech
+  Taesoo Kim            Gatech
+  Dinghao Wu            Penn State
+  Mayur Naik            UPenn
+
+8. A one-paragraph biographical sketch for each organizer,
+  describing relevant qualifications, including research and
+  conference/workshop organizing experience
+
+Dinghao Wu is currently an Assistant Professor in the College of
+Information Sciences and Technology at the Pennsylvania State
+University. He currently holds the PNC Technologies Career Development
+Professorship. His research is in software systems, including software
+security, software protection, software analysis and verification,
+software engineering, and programming languages. His research has been
+funded by National Science Foundation (NSF), Office of Naval Research
+(ONR), and Department of Energy (DOE). He received his Ph.D. degree in
+Computer Science from Princeton University in 2005. He was a research
+engineer at Microsoft in the Center for Software Excellence and later
+the Windows Azure Division from 2005--2009. He received the NSF CAREER
+Award, George J. McMurtry Junior Faculty Excellence in Teaching and
+Learning Award, and College Junior Faculty Excellence in Research
+Award. He has served as PC members on a number of conferences such as
+CCS 2017 and ICSE 2016 SEIP track.
+
+Taesoo Kim is an Assistant Professor in the School Computer Science at
+Georgia Tech. He is interested in building a system that has underline
+principles for why it should be secure. Those principles include the
+design of a system, analysis of its implementation, and clear
+separation of trusted components. He holds a B.S. from KAIST (2009), a
+S.M. (2011) and a Ph.D. (2014) from MIT. He serves as a CCS workshop
+co-chair in 2017, and serves as AsiaCCS co-PC chair in 2018.
+
+1. Number of submissions:
+
+   17
+
+2. Number of accepted "presentation":
+
+   NOTE. Last year, FEAST only accepted presentation
+
+   14
+
+3. Number of registered attendees:
+
+   40
+
+4. Preferred date: 10/30/2017 (Monday) or 11/03/2017 (Friday):
+
+   11/03/2017 (Fri)

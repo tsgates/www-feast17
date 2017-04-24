@@ -21,10 +21,6 @@ main-notification:
   info: Notification to authors
   date: May 5, 2017
   important: true
-# main-due:
-#   track: main
-#   info: Final papers due
-#   date: Late June, 2017
 
 tutorials-proposals:
   track: tutorials
