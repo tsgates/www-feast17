@@ -10,12 +10,17 @@
 main-submission:
   track: main
   info: Paper submissions deadline
-  date: August 01, 2017 (5:00pm PST)
+  date: August 04, 2017 (5:00pm PST)
   important: true
 main-notification:
   track: main
   info: Notification to authors
-  date: September 01, 2017
+  date: September 04, 2017
+  important: true
+main-cameraready:
+  track: main
+  info: Camera ready deadline
+  date: September 17, 2017
   important: true
 main-program:
   track: main
