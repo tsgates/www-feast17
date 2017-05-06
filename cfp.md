@@ -27,15 +27,15 @@ transparently deploy them.
 
 ## Scope
 
-Despite some early progress within the computer science research
+Despite some early progress within the research
 community, software executable transformation is not a solved science.
-Namely, a critical step in the process of reverse engineering and
-binary understanding is, in the general case, undecidable.  Various
-automated tools (an ecosystem of tools) will need to be investigated
-and developed by the community to guarantee the effectiveness and
+Some critical problems reverse engineering and
+binary understanding are, in the general case, undecidable.  Various
+automated tools and ecosystems will need to be investigated
+and developed to guarantee the effectiveness and
 correctness of transformation efforts and to enhance and ensure the
 security of transformed software.  The FEAST workshop will include
-discussion topics geared toward:
+ topics geared toward:
 
 - Understanding issues of software executable transformation for
   various programming languages and environment, and the potential

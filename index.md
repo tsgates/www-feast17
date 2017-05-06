@@ -8,7 +8,8 @@ og_tags:
 
 # Welcome to FEAST 2017
 
-FEAST 2017 will be held in conjunction with the 24th ACM Conference on
+The 2017 Workshop on Forming an Ecosystem Around Software Transformation (FEAST 2017)
+will be held in conjunction with the 24th ACM Conference on
 Computer and Communications Security (CCS) on 03 November 2017.  The
 workshop is geared toward discussion and understanding of several
 critical topics surrounding software executable transformation for
