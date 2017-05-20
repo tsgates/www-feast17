@@ -25,6 +25,8 @@ development of tool ecosystems to take advantage of this recent
 progress, to mature the technologies, and determine how best to
 transparently deploy them.
 
+[Download the Call For Papers (PDF)]({{ site.baseurl }}/misc/cfp.pdf){: data-role="button" class="button" }
+
 ## Scope
 
 Despite some early progress within the research
