@@ -9,13 +9,13 @@
 
 main-submission:
   track: main
-  info: Paper submissions deadline
-  date: August 04, 2017 (5:00pm PST)
+  info: Paper submissions deadline (+ 2 weeks)
+  date: <del>August 04, 2017 (5:00pm PST)</del><br/> August 18, 2017 (5:00pm PST)
   important: true
 main-notification:
   track: main
-  info: Notification to authors
-  date: September 04, 2017
+  info: Notification to authors (+ 1 week)
+  date: <del>September 04, 2017</del><br/> September 11, 2017
   important: true
 main-cameraready:
   track: main
