@@ -59,9 +59,9 @@ security of transformed software.  The FEAST workshop will include
 
 ## Submissions
 
-Submissions should be in two-column, 10-point format,
+Submissions should be in two-column, 10-point format, double-blind,
 and can be up to 6 pages in length with
-as many additional pages as necessary for references. 
+as many additional pages as necessary for references.
 Detailed submission instructions can be found at
 [https://feast17.hotcrp.com](https://feast17.hotcrp.com).
 
