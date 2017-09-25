@@ -1,11 +1,15 @@
  7:30 -  9:00am : reg
- 8:30 - 10:00am : session1
+ 9:00 - 10:00am : keynote1 (60min)
 10:00 - 10:45am : break1
-10:45 - 12:00pm : session2
+10:45 - 12:00pm : keynote2/session1 (75min)
 12:00 -  1:30pm : lunch
- 1:30 -  3:00pm : session3
+ 1:30 -  3:00pm : session2 (90min)
  3:00 -  3:45pm : break2
- 3:45 -  5:00pm : session4
+ 3:45 -  5:00pm : session3 (75min)
+
+1. 10*15 (talk) + 60*2 (keynote) + 30 (discussion) = 300 min
+
+  (or 10*20 talk; starting @8am)
 
 paper	title	first	last	email	affiliation	iscontact
 
