@@ -1,28 +1,435 @@
 <div id="{{ include.type }}-program" class="{{ include.type }}-program">
   <ul class="program" data-role="listview" data-filter="true" data-inset="true" data-theme="d" data-dividertheme="a" placeholder="Filter program...">
-    {% for item in include.data %}
-      {% if    item.type == "day"         %}
-        {% assign progdate = item.time | downcase | split: "," | first %}{% assign progitemclass = "prog-" | append: progdate %}
-        <li class="prog-header prog-no-filter ui-bar-a prog-item {{ progitemclass }}">
-          <h3>{{ item.time }}  {% if item.room and item.room != "" %} (Room: {{ item.room }}){% endif %}</h3>
-        </li>
-      {% elsif item.type == "break"       %}
-        {% assign session = item %}{% include tprog-session.html is_break = true%}
-      {% elsif item.type == "description" or item.type == "disc" %}
-        {% assign paper = item %}{% include tprog-item.html %}
-      {% elsif item.type == "keynote"     %}
-        {% assign keynote = item %}{% include tprog-keynote.html %}
-      {% elsif item.type == "paper" or item.type == "poster" or item.type == "demo" %}
-        {% assign paper = item %}{% include tprog-paper.html %}
-      {% elsif item.type == "session"     %}
-        {% assign session = item %}{% include tprog-session.html %}
-      {% elsif item.type == "tutorial"     %}
-        {% assign session = item %}{% include tprog-tutorial.html %}
-      {% elsif item.type == "social"      %}
-        {% include tprog-social.html %}
-      {% elsif item.type == "talk"        %}
-        {% assign paper = item %}{% include tprog-item.html %}
-      {% endif %}
-    {% endfor %}
+
+    <li class="prog-header prog-no-filter ui-bar-a prog-item prog-tuesday ui-li-static ui-body-inherit">
+      <h3>Friday, November 03, 2017</h3>
+    </li>
+
+    <li class="ui-li ui-bar-b prog-item ui-li-divider prog-tuesday ui-bar-d" data-role="list-divider" role="heading">
+      <h3>7:30am - 9:00am Registration desk open </h3>
+    </li>
+
+    <li class="hidden ui-li-static ui-body-inherit">Registration desk open</li>
+    <li class="hidden">Registration desk open</li>
+
+    <li class="ui-li ui-bar-b prog-item ui-li-divider prog-tuesday   " data-role="list-divider">
+      <h3> 8:00am - 9:00am Breakfast</h3>
+    </li>
+
+    <li class="hidden">Breakfast</li>
+
+    <li class="ui-li ui-bar-a prog-item ui-li-divider prog-tuesday   " data-role="list-divider">
+      <h3> 9:00am - 10:45am Opening Session and Keynote </h3>
+      <!-- <p>Room: Centennial Hall</p> -->
+    </li>
+
+    <li class="hidden">Opening Session and Keynote</li>
+
+    <li data-icon="false" class="prog-item prog-tuesday">
+      <div style="width: 85%">
+        <p class="paper-header"> Opening Session </p>
+        <p>Taesoo Kim <em>(Georgia Tech)</em> and Dinghao Wu <em>(Penn State University)</em></p>
+      </div>
+
+      <div class="ui-li-aside-item"></div>
+    </li>
+
+  <!-- keynote -->
+  <li data-icon="false" class="prog-item prog-tuesday prog-keynote">
+    <h2 style="width: 85%"> Keynote: The Catch Up Game: Quest for the Impact </h2>
+
+    <!--
+    <div class="ui-li-aside">
+      <div class="button-paper">
+        <a href="files/program/keynote-1.pdf" onclick="window.location='files/program/keynote-1.pdf'; event.stopPropagation();" rel="external" target="_blank" class="ui-link">Slides</a>
+      </div>
+    </div>
+    -->
+
+    <p style="width: 85%">
+      Vikram Sadanand Adve <em>(Interim Head and Professor of Computer Science, University of Illinois at Urbana-Champaign)</em><br/>
+    </p>
+
+    <hr class="keynote-divider" />
+    <p>
+      <b>Abstract: </b> TBA.
+    </p>
+    <p>&nbsp;</p>
+
+    <p>
+      <img class="keynote-photo" src="images/speakers/vikram.jpg"/>
+      <b>Bio: </b>
+
+      TBA.
+
+    </p>
+    <p>&nbsp;</p>
+  </li>
+
+  <!-- 10:00 - 10:45am : break1 -->
+  <li class="ui-li ui-bar-b prog-item ui-li-divider prog-tuesday   " data-role="list-divider">
+  <h3> 10:00am - 10:45am Coffee Break </h3>
+  </li>
+  <li class="hidden">Coffee Break</li>
+
+  <!-- 10:45 - 12:00pm : session1 (75min: 15x4 + 15) -->
+  <li class="ui-li ui-bar-a prog-item ui-li-divider prog-tuesday   " data-role="list-divider">
+  <h3> 10:45am - 12:00pm Technical Session 1 - Binary Rewriting and Transformation </h3>
+
+  <p>Session/Discussion Lead: TBA <em>(TBA)</em></p>
+  <p>Room: TBA</p>
+  </li>
+  <li class="hidden">Technical Session 1 - Programmable Devices</li>
+
+  <li data-icon="false" class="prog-item prog-tuesday">
+  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    <h4>
+      <div style="width: 78%">
+        <p class="paper-header">
+          Vertx: Automated Validation of Binary Transformations
+        </p>
+        <p>
+          Denis Gopan <em>(GrammaTech, Inc)</em>; Peter Ohmann <em>(Xavier Univeristy)</em>; David Melski <em>(GrammaTech, Inc)</em>
+        </p>
+      </div>
+      <div class="ui-li-aside">
+
+        <div class="button-paper">
+          <a href="#" class="ui-link">Paper</a>
+        </div>
+        <div class="button-paper">
+          <a href="#" class="ui-link">Slides</a>
+        </div>
+
+      </div>
+    </h4>
+    <ul data-role="listview" data-inset="false">
+      <li data-icon="false">
+        <p><b>Abstract: </b><p>
+          TBA
+        <p>&nbsp;</p>
+      </li>
+    </ul>
+  </div>
+  </li>
+
+  <li data-icon="false" class="prog-item prog-tuesday">
+  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    <h4>
+      <div style="width: 78%">
+        <p class="paper-header">
+          Zipr++: Exceptional Binary Rewriting
+        </p>
+        <p>
+          Jason Hiser <em>(University of Virginia)</em>; Anh Nguyen-Tuong <em>(University of Virginia)</em>; William Hawkins <em>(University of Virginia)</em>; Matthew McGill <em>(University of Virginia)</em>; Michele Co <em>(University of Virginia)</em>; Jack W. Davidson <em>(University of Virginia)</em>
+        </p>
+      </div>
+      <div class="ui-li-aside">
+
+        <div class="button-paper">
+          <a href="#" class="ui-link">Paper</a>
+        </div>
+        <div class="button-paper">
+          <a href="#" class="ui-link">Slides</a>
+        </div>
+
+      </div>
+    </h4>
+    <ul data-role="listview" data-inset="false">
+      <li data-icon="false">
+        <p><b>Abstract: </b><p>
+          TBA
+        <p>&nbsp;</p>
+      </li>
+    </ul>
+  </div>
+  </li>
+
+  <li data-icon="false" class="prog-item prog-tuesday">
+  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    <h4>
+      <div style="width: 78%">
+        <p class="paper-header">
+          RL-Bin, Robust Low-overhead Binary Rewriter
+        </p>
+        <p>
+          Amir Majlesi-Kupaei <em>(University of Maryland)</em>; Danny Kim <em>(University of Maryland)</em>; Kapil Anand <em>(SecondWrite LLC)</em>; Khaled ElWazeer <em>(SecondWrite LLC)</em>; Rajeev Barua <em>(University of Maryland)</em>
+        </p>
+      </div>
+      <div class="ui-li-aside">
+
+        <div class="button-paper">
+          <a href="#" class="ui-link">Paper</a>
+        </div>
+        <div class="button-paper">
+          <a href="#" class="ui-link">Slides</a>
+        </div>
+
+      </div>
+    </h4>
+    <ul data-role="listview" data-inset="false">
+      <li data-icon="false">
+        <p><b>Abstract: </b><p>
+          TBA
+        <p>&nbsp;</p>
+      </li>
+    </ul>
+  </div>
+  </li>
+
+  <li data-icon="false" class="prog-item prog-tuesday">
+  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    <h4>
+      <div style="width: 78%">
+        <p class="paper-header">
+          DAMGate: Dynamic Adaptive Multi-feature Gating in Program Binaries
+        </p>
+        <p>
+          Yurong Chen <em>(George Washington University)</em>; Tian Lan <em>(George Washington University)</em>; Guru V. Venkataramani <em>(George Washington University)</em>
+        </p>
+      </div>
+      <div class="ui-li-aside">
+
+        <div class="button-paper">
+          <a href="#" class="ui-link">Paper</a>
+        </div>
+        <div class="button-paper">
+          <a href="#" class="ui-link">Slides</a>
+        </div>
+
+      </div>
+    </h4>
+    <ul data-role="listview" data-inset="false">
+      <li data-icon="false">
+        <p><b>Abstract: </b><p>
+          TBA
+        <p>&nbsp;</p>
+      </li>
+    </ul>
+  </div>
+  </li>
+
+<!-- 12:00 -  1:30pm : lunch -->
+  <li class="ui-li ui-bar-b prog-item ui-li-divider prog-tuesday   " data-role="list-divider">
+    <h3> 12:00pm - 1:30pm Lunch </h3>
+  </li>
+  <li class="hidden">Lunch</li>
+
+<!-- 1:30 -  3:00pm : session2 (90min: 45 + 15x2 + 15) -->
+  <li class="ui-li ui-bar-a prog-item ui-li-divider prog-tuesday   " data-role="list-divider">
+  <h3> 01:30pm - 03:00pm Technical Session 2 - Software and Protocol Debloating </h3>
+
+  <p>Session/Discussion Lead: TBA <em>(TBA)</em></p>
+  <p>Room: TBA</p>
+  </li>
+  <li class="hidden">Technical Session 2 - Software and Protocol Debloating</li>
+
+  <li data-icon="false" class="prog-item prog-tuesday">
+  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    <h4>
+      <div style="width: 78%">
+        <p class="paper-header">
+          New Directions for Container Debloating
+        </p>
+        <p>
+          Vaibhav Rastogi <em>(University of Wisconsin-Madison)</em>; Chaitra Niddodi <em>(University of Illinois Urbana-Champaign)</em>; Sibin Mohan <em>(University of Illinois Urbana-Champaign)</em>; Somesh Jha <em>(University of Wisconsin-Madison)</em>
+        </p>
+      </div>
+      <div class="ui-li-aside">
+
+        <div class="button-paper">
+          <a href="#" class="ui-link">Paper</a>
+        </div>
+        <div class="button-paper">
+          <a href="#" class="ui-link">Slides</a>
+        </div>
+
+      </div>
+    </h4>
+    <ul data-role="listview" data-inset="false">
+      <li data-icon="false">
+        <p><b>Abstract: </b><p>
+          TBA
+        <p>&nbsp;</p>
+      </li>
+    </ul>
+  </div>
+  </li>
+
+  <li data-icon="false" class="prog-item prog-tuesday">
+  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    <h4>
+      <div style="width: 78%">
+        <p class="paper-header">
+          An Initial Investigation of Protocol Customization
+        </p>
+        <p>
+          David Ke Hong <em>(University of Michigan)</em>; Qi Alfred Chen <em>(University of Michigan)</em>; Z. Morley Mao <em>(University of Michigan)</em>
+        </p>
+      </div>
+      <div class="ui-li-aside">
+
+        <div class="button-paper">
+          <a href="#" class="ui-link">Paper</a>
+        </div>
+        <div class="button-paper">
+          <a href="#" class="ui-link">Slides</a>
+        </div>
+
+      </div>
+    </h4>
+    <ul data-role="listview" data-inset="false">
+      <li data-icon="false">
+        <p><b>Abstract: </b><p>
+          TBA
+        <p>&nbsp;</p>
+      </li>
+    </ul>
+  </div>
+  </li>
+
+  <li data-icon="false" class="prog-item prog-tuesday">
+  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    <h4>
+      <div style="width: 78%">
+        <p class="paper-header">
+          A Multi-OS Cross-Layer Study of Bloating in User Programs, Kernel and Managed Execution Environments
+        </p>
+        <p>
+          Anh Quach <em>(Binghamton University)</em>; Rukayat Erinfolami <em>(Binghamton University)</em>; David Demicco <em>(Binghamton University)</em>; Aravind Prakash <em>(Binghamton University)</em>
+        </p>
+      </div>
+      <div class="ui-li-aside">
+
+        <div class="button-paper">
+          <a href="#" class="ui-link">Paper</a>
+        </div>
+        <div class="button-paper">
+          <a href="#" class="ui-link">Slides</a>
+        </div>
+
+      </div>
+    </h4>
+    <ul data-role="listview" data-inset="false">
+      <li data-icon="false">
+        <p><b>Abstract: </b><p>
+          TBA
+        <p>&nbsp;</p>
+      </li>
+    </ul>
+  </div>
+  </li>
+
+<!-- 3:00 -  3:45pm : break2 -->
+  <li class="ui-li ui-bar-b prog-item ui-li-divider prog-tuesday   " data-role="list-divider">
+  <h3> 03:00pm - 03:45pm Coffee Break </h3>
+  </li>
+  <li class="hidden">Coffee Break</li>
+
+<!-- 3:45 -  5:00pm : session3 (75min: 15x3 + 15) -->
+  <li class="ui-li ui-bar-a prog-item ui-li-divider prog-tuesday   " data-role="list-divider">
+  <h3> 03:45pm - 05:00pm Technical Session 3 - CPS, Mobile, and Intel SGX </h3>
+
+  <p>Session/Discussion Lead: TBA <em>(TBA)</em></p>
+  <p>Room: TBA</p>
+  </li>
+  <li class="hidden">Technical Session 3 - CPS, Mobile, and Intel SGX</li>
+
+  <li data-icon="false" class="prog-item prog-tuesday">
+  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    <h4>
+      <div style="width: 78%">
+        <p class="paper-header">
+          CPS Runtime Architecture and Automated Transformation of Applications
+        </p>
+        <p>
+          Lui Sha <em>(UIUC)</em>
+        </p>
+      </div>
+      <div class="ui-li-aside">
+
+        <div class="button-paper">
+          <a href="#" class="ui-link">Paper</a>
+        </div>
+        <div class="button-paper">
+          <a href="#" class="ui-link">Slides</a>
+        </div>
+
+      </div>
+    </h4>
+    <ul data-role="listview" data-inset="false">
+      <li data-icon="false">
+        <p><b>Abstract: </b><p>
+          TBA
+        <p>&nbsp;</p>
+      </li>
+    </ul>
+  </div>
+  </li>
+
+  <li data-icon="false" class="prog-item prog-tuesday">
+  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    <h4>
+      <div style="width: 78%">
+        <p class="paper-header">
+          ReDroid: Prioritizing Data Flows and Sinks for App Security Transformation
+        </p>
+        <p>
+          Ke Tian <em>(Virginia Tech)</em>; Gang Tan <em>(Penn State University)</em>; Danfeng Yao <em>(Virginia Tech)</em>; Barbara G. Ryder <em>(Virginia Tech)</em>
+        </p>
+      </div>
+      <div class="ui-li-aside">
+
+        <div class="button-paper">
+          <a href="#" class="ui-link">Paper</a>
+        </div>
+        <div class="button-paper">
+          <a href="#" class="ui-link">Slides</a>
+        </div>
+
+      </div>
+    </h4>
+    <ul data-role="listview" data-inset="false">
+      <li data-icon="false">
+        <p><b>Abstract: </b><p>
+          TBA
+        <p>&nbsp;</p>
+      </li>
+    </ul>
+  </div>
+  </li>
+
+  <li data-icon="false" class="prog-item prog-tuesday">
+  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    <h4>
+      <div style="width: 78%">
+        <p class="paper-header">
+          Binary Code Retrofitting and Hardening Using SGX
+        </p>
+        <p>
+          Shuai Wang <em>(The Pennsylvania State University)</em>; Wenhao Wang <em>(Indiana University at Bloomington)</em>; Qinkun Bao <em>(The Pennsylvania State University)</em>; Pei Wang <em>(The Pennsylvania State University)</em>; XiaoFeng Wang <em>(Indiana University at Bloomington)</em>; Dinghao Wu <em>(The Pennsylvania State University)</em>
+        </p>
+      </div>
+      <div class="ui-li-aside">
+
+        <div class="button-paper">
+          <a href="#" class="ui-link">Paper</a>
+        </div>
+        <div class="button-paper">
+          <a href="#" class="ui-link">Slides</a>
+        </div>
+
+      </div>
+    </h4>
+    <ul data-role="listview" data-inset="false">
+      <li data-icon="false">
+        <p><b>Abstract: </b><p>
+          TBA
+        <p>&nbsp;</p>
+      </li>
+    </ul>
+  </div>
+  </li>
+
   </ul>
 </div>
