@@ -182,7 +182,7 @@
     <ul data-role="listview" data-inset="false">
       <li data-icon="false">
         <p><b>Abstract: </b><p>
-          TBA
+The paper describes Vertx, a tool for validating software binary transformations. Vertx enables software developers and system administrators to automatically check the correctness of software binary transformations such as security hardening and optimization. Transformation validation increases user trust in binary-transformation technology and allows binary transformations to be safely used in critical applications that have narrow margins of error.          
         <p>&nbsp;</p>
       </li>
     </ul>
@@ -214,7 +214,9 @@
     <ul data-role="listview" data-inset="false">
       <li data-icon="false">
         <p><b>Abstract: </b><p>
-          TBA
+Current software development methodologies and practices, while enabling the production of large complex software systems, can have a serious negative impact on software quality. These negative impacts include excessive and unnecessary software complexity, higher probability of software vulnerabilities, diminished execution performance in both time and space, and the inability to easily and rapidly deploy even minor updates to deployed software, to name a few. Consequently, there has been growing interest in the capability to do late-stage software (i.e., at the binary level) manipulation to address these negative impacts. Unfortunately, highly robust, late-stage manipulation of arbitrary binaries is difficult due to complex implementation techniques and the corresponding software structures. Indeed, many binary rewriters have limitations that constrain their use. For example, to the best of our knowledge, no binary rewriters handle applications that include and use exception handlers--a feature used in programming languages such as C++, Ada, Common Lisp, ML, to name a few.
+
+This paper describes how Zipr, an efficient binary rewriter, manipulates applications with exception handlers and tables which are required for unwinding the stack. While the technique should be applicable to other binary rewriters, it is particularly useful for Zipr because the recovery of the IR exposed in exception handling tables significantly improves the runtime performance of Zipr'ed binaries---average performance overhead on the full SPEC CPU2006 benchmark is reduced from 15% to 3%.
         <p>&nbsp;</p>
       </li>
     </ul>
@@ -246,7 +248,9 @@
     <ul data-role="listview" data-inset="false">
       <li data-icon="false">
         <p><b>Abstract: </b><p>
-          TBA
+Binary rewriters are used to ensure security properties or optimize and reduce runtime of existing binary applications. Existing binary rewriters are either static or dynamic, and both have severe shortcomings. Existing static rewriters have low overhead, but cannot rewrite correctly for all binaries. Existing dynamic rewriters are robust, but have high overhead -- for example, for a subset of SPEC'06 benchmarks we measured, their overhead is 1.59X for PIN and 1.32X for DynamoRIO. Because of this high overhead, they are limited to off line testing, and cannot be used in deployment.
+
+We have built the first binary rewriter called RL-Bin which can rewrite all binaries correctly, but has low overhead (averaging 1.09X for our programs.) This makes it practical for continuous use in deployed software for the first time. This paper represents an early snapshot of on-going research, and we hope to bring this overhead down even further in the future. We have also shown how RL-Bin can be used to enforce CFI, a security mechanism.
         <p>&nbsp;</p>
       </li>
     </ul>
@@ -278,7 +282,7 @@
     <ul data-role="listview" data-inset="false">
       <li data-icon="false">
         <p><b>Abstract: </b><p>
-          TBA
+Feature creep has emerged as a serious threat due to the growing number of utilities and capabilities crammed into modern software systems. While feature elimination and de-bloating techniques can produce slimmer executables, a complete elimination of all unnecessary or unwanted features is often not possible, not only due to the tight coupling of feature-related functions/codes, but also because the usefulness/necessity of program features is often difficult to determine statically and can vary during runtime. This paper presents DamGate, a framework for dynamic feature customization, allowing vigilant management of program features at runtime to prevent violation of privacy and security policies. At the heart of this technique is the selective placement of checker functions(known as gates) into feature-constituent functions that need to be protected. Through execution gating and feature validation on the fly, DamGate provides differentiated control policy for program features and enables flexible runtime reconfiguration. The proposed framework is prototyped and evaluated using LibreOffice, a large-scale office suit. The evaluation results show that it can achieve desired feature customization with negligible gating overhead.
         <p>&nbsp;</p>
       </li>
     </ul>
@@ -325,7 +329,9 @@
     <ul data-role="listview" data-inset="false">
       <li data-icon="false">
         <p><b>Abstract: </b><p>
-          TBA
+Application containers, such as Docker containers, are light-weight virtualization environments that ``contain'' applications together with their resources and configuration information. While they are becoming increasingly popular as a method for agile software deployment, current techniques for preparing containers add unnecessary bloat into them: they often include unneeded files that increase the container size by several orders of magnitude. This not only leads to storage and network transfer issues but also security concerns. The problem is well-recognized but available solutions are mostly ad-hoc and not largely deployed.
+
+Our previous work, Cimplifier, on debloating containers uses dynamic analysis to identify the resources necessary to a container and then debloat it. However, the dynamic analysis uses model executions or test runs, which if incomplete, may not allow detection of all the necessary resources. Therefore, it is important to explore other directions towards container debloating. In this paper, we discuss two of them: a new intermediate representation for debloating allowing incorporation of multiple techniques, such as dynamic analysis and static analysis, for debloating; and test case augmentation for dynamic analysis.
         <p>&nbsp;</p>
       </li>
     </ul>
@@ -357,7 +363,7 @@
     <ul data-role="listview" data-inset="false">
       <li data-icon="false">
         <p><b>Abstract: </b><p>
-          TBA
+Attacks exploiting design or implementation flaw of particular feature in popular protocols are becoming prevalent and have led to severe security impacts on a majority of software systems. Protocol customization as a general approach to specialize a standard protocol holds significant promise in reducing such attack surfaces in common protocols. In this work, we perform an initial investigation of applying protocol customization practices to reduce the attack surface of standard protocols. Our characterization study on 20 high-profile common vulnerability exposures (CVEs) published in recent years indicates that some forms of customization have been supported in existing protocol softwares, but were implemented with huge human effort and in an ad-hoc manner. More systematic and automated ways of protocol customization are awaited to generalize common customization practices across protocols. To work towards this goal, we identify key research challenges for the support of systematic and sufficiently automated protocol customization through real-world case study on popular protocol softwares, and propose an access control framework as a principled solution to unify existing protocol customization practices. We also present a preliminary design of a protocol customization system based on this design principle. Preliminary evaluation results demonstrate that our proposed system supports common customization practices for a majority of real-world protocol vulnerabilities in a systematic way.
         <p>&nbsp;</p>
       </li>
     </ul>
@@ -389,7 +395,7 @@
     <ul data-role="listview" data-inset="false">
       <li data-icon="false">
         <p><b>Abstract: </b><p>
-          TBA
+We present a study of bloating across the software stack. We study user-level programs, OS kernels and Java virtual machine. We employ: (1) static measurements to detect limits to debloating, and (2) dynamic measurments to detect how much of the code available to a program is utilized under typical payloads. We incorporate an ultra-light weight tracing procedure in a whole-system emulator to measure the bloat in kernel. Specifically, we measure the amount of kernel code that executes during the boot process. Our findings show that programs are generally bloated. A significant fraction of code across the software stack is never executed and provides scope for debloating.
         <p>&nbsp;</p>
       </li>
     </ul>
@@ -436,7 +442,11 @@
     <ul data-role="listview" data-inset="false">
       <li data-icon="false">
         <p><b>Abstract: </b><p>
-          TBA
+National Academy of Science’s study on dependable software systems concluded that simplicity is the key.
+
+Reducing the complexity of software has been investigated by the FEAST community on automated transformation of application software and by the CPS runtime community on the development of runtime architectures that simply the development of applications. This creates the need of collaboration between these two communities.
+
+The goal of this review paper is to bring this need to the attention of FEAST community.
         <p>&nbsp;</p>
       </li>
     </ul>
@@ -468,7 +478,9 @@
     <ul data-role="listview" data-inset="false">
       <li data-icon="false">
         <p><b>Abstract: </b><p>
-          TBA
+Security transformation is to transfer applications to meet security guarantees. How to prioritize Android apps and find suitable transformation options is a challenging problem. Typical real-world apps have a large number of sensitive flows and sinks. Thus, security analysts need to prioritize these flows and data sinks according to their risks, i.e., flow ranking and sink ranking. We present an efficient graph-algorithm based risk metric for prioritizing risky flows and sinks in Android grayware apps. Our risk prioritization produces orderings that are highly consistent with published security reports.
+
+We demonstrate a new automatic app transformation framework that utilizes the above prioritization technique to improve app security. The framework provides more rewriting options than the state-of-art solutions by supporting flow- and sink-based security checks. Our prototype ReDroid is designed for security analysts who manage organizational app repositories and customize third-party apps to satisfy organization imposed security requirements. Our framework enables application transformation for both benchmark apps and real-world grayware to strengthen their security guarantees.
         <p>&nbsp;</p>
       </li>
     </ul>
@@ -500,7 +512,9 @@
     <ul data-role="listview" data-inset="false">
       <li data-icon="false">
         <p><b>Abstract: </b><p>
-          TBA
+Trusted Execution Environment (TEE) is proposed to deliver a safe execution environment for software systems. Intel Software Guard Extensions (SGX) provides an isolated memory region (i.e., SGX enclave) to protect code and data from potential adversaries from the untrusted environments. While existing research has proposed techniques to execute entire application executable inside enclave instances by providing rich sets of OS facilities, one notable limitation of these techniques is the unavoidably large size of Trusted Computing Base (TCB).
+
+In this work, we describe techniques that provide practical and efficient protection of security sensitive code components in legacy binary applications. Our technique dissects input binaries into multiple components which would be further relocated into SGX enclave instances. We also perform deliberately-designed binary edit techniques to retrofit the input binary code with trampoline code to redirect the program control flow and preserve the original application functionalities. Our tentative evaluation on hardening AES decryption procedures demonstrates the practicability and efficiency of the proposed technique.
         <p>&nbsp;</p>
       </li>
     </ul>
