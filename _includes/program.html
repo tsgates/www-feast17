@@ -221,125 +221,12 @@ Feature creep has emerged as a serious threat due to the growing number of utili
 
 <!-- 1:30 -  3:00pm : session2 (90min: 45 + 15x2 + 15) -->
   <li class="ui-li ui-bar-a prog-item ui-li-divider prog-friday   " data-role="list-divider">
-  <h3> 01:30pm - 03:00pm Technical Session 2 - Software and Protocol Debloating </h3>
+  <h3> 01:30pm - 03:00pm Technical Session 3 - CPS, Mobile, and Intel SGX </h3>
 
   <p>Session/Discussion Lead: TBA <em>(TBA)</em></p>
   <p>Room: TBA</p>
   </li>
-  <li class="hidden">Technical Session 2 - Software and Protocol Debloating</li>
-
-  <li data-icon="false" class="prog-item prog-friday">
-  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
-    <h4>
-      <div style="width: 78%">
-        <p class="paper-header">
-          New Directions for Container Debloating
-        </p>
-        <p>
-          Vaibhav Rastogi <em>(University of Wisconsin-Madison)</em>; Chaitra Niddodi <em>(University of Illinois Urbana-Champaign)</em>; Sibin Mohan <em>(University of Illinois Urbana-Champaign)</em>; Somesh Jha <em>(University of Wisconsin-Madison)</em>
-        </p>
-      </div>
-      <div class="ui-li-aside">
-
-        <div class="button-paper">
-          <a href="#" class="ui-link">Paper</a>
-        </div>
-        <div class="button-paper">
-          <a href="#" class="ui-link">Slides</a>
-        </div>
-
-      </div>
-    </h4>
-    <ul data-role="listview" data-inset="false">
-      <li data-icon="false">
-        <p><b>Abstract: </b><p>
-Application containers, such as Docker containers, are light-weight virtualization environments that ``contain'' applications together with their resources and configuration information. While they are becoming increasingly popular as a method for agile software deployment, current techniques for preparing containers add unnecessary bloat into them: they often include unneeded files that increase the container size by several orders of magnitude. This not only leads to storage and network transfer issues but also security concerns. The problem is well-recognized but available solutions are mostly ad-hoc and not largely deployed.
-
-Our previous work, Cimplifier, on debloating containers uses dynamic analysis to identify the resources necessary to a container and then debloat it. However, the dynamic analysis uses model executions or test runs, which if incomplete, may not allow detection of all the necessary resources. Therefore, it is important to explore other directions towards container debloating. In this paper, we discuss two of them: a new intermediate representation for debloating allowing incorporation of multiple techniques, such as dynamic analysis and static analysis, for debloating; and test case augmentation for dynamic analysis.
-        <p>&nbsp;</p>
-      </li>
-    </ul>
-  </div>
-  </li>
-
-  <li data-icon="false" class="prog-item prog-friday">
-  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
-    <h4>
-      <div style="width: 78%">
-        <p class="paper-header">
-          An Initial Investigation of Protocol Customization
-        </p>
-        <p>
-          David Ke Hong <em>(University of Michigan)</em>; Qi Alfred Chen <em>(University of Michigan)</em>; Z. Morley Mao <em>(University of Michigan)</em>
-        </p>
-      </div>
-      <div class="ui-li-aside">
-
-        <div class="button-paper">
-          <a href="#" class="ui-link">Paper</a>
-        </div>
-        <div class="button-paper">
-          <a href="#" class="ui-link">Slides</a>
-        </div>
-
-      </div>
-    </h4>
-    <ul data-role="listview" data-inset="false">
-      <li data-icon="false">
-        <p><b>Abstract: </b><p>
-Attacks exploiting design or implementation flaw of particular feature in popular protocols are becoming prevalent and have led to severe security impacts on a majority of software systems. Protocol customization as a general approach to specialize a standard protocol holds significant promise in reducing such attack surfaces in common protocols. In this work, we perform an initial investigation of applying protocol customization practices to reduce the attack surface of standard protocols. Our characterization study on 20 high-profile common vulnerability exposures (CVEs) published in recent years indicates that some forms of customization have been supported in existing protocol softwares, but were implemented with huge human effort and in an ad-hoc manner. More systematic and automated ways of protocol customization are awaited to generalize common customization practices across protocols. To work towards this goal, we identify key research challenges for the support of systematic and sufficiently automated protocol customization through real-world case study on popular protocol softwares, and propose an access control framework as a principled solution to unify existing protocol customization practices. We also present a preliminary design of a protocol customization system based on this design principle. Preliminary evaluation results demonstrate that our proposed system supports common customization practices for a majority of real-world protocol vulnerabilities in a systematic way.
-        <p>&nbsp;</p>
-      </li>
-    </ul>
-  </div>
-  </li>
-
-  <li data-icon="false" class="prog-item prog-friday">
-  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
-    <h4>
-      <div style="width: 78%">
-        <p class="paper-header">
-          A Multi-OS Cross-Layer Study of Bloating in User Programs, Kernel and Managed Execution Environments
-        </p>
-        <p>
-          Anh Quach <em>(Binghamton University)</em>; Rukayat Erinfolami <em>(Binghamton University)</em>; David Demicco <em>(Binghamton University)</em>; Aravind Prakash <em>(Binghamton University)</em>
-        </p>
-      </div>
-      <div class="ui-li-aside">
-
-        <div class="button-paper">
-          <a href="#" class="ui-link">Paper</a>
-        </div>
-        <div class="button-paper">
-          <a href="#" class="ui-link">Slides</a>
-        </div>
-
-      </div>
-    </h4>
-    <ul data-role="listview" data-inset="false">
-      <li data-icon="false">
-        <p><b>Abstract: </b><p>
-We present a study of bloating across the software stack. We study user-level programs, OS kernels and Java virtual machine. We employ: (1) static measurements to detect limits to debloating, and (2) dynamic measurments to detect how much of the code available to a program is utilized under typical payloads. We incorporate an ultra-light weight tracing procedure in a whole-system emulator to measure the bloat in kernel. Specifically, we measure the amount of kernel code that executes during the boot process. Our findings show that programs are generally bloated. A significant fraction of code across the software stack is never executed and provides scope for debloating.
-        <p>&nbsp;</p>
-      </li>
-    </ul>
-  </div>
-  </li>
-
-<!-- 3:00 -  3:45pm : break2 -->
-  <li class="ui-li ui-bar-b prog-item ui-li-divider prog-friday   " data-role="list-divider">
-  <h3> 03:00pm - 03:45pm Coffee Break </h3>
-  </li>
-  <li class="hidden">Coffee Break</li>
-
-<!-- 3:45 -  5:00pm : session3 (75min: 15x3 + 15) -->
-  <li class="ui-li ui-bar-a prog-item ui-li-divider prog-friday   " data-role="list-divider">
-  <h3> 03:45pm - 05:00pm Technical Session 3 - CPS, Mobile, and Intel SGX </h3>
-
-  <p>Session/Discussion Lead: TBA <em>(TBA)</em></p>
-  <p>Room: TBA</p>
-  </li>
-  <li class="hidden">Technical Session 3 - CPS, Mobile, and Intel SGX</li>
+  <li class="hidden">Technical Session 2 - CPS, Mobile, and Intel SGX</li>
 
   <li data-icon="false" class="prog-item prog-friday">
   <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
@@ -439,6 +326,126 @@ We demonstrate a new automatic app transformation framework that utilizes the ab
 Trusted Execution Environment (TEE) is proposed to deliver a safe execution environment for software systems. Intel Software Guard Extensions (SGX) provides an isolated memory region (i.e., SGX enclave) to protect code and data from potential adversaries from the untrusted environments. While existing research has proposed techniques to execute entire application executable inside enclave instances by providing rich sets of OS facilities, one notable limitation of these techniques is the unavoidably large size of Trusted Computing Base (TCB).
 
 In this work, we describe techniques that provide practical and efficient protection of security sensitive code components in legacy binary applications. Our technique dissects input binaries into multiple components which would be further relocated into SGX enclave instances. We also perform deliberately-designed binary edit techniques to retrofit the input binary code with trampoline code to redirect the program control flow and preserve the original application functionalities. Our tentative evaluation on hardening AES decryption procedures demonstrates the practicability and efficiency of the proposed technique.
+        <p>&nbsp;</p>
+      </li>
+    </ul>
+  </div>
+  </li>
+
+<!-- 2:30 -  3:00pm : short presentation/discussion -->
+  <li class="ui-li ui-bar-b prog-item ui-li-divider prog-friday   " data-role="list-divider">
+  <h3> 02:30pm - 03:00pm Short Presentations and discussion </h3>
+  </li>
+  <li class="hidden">Short Presentations and discussion</li>
+
+<!-- 3:00 -  3:45pm : break2 -->
+  <li class="ui-li ui-bar-b prog-item ui-li-divider prog-friday   " data-role="list-divider">
+  <h3> 03:00pm - 03:45pm Coffee Break </h3>
+  </li>
+  <li class="hidden">Coffee Break</li>
+
+<!-- 3:45 -  5:00pm : session3 (75min: 15x3 + 15) -->
+
+  <li class="ui-li ui-bar-a prog-item ui-li-divider prog-friday   " data-role="list-divider">
+  <h3> 03:45pm - 05:00pm Technical Session 3 - Software and Protocol Debloating </h3>
+
+  <p>Session/Discussion Lead: TBA <em>(TBA)</em></p>
+  <p>Room: TBA</p>
+  </li>
+  <li class="hidden">Technical Session 2 - Software and Protocol Debloating</li>
+
+  <li data-icon="false" class="prog-item prog-friday">
+  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    <h4>
+      <div style="width: 78%">
+        <p class="paper-header">
+          New Directions for Container Debloating
+        </p>
+        <p>
+          Vaibhav Rastogi <em>(University of Wisconsin-Madison)</em>; Chaitra Niddodi <em>(University of Illinois Urbana-Champaign)</em>; Sibin Mohan <em>(University of Illinois Urbana-Champaign)</em>; Somesh Jha <em>(University of Wisconsin-Madison)</em>
+        </p>
+      </div>
+      <div class="ui-li-aside">
+
+        <div class="button-paper">
+          <a href="#" class="ui-link">Paper</a>
+        </div>
+        <div class="button-paper">
+          <a href="#" class="ui-link">Slides</a>
+        </div>
+
+      </div>
+    </h4>
+    <ul data-role="listview" data-inset="false">
+      <li data-icon="false">
+        <p><b>Abstract: </b><p>
+Application containers, such as Docker containers, are light-weight virtualization environments that ``contain'' applications together with their resources and configuration information. While they are becoming increasingly popular as a method for agile software deployment, current techniques for preparing containers add unnecessary bloat into them: they often include unneeded files that increase the container size by several orders of magnitude. This not only leads to storage and network transfer issues but also security concerns. The problem is well-recognized but available solutions are mostly ad-hoc and not largely deployed.
+
+Our previous work, Cimplifier, on debloating containers uses dynamic analysis to identify the resources necessary to a container and then debloat it. However, the dynamic analysis uses model executions or test runs, which if incomplete, may not allow detection of all the necessary resources. Therefore, it is important to explore other directions towards container debloating. In this paper, we discuss two of them: a new intermediate representation for debloating allowing incorporation of multiple techniques, such as dynamic analysis and static analysis, for debloating; and test case augmentation for dynamic analysis.
+        <p>&nbsp;</p>
+      </li>
+    </ul>
+  </div>
+  </li>
+
+  <li data-icon="false" class="prog-item prog-friday">
+  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    <h4>
+      <div style="width: 78%">
+        <p class="paper-header">
+          An Initial Investigation of Protocol Customization
+        </p>
+        <p>
+          David Ke Hong <em>(University of Michigan)</em>; Qi Alfred Chen <em>(University of Michigan)</em>; Z. Morley Mao <em>(University of Michigan)</em>
+        </p>
+      </div>
+      <div class="ui-li-aside">
+
+        <div class="button-paper">
+          <a href="#" class="ui-link">Paper</a>
+        </div>
+        <div class="button-paper">
+          <a href="#" class="ui-link">Slides</a>
+        </div>
+
+      </div>
+    </h4>
+    <ul data-role="listview" data-inset="false">
+      <li data-icon="false">
+        <p><b>Abstract: </b><p>
+Attacks exploiting design or implementation flaw of particular feature in popular protocols are becoming prevalent and have led to severe security impacts on a majority of software systems. Protocol customization as a general approach to specialize a standard protocol holds significant promise in reducing such attack surfaces in common protocols. In this work, we perform an initial investigation of applying protocol customization practices to reduce the attack surface of standard protocols. Our characterization study on 20 high-profile common vulnerability exposures (CVEs) published in recent years indicates that some forms of customization have been supported in existing protocol softwares, but were implemented with huge human effort and in an ad-hoc manner. More systematic and automated ways of protocol customization are awaited to generalize common customization practices across protocols. To work towards this goal, we identify key research challenges for the support of systematic and sufficiently automated protocol customization through real-world case study on popular protocol softwares, and propose an access control framework as a principled solution to unify existing protocol customization practices. We also present a preliminary design of a protocol customization system based on this design principle. Preliminary evaluation results demonstrate that our proposed system supports common customization practices for a majority of real-world protocol vulnerabilities in a systematic way.
+        <p>&nbsp;</p>
+      </li>
+    </ul>
+  </div>
+  </li>
+
+  <li data-icon="false" class="prog-item prog-friday">
+  <div data-role="collapsible" class="paper-navgroup" data-collapsed="true" data-iconpos="right" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+    <h4>
+      <div style="width: 78%">
+        <p class="paper-header">
+          A Multi-OS Cross-Layer Study of Bloating in User Programs, Kernel and Managed Execution Environments
+        </p>
+        <p>
+          Anh Quach <em>(Binghamton University)</em>; Rukayat Erinfolami <em>(Binghamton University)</em>; David Demicco <em>(Binghamton University)</em>; Aravind Prakash <em>(Binghamton University)</em>
+        </p>
+      </div>
+      <div class="ui-li-aside">
+
+        <div class="button-paper">
+          <a href="#" class="ui-link">Paper</a>
+        </div>
+        <div class="button-paper">
+          <a href="#" class="ui-link">Slides</a>
+        </div>
+
+      </div>
+    </h4>
+    <ul data-role="listview" data-inset="false">
+      <li data-icon="false">
+        <p><b>Abstract: </b><p>
+We present a study of bloating across the software stack. We study user-level programs, OS kernels and Java virtual machine. We employ: (1) static measurements to detect limits to debloating, and (2) dynamic measurments to detect how much of the code available to a program is utilized under typical payloads. We incorporate an ultra-light weight tracing procedure in a whole-system emulator to measure the bloat in kernel. Specifically, we measure the amount of kernel code that executes during the boot process. Our findings show that programs are generally bloated. A significant fraction of code across the software stack is never executed and provides scope for debloating.
         <p>&nbsp;</p>
       </li>
     </ul>
