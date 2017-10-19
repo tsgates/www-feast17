@@ -128,7 +128,28 @@
 
     <hr class="keynote-divider" />
     <p>
-      <b>Abstract: </b> TBA.
+      <b>Abstract: </b>
+
+The traditional compiler approach of shipping native machine code to end-users
+is inflexible: it is unable to account for increasingly sophisticated software
+practices (predefined software containers, dynamically loaded libraries, and
+install-time and run-time software extensions) or increasing performance
+disparaties in hardware architectures (due to diverse cache hierarchies,
+vector instruction sets, and heterogeneous parallel systems).  We are
+developing a system called ALLVM (<a href="http://allvm.org">http://allvm.org</a>) in which <em>all</em> native
+software components are represented and <em>shipped</em> in the LLVM virtual
+instruction set, including all applications, static and dynamic libraries, and
+optionally the entire operating system as well.  The key technical advantage
+of ALLVM is that it enables sophisticated "late-stage" compilation techniques
+for all software components and across all traditional boundaries between
+components.  The broad goal of the ALLVM project is to explore the potential
+benefits of this capability for performance, software complexity reduction,
+failure diagnosis, and software security.  For example, we are able to achieve
+a large reduction in disk and memory footprint of application software by
+automatically eliminating redundant software components <em>across</em> applications.
+We also obtain significant additional reductions by using static analysis
+together with install-time configuration information.
+
     </p>
     <p>&nbsp;</p>
 
@@ -136,7 +157,26 @@
       <img class="keynote-photo" src="/feast17/images/speakers/vikram.png"/>
       <b>Bio: </b>
 
-      TBA.
+Vikram Adve is a Professor and Interim Head of Computer Science at
+the University of Illinois at Urbana-Champaign, where he has been on the
+faculty since 1999.  Adve's research interests lie in developing and using
+compiler techniques to improve the performance, reliability and security of
+computer systems.  In the ALLVM project, Adve is exploring how to make systems
+faster, more reliable and easier to program by applying rich compiler
+techniques across all layers of a computer system, both before and during
+execution.  In the HPVM project, Adve is developing compiler techniques that
+can be used for improving programmability and performance of heterogeneous
+parallel systems.  Previously, Adve and his PhD student, Chris Lattner,
+co-developed the LLVM Compiler Infrastructure, which enables novel and
+sophisticated compiler techniques for a wide range of languages.  LLVM is
+widely used in industry today, ranging from smartphones (iOS and Android) to
+supercomputers (Cray) to large-scale Internet services (Google).  Adve,
+Lattner and Evan Cheng received the ACM Software System Award in 2012 for
+co-developing LLVM.  Adve's Ph.D. student Robert Bocchino received the ACM
+SIGPLAN Distinguished Dissertation Award and another, John Criswell, won an
+Honorable Mention for the ACM Doctoral Dissertation Award.  Adve was named a
+Fellow of the ACM in 2014 and a University Scholar at the University of
+Illinois in 2015.
 
     </p>
     <p>&nbsp;</p>
