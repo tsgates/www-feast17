@@ -1,0 +1,73 @@
+ 7:30 -  9:00am : reg
+ 9:00 - 10:00am : keynote1 (60min)
+10:00 - 10:45am : break1
+10:45 - 12:00pm : session1 (75min: 15x4 + 15)
+12:00 -  1:30pm : lunch
+ 1:30 -  3:00pm : session2 (90min: 45 + 15x2 + 15)
+ 3:00 -  3:45pm : break2
+ 3:45 -  5:00pm : session3 (75min: 15x3 + 15)
+
+1. 10*15 (talk) + 60*2 (keynote) + 30 (discussion) = 300 min
+
+  (or 10*20 talk; starting @8am)
+
+Vikram Sadanand Adve
+ALLVM: Enabling Sophisticated Late-Stage Program Analysis and Transformation Across the System Stack
+
+# binary rewriting/transformation
+
+3	Vertx: Automated Validation of Binary Transformations
+Denis Gopan (GrammaTech, Inc); Peter Ohmann (Xavier Univeristy); David Melski (GrammaTech, Inc)
+gopan@grammatech.com; ohmannp@xavier.edu; melski@grammatech.com;
+gopan@grammatech.com
+
+10	Zipr++: Exceptional Binary Rewriting	
+Jason Hiser (University of Virginia); Anh Nguyen-Tuong (University of Virginia); William Hawkins (University of Virginia); Matthew McGill (University of Virginia); Michele Co (University of Virginia); Jack W. Davidson (University of Virginia)
+hiser@virginia.edu; an7s@virginia.edu; whh8b@virginia.edu; mm8bx@virginia.edu; mc2zk@virginia.edu; jwd@virginia.edu
+hiser@virginia.edu
+
+19	RL-Bin, Robust Low-overhead Binary Rewriter	
+Amir Majlesi-Kupaei (University of Maryland); Danny Kim (University of Maryland); Kapil Anand (SecondWrite LLC); Khaled ElWazeer (SecondWrite LLC); Rajeev Barua (University of Maryland)
+majlesi@umd.edu; dannykim@terpmail.edu; kapil.anand@secondwrite.com; wazeer@secondwrite.com; barua@umd.edu
+majlesi@umd.edu	
+
+16	DAMGate: Dynamic Adaptive Multi-feature Gating in Program Binaries	
+Yurong Chen (George Washington University); Tian Lan (George Washington University); Guru V. Venkataramani (George Washington University)
+gabrielchen@gwu.edu; tlan@gwu.edu; guruv@gwu.edu
+gabrielchen@gwu.edu
+
+# protocol/debloating
+
+(45 min)
+13	New Directions for Container Debloating	
+Vaibhav Rastogi (University of Wisconsin-Madison); Chaitra Niddodi (University of Illinois Urbana-Champaign); Sibin Mohan (University of Illinois Urbana-Champaign); Somesh Jha (University of Wisconsin-Madison)
+vrastogi@wisc.edu; chaitra@illinois.edu; sibin@illinois.edu; jha@cs.wisc.edu;
+vrastogi@wisc.edu
+
+1	An Initial Investigation of Protocol Customization
+David Ke Hong (University of Michigan); Qi Alfred Chen (University of Michigan); Z. Morley Mao (University of Michigan)
+kehong@umich.edu; alfchen@umich.edu; zmao@umich.edu;
+kehong@umich.edu
+
+15	A Multi-OS Cross-Layer Study of Bloating in User Programs, Kernel and Managed Execution Environments
+Anh Quach (Binghamton University); Rukayat Erinfolami (Binghamton University); David Demicco (Binghamton University); Aravind Prakash (Binghamton University)
+aquach1@binghamton.edu; rerinfo1@binghamton.edu; ddemicc1@binghamton.edu; aprakash@binghamton.edu
+aprakash@binghamton.edu
+
+# etc: cps/mobile/sgx
+
+4	CPS Runtime Architecture and Automated Transformation of Applications	
+Lui Sha (UIUC)
+lrs@illinois.edu
+lrs@illinois.edu
+
+5	ReDroid: Prioritizing Data Flows and Sinks for App Security Transformation	
+Ke Tian (Virginia Tech); Gang Tan (Penn State University); Danfeng Yao (Virginia Tech); Barbara G. Ryder (Virginia Tech)
+ketian@vt.edu; gtan@cse.psu.edu; danfeng@vt.edu; ryder@cs.vt.edu
+ketian@vt.edu
+
+17	Binary Code Retrofitting and Hardening Using SGX	
+Shuai Wang (The Pennsylvania State University); Wenhao Wang (Indiana University at Bloomington); Qinkun Bao (The Pennsylvania State University); Pei Wang (The Pennsylvania State University); XiaoFeng Wang (Indiana University at Bloomington); Dinghao Wu (The Pennsylvania State University)
+szw175@ist.psu.edu; wangwenhao@iie.ac.cn; qub14@ist.psu.edu; pxw172@ist.psu.edu; xw7@indiana.edu; dwu@ist.psu.edu
+szw175@ist.psu.edu
+
